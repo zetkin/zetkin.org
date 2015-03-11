@@ -1,0 +1,9 @@
+title: Zetkin
+email: info@zetkin.org
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zetkin.org" # the base hostname & protocol for your site
+github_username:  zetkin
+
+# Build settings
+exclude: [Dockerfile]
+markdown: kramdown

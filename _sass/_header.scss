@@ -25,20 +25,41 @@
             list-style-type: none;
             margin: 0 10px;
             float: left;
-            padding: 10px;
 
             &:last-child {
                 float: right;
-                padding: 10px 20px;
                 border: 1px solid $c-brand-main;
                 border-radius: 3em;
+                background-color: white;
+
+                &:hover {
+                    background: radial-gradient(
+                        circle at 50% 50%,
+                        $c-brand-main-pink,
+                        $c-brand-main-orange);
+
+                    a {
+                        color: white;
+                    }
+                }
+
+                a {
+                    padding: 10px 20px;
+                    color: $c-brand-main;
+                }
             }
         }
     }
 
     a {
+        display: block;
+        padding: 10px;
         text-decoration: none;
         color: black;
+
+        &:hover {
+            color: $c-brand-main-pink;
+        }
     }
 }
 

@@ -13,5 +13,27 @@ home:
             text: "Anslut din organisation"
             href: "/sv/anslut"
 
+    shortcuts:
+        info:
+            h: "Läs mer om Zetkin"
+            p: "Om du vill veta vad Zetkin kan göra och hur det kan revolutionera er aktivism."
+            link:
+                text: "Mer om Zetkin"
+                href: "/sv/om-zetkin"
+
+        support:
+            h: "Lär dig använda Zetkin"
+            p: "Om du är aktiv i en ansluten organisation och vill lära dig hur man använder Zetkin."
+            link:
+                text: "Manual & support"
+                href: "/sv/support"
+
+        zetkin:
+            h: "Logga in på Zetkin"
+            p: "Om din organisation redan är ansluten och du vill logga in på Zetkin direkt"
+            link:
+                text: "Till aktivistportalen"
+                href: "http://www.zetk.in"
+
 breadcrumbs:
     home: "Start"

@@ -1,5 +1,5 @@
 .header {
-    padding: 20px;
+    padding: 10px;
 
     &:after {
         content: "";
@@ -16,49 +16,67 @@
         }
     }
 
+
     .menu {
-        float: right;
-        margin: 7px 0;
-        padding: 0;
+        ul {
+            clear: both;
+            margin: 0;
+            padding: 0;
+        }
 
         li {
             list-style-type: none;
-            margin: 0 10px;
+            margin: 0 2px;
             float: left;
-
-            &:last-child {
-                float: right;
-                border: 1px solid $c-brand-main;
-                border-radius: 3em;
-                background-color: white;
-
-                &:hover {
-                    background: radial-gradient(
-                        circle at 50% 50%,
-                        $c-brand-main-pink,
-                        $c-brand-main-orange);
-
-                    a {
-                        color: white;
-                    }
-                }
-
-                a {
-                    padding: 10px 20px;
-                    color: $c-brand-main;
-                }
-            }
         }
     }
 
     a {
         display: block;
-        padding: 10px;
         text-decoration: none;
+        padding: 4px 4px;
         color: black;
 
         &:hover {
             color: $c-brand-main-pink;
+        }
+    }
+
+    @include medium-screen {
+        .menu {
+            float: right;
+            margin: 10px 0 0;
+            padding: 0;
+
+            a {
+                padding: 10px;
+            }
+
+            li {
+                &:last-child {
+                    float: right;
+                    border: 1px solid $c-brand-main;
+                    border-radius: 3em;
+                    background-color: white;
+                    margin-left: 10px;
+
+                    &:hover {
+                        background: radial-gradient(
+                            circle at 50% 50%,
+                            $c-brand-main-pink,
+                            $c-brand-main-orange);
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+                    a {
+                        padding: 10px 20px;
+                        color: $c-brand-main;
+                    }
+                }
+            }
         }
     }
 }

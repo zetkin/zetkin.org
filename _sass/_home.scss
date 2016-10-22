@@ -83,6 +83,7 @@
 
 .features {
     overflow-x: hidden;
+    margin: 0 0 100px;
 
     .feature-desc {
         h3 {
@@ -93,9 +94,9 @@
     @include medium-screen {
         .feature {
             max-width: 1200px;
-            margin: 50px auto;
+            margin: 0 auto;
             padding: 30px 0 0;
-            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc;
 
             &:after {
                 content: "";
@@ -130,19 +131,28 @@
                     float: right;
                 }
             }
+
+            &:first-child {
+                padding-top: 0;
+                border-width: 0;
+            }
         }
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
 .join {
     text-align: center;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 .testimonials {
     max-width: 1200px;
-    margin: 30px 5%;
+    margin: 0 5% 100px;
 
     &:after {
         content: "";
@@ -181,7 +191,8 @@
 
         .testimonial {
             max-width: 45%;
-            margin: 0 5% 0 0;
+            margin-left: auto;
+            margin-right: auto;
             float: left;
 
             &:after {
@@ -216,4 +227,8 @@
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
+
+    a {
+        margin: 0 5px;
+    }
 }

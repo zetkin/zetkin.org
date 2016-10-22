@@ -43,6 +43,18 @@ home:
             text: "Läs mer och ansök"
             href: "/sv/anslut"
 
+    contribute:
+        h: "Bidra till Zetkin"
+        p: |
+            Zetkin utvecklas till stor del av ideella resurser. Du kan bidra
+            med tid eller pengar för att Zetkin ska utvecklas vidare.
+        donateLink:
+            text: "Donera till utvecklingsfonden"
+            href: "/sv/bidra"
+        volunteerLink:
+            text: "Hjälp till att utveckla Zetkin"
+            href: "/sv/anslut"
+
 breadcrumbs:
     home: "Start"
 

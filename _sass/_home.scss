@@ -139,3 +139,75 @@
     max-width: 500px;
     margin: 0 auto;
 }
+
+.testimonials {
+    max-width: 1200px;
+    margin: 30px 5%;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .testimonial {
+        margin: 0 0 40px;
+
+        img {
+            max-width: 180px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+
+        blockquote {
+            p {
+                font-family: $brand-font-family;
+                font-size: 30px;
+                margin: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: $c-brand-main;
+        }
+    }
+
+    @include medium-screen {
+        margin: 30px auto;
+
+        .testimonial {
+            max-width: 45%;
+            margin: 0 5% 0 0;
+            float: left;
+
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            img {
+                float: left;
+                width: 20%;
+                height: auto;
+                margin: 10px 0 0;
+            }
+
+            blockquote {
+                float: right;
+                width: 75%;
+            }
+
+            .cite {
+                clear: both;
+                &:before {
+                    content: "- "
+                }
+            }
+        }
+    }
+}

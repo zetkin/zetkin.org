@@ -1,0 +1,18 @@
+-   image: "/assets/img/testimonials/elj.jpg"
+    quote: |
+        Det var när vi började ringa med Zetkin som det verkligen tog fart.
+    cite: |
+        Emma-Lina Johansson, Vänsterpartiet Malmö, om partiföreningens stora
+        medlemsenkät som genomförs med hjälp av Zetkin.
+    link:
+        text: "Läs hela fallstudien"
+        href: "/sv/fallstudier/v-malmos-medlemsenkat"
+-   image: "/assets/img/testimonials/ds.jpg"
+    quote: |
+        Det fanns människor som var redo att gå ut på gatorna för Vänsterpartiet.
+    cite: |
+        Daniel Sestrajcic, Vänsterpartiet Malmö, om den historiska valrörelsen 2014
+        då partiföreningen organiserade 400 aktivister med Zetkin.
+    link:
+        text: "Läs hela fallstudien"
+        href: "/sv/fallstudier/v-malmos-valrorelse-2014"

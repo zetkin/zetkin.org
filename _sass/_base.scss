@@ -72,3 +72,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $brand-font-family;
     font-weight: 300;
 }
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3em;
+    background: radial-gradient(
+        circle at 50% 50%,
+        $c-brand-main-pink,
+        $c-brand-main-orange);
+
+    &:hover {
+        background: $c-brand-main;
+    }
+}

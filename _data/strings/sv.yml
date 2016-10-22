@@ -9,6 +9,9 @@ home:
     hero:
         slogan: "Gör engagemang enkelt."
         intro: "Zetkin är ett system för att organisera aktivism."
+        moreLink:
+            text: "Anslut din organisation"
+            href: "/sv/anslut"
 
 breadcrumbs:
     home: "Start"

@@ -5,5 +5,10 @@ header:
     tagLine: "Foundation"
     translations: "Alla språk"
 
+home:
+    hero:
+        slogan: "Gör engagemang enkelt."
+        intro: "Zetkin är ett system för att organisera aktivism."
+
 breadcrumbs:
     home: "Start"

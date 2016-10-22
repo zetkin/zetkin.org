@@ -1,0 +1,44 @@
+.header {
+    padding: 20px;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .logo {
+        float: left;
+
+        img {
+            height: 60px;
+            width: auto;
+        }
+    }
+
+    .menu {
+        float: right;
+        margin: 10px 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            margin: 0 10px;
+            float: left;
+            padding: 10px;
+
+            &:last-child {
+                float: right;
+                padding: 10px 20px;
+                border: 1px solid $c-brand-main;
+                border-radius: 3em;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+

@@ -1,0 +1,43 @@
+.hero {
+    position: relative;
+    padding-top: 20%;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    box-sizing: border-box;
+
+    &:before {
+        z-index: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url(/assets/img/cover.jpg);
+        background-position: center center;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+
+    text-align: center;
+    font-family: azo-sans-web, Arial, sans-serif;
+    color: white;
+
+    .slogan {
+        font-size: 50px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+}

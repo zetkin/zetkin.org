@@ -67,6 +67,18 @@
             text-align: center;
         }
     }
+
+    a {
+        font-weight: bold;
+        color: $c-brand-main-pink;
+        text-decoration: none;
+        transition: color 0.5s;
+
+        &:hover {
+            color: $c-brand-main-orange;
+            text-decoration: underline;
+        }
+    }
 }
 
 .features {

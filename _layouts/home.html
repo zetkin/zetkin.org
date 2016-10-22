@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.strings[page.lang].title }}</title>
+        <meta name="description" content="{{ page.kicker | strip_newlines }}">
+    
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="/{{ page.lang }}"><img
+                    src="/assets/img/logo-white.png" alt="Zetkin"></a>
+                <h1>
+                    <span class="brand">{{ site.data.strings[page.lang].header.brand }}</span>
+                    <span class="tag">{{ site.data.strings[page.lang].header.tagLine }}</span>
+                </h1>
+            </div>
+            <div class="section-menu">
+                {% assign menu=site.data.menu[page.lang] %}
+                {% capture base %}/{{ page.lang }}{% endcapture %}
+                {% include menu.html menu=menu parent=base %}
+            </div>
+        </header>
+        <div class="main">
+            <div class="content">
+                <h1>{{ page.title }}</h1>
+                {% if page.kicker %}
+                <p class="kicker">
+                    {{ page.kicker }}
+                </p>
+                {% endif %}
+                {{ content }}
+            </div>
+        </div>
+        <footer>
+            <div class="lang-select">
+                {{ site.data.strings[page.lang].header.translations }}:
+                <ul>
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for page in pages %}
+                    <li>
+                        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+            <p>
+                <a href="//zetkin.org"><img
+                    class="zf-logo"
+                    alt="Zetkin Foundation"
+                    src="/assets/img/zf-logo-black.png"></a>
+            </p>
+            <p>
+                <a href="//zetkin.org">Zetkin Foundation</a> |
+                <a href="//zetk.in">zetk.in</a> |
+                <a href="//organize.zetk.in">Zetkin Organize</a>
+            </p>
+        </footer>
+        <script src="https://use.typekit.net/tqq3ylv.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    </body>
+</html>

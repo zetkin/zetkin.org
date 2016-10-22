@@ -1,8 +1,9 @@
 ---
-layout: default
+lang: sv
+ref: index
+layout: home
+title: Zetkin
 ---
-
-# Zetkin – The tool for organizing activism
 
 Zetkin is a web based tool for organizing large scale activism. It is being
 actively developed by a team of activists and used by the local Malmö branch

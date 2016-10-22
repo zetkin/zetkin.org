@@ -64,26 +64,6 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $brand-font-family;
     font-weight: 300;
 }
-
-
-
-/**
- * Links
- */
-a {
-    color: $brand-color;
-    text-decoration: none;
-    font-weight: bold;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
-

@@ -2,14 +2,6 @@
 ---
 @charset "utf-8";
 
-$base-font-family:  Helvetica, Arial, sans-serif;
-$base-font-size:    16px;
-$small-font-size:   $base-font-size * 0.875;
-$base-line-height:  1.5;
-$spacing-unit:      30px;
-
-$brand-color:       #f20;
-$text-color:        black;
-
+@import "variables";
+@import "mixins";
 @import "base";
-@import "layout";

@@ -55,6 +55,12 @@
                     {{ strings.home.shortcuts.zetkin.link.text }}</a>
             </div>
         </section>
+        <section class="features">
+            {% assign f=site.data.features[page.lang][0] %}
+            {% include feature.html feature=f %}
+            {% assign f=site.data.features[page.lang][1] %}
+            {% include feature.html feature=f %}
+        </section>
         <footer>
             <div class="lang-select">
                 {{ strings.header.translations }}:

@@ -1,0 +1,23 @@
+-   img:
+        src: "/sv/feature0.png"
+    content:
+        h: "Planera smartare. Snabbare."
+        p: |
+            Med Zetkin planerar ni ert utåtriktade kampanjarbete smartare.
+            Håll koll på spridningen i staden och över tid, så att ni möter
+            rätt människor vid rätt tillfälle.
+    link:
+        text: "Läs mer om att planera kampanjer"
+        href: /sv/funktioner/kampanjer
+
+-   img:
+        src: "/sv/feature1.jpg"
+    content:
+        h: "Se varje aktivist. På riktigt."
+        p: |
+            Enkäter, detaljerade sökningar, etiketter. I Zetkin står aktivisten
+            i centrum. Som organisatör lär du känna varje individ och tappar
+            aldrig bort någon.
+    link:
+        text: "Läs mer om människor i Zetkin"
+        href: /sv/funktioner/manniskor

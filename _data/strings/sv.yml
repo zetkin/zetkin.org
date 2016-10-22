@@ -3,7 +3,6 @@ title: Zetkin Foundation
 header:
     brand: "Zetkin"
     tagLine: "Foundation"
-    translations: "Alla språk"
 
 home:
     hero:
@@ -37,3 +36,10 @@ home:
 
 breadcrumbs:
     home: "Start"
+
+footer:
+    translations: "Alla språk"
+    text: |
+        Zetkin Foundation utvecklar verktyg för att organisera aktivism. Vårt
+        uppdrag är att verka för radikal samhällsförändring i socialistisk,
+        feministisk, antirasistisk och hållbar riktning.

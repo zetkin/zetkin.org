@@ -1,3 +1,4 @@
+{% assign strings=site.data.strings[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
     <head>
@@ -5,7 +6,7 @@
         <meta name="viewport" content="width=device-width initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.strings[page.lang].title }}</title>
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ strings.title }}</title>
         <meta name="description" content="{{ page.kicker | strip_newlines }}">
     
         <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -37,10 +38,11 @@
                 {% endif %}
                 {{ content }}
             </div>
+            -->
         </div>
         <footer>
             <div class="lang-select">
-                {{ site.data.strings[page.lang].header.translations }}:
+                {{ strings.header.translations }}:
                 <ul>
                 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                 {% for page in pages %}

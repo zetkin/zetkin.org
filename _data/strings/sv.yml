@@ -34,6 +34,15 @@ home:
                 text: "Till aktivistportalen"
                 href: "http://www.zetk.in"
 
+    join:
+        h: "Anslut din organisation"
+        p: |
+            Om din organisation jobbar mot samma mål som Zetkin Foundation
+            vill vi hjälpa er organisera aktivism mer effektivt.
+        link:
+            text: "Läs mer och ansök"
+            href: "/sv/anslut"
+
 breadcrumbs:
     home: "Start"
 

@@ -40,6 +40,15 @@
         &:hover {
             color: $c-brand-main-pink;
         }
+
+        &.selected {
+            font-weight: bold;
+            color: $c-brand-main-pink;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     @include medium-screen {

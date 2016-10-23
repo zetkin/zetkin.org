@@ -1,0 +1,27 @@
+<footer class="footer">
+    <p>
+        <a href="//zetkin.org"><img
+            class="logo"
+            alt="Zetkin Foundation"
+            src="/assets/img/zf-logo-black.png"></a>
+    </p>
+    <p>{{ strings.footer.text }}</p>
+    <p>
+        <a href="//zetkin.org">Zetkin Foundation</a> |
+        <a href="//zetk.in">zetk.in</a> |
+        <a href="//organize.zetk.in">Zetkin Organize</a>
+    </p>
+    <div class="lang-select">
+        {{ strings.footer.translations }}:
+        <ul>
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+            <li>
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</footer>
+<script src="https://use.typekit.net/tqq3ylv.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>

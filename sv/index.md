@@ -2,7 +2,7 @@
 lang: sv
 ref: index
 layout: home
-title: Zetkin
+title: Gör engagemang enkelt
 ---
 
 Zetkin is a web based tool for organizing large scale activism. It is being

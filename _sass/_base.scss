@@ -73,11 +73,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+a {
+    color: $c-brand-main;
+    text-decoration: none;
+}
+
 a.button {
     display: inline-block;
     padding: 10px 20px;
     color: white;
-    text-decoration: none;
     border-radius: 3em;
     background: radial-gradient(
         circle at 50% 50%,

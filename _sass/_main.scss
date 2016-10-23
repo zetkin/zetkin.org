@@ -1,0 +1,25 @@
+.main {
+    margin: 30px 5%;
+    max-width: 800px;
+
+    .kicker {
+        font-weight: bold;
+        color: $c-brand-main;
+    }
+
+    @include medium-screen {
+        margin: 30px auto;
+
+        .content {
+            width: 70%;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .kicker {
+            font-size: 120%;
+        }
+    }
+}

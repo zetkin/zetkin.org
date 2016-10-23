@@ -1,0 +1,40 @@
+{% assign strings=site.data.strings[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ strings.title }}</title>
+        <meta name="description" content="{{ page.kicker | strip_newlines }}">
+    
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="/{{ page.lang }}"><img
+                    src="/assets/img/logo.png" alt="Zetkin"></a>
+            </div>
+            <div class="menu">
+                {% assign menu=site.data.menu[page.lang] %}
+                {% capture base %}/{{ page.lang }}{% endcapture %}
+                {% include menu.html menu=menu parent=base %}
+            </div>
+        </header>
+        <section class="main">
+            <h1>{% if page.header %}{{ page.header | newline_to_br }}{% else %}{{ page.title }}{% endif %}</h1>
+            {% if page.kicker %}
+            <p class="kicker">
+                {{ page.kicker }}
+            </p>
+            {% endif %}
+            <div class="content">
+                {{ content }}
+            </div>
+        </section>
+        {% include footer.html %}
+    </body>
+</html>

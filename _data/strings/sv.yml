@@ -18,7 +18,7 @@ home:
             p: "Om du vill veta vad Zetkin kan göra och hur det kan revolutionera er aktivism."
             link:
                 text: "Mer om Zetkin"
-                href: "/sv/om-zetkin"
+                href: "/sv/zetkin"
 
         support:
             h: "Lär dig använda Zetkin"
@@ -37,7 +37,7 @@ home:
     features:
         link:
             text: "Läs mer om Zetkins funktioner"
-            href: "/sv/om-zetkin"
+            href: "/sv/zetkin"
 
     join:
         h: "Anslut din organisation"

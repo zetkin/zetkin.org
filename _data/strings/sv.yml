@@ -58,7 +58,7 @@ home:
             href: "/sv/bidra"
         volunteerLink:
             text: "Hjälp till att utveckla Zetkin"
-            href: "/sv/anslut"
+            href: "/sv/bidra/volontar"
 
 breadcrumbs:
     home: "Start"

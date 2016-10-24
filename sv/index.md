@@ -4,8 +4,11 @@ ref: index
 layout: home
 title: Gör engagemang enkelt
 blocks:
+    -   type: testimonials
+        data:
+            - 0
+            - 1
     -   type: contribute
-
 ---
 
 Zetkin is a web based tool for organizing large scale activism. It is being

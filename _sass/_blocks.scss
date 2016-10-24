@@ -118,7 +118,7 @@
     }
 
     @include medium-screen {
-        margin: 30px auto;
+        margin: 80px auto;
 
         .testimonial {
             max-width: 44%;
@@ -148,6 +148,13 @@
                 &:before {
                     content: "- "
                 }
+            }
+
+            // Center single testimonials
+            &:only-child {
+                float: none;
+                width: 50%;
+                margin: 0 auto;
             }
         }
     }

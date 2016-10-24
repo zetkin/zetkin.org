@@ -14,6 +14,11 @@ Zetkin handlar om att organisera aktivism. Vi lever som vi lär, och en stor del
 av utvecklingen av Zetkin sker ideellt av aktivister som vill bidra med sina
 tekniska kunskaper och sin tid.
 
+<figure markdown="1">
+![Kod](./kod.jpg)
+*Oavsett om du kan programmera är du välkommen att delta i arbetet med Zetkin*
+</figure>
+
 Du är oerhört välkommen att bidra med din kompetens, till exempel inom följande
 områden:
 

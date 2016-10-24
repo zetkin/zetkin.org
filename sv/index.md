@@ -4,9 +4,14 @@ ref: index
 layout: home
 title: Gör engagemang enkelt
 blocks:
+    -   type: features
+        showMore: true
+        features:
+            - 0
+            - 1
     -   type: join
     -   type: testimonials
-        data:
+        testimonials:
             - 0
             - 1
     -   type: contribute

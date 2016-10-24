@@ -55,16 +55,6 @@
                     {{ strings.home.shortcuts.zetkin.link.text }}</a>
             </div>
         </section>
-        <section class="features">
-            {% assign f=site.data.features[page.lang][0] %}
-            {% include feature.html feature=f %}
-            {% assign f=site.data.features[page.lang][1] %}
-            {% include feature.html feature=f %}
-            <footer>
-                <a href="{{ strings.home.features.link.href }}"
-                    class="button">{{ strings.home.features.link.text }}</a>
-            </footer>
-        </section>
         {% include blocks.html %}
         {% include footer.html %}
     </body>

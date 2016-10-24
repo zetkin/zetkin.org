@@ -2,16 +2,41 @@
     margin: 30px 5%;
     max-width: 800px;
 
+    .featured-image {
+        margin: 0 0 2em;
+    }
+
     .kicker {
         font-weight: bold;
         color: $c-brand-main;
+    }
+
+    figure {
+        img + em {
+            display: block;
+            margin: 0.5em 0;
+            font-size: 80%;
+            line-height: 1.1em;
+        }
     }
 
     @include medium-screen {
         margin: 30px auto;
 
         .content {
-            width: 70%;
+            p {
+                position: relative;
+                max-width: 60%;
+            }
+
+            figure {
+                width: 37%;
+                float: right;
+
+                p {
+                    max-width: none;
+                }
+            }
         }
 
         h1 {

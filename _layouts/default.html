@@ -26,6 +26,9 @@
         </header>
         <section class="main">
             <h1>{% if page.header %}{{ page.header | newline_to_br }}{% else %}{{ page.title }}{% endif %}</h1>
+            {% if page.image %}
+            <img class="featured-image" src="{{ page.image }}">
+            {% endif %}
             {% if page.kicker %}
             <p class="kicker">
                 {{ page.kicker }}

@@ -1,0 +1,168 @@
+.features {
+    overflow-x: hidden;
+    margin: 0 0 100px;
+
+    .feature {
+        margin: 0 5% 30px;
+        text-align: center;
+
+        h3, p {
+            text-align: left;
+        }
+    }
+
+    .feature-desc {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    @include medium-screen {
+        .feature {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 0 0;
+            border-top: 1px solid #ccc;
+            text-align: left;
+
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .feature-desc {
+                margin: 300px 20px;
+                width: 30%;
+                max-width: 500px;
+            }
+
+            &:nth-child(odd) {
+                .feature-screen {
+                    float: left;
+                    margin-left: -40%;
+                }
+
+                .feature-desc {
+                    float: left;
+                }
+            }
+
+            &:nth-child(even) {
+                .feature-screen {
+                    float: right;
+                    margin-right: -40%;
+                }
+
+                .feature-desc {
+                    float: right;
+                }
+            }
+
+            &:first-child {
+                padding-top: 0;
+                border-width: 0;
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+.join {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 5% 100px;
+
+    @include medium-screen {
+        margin: 0 auto 100px;
+    }
+}
+
+.testimonials {
+    max-width: 1200px;
+    margin: 0 5% 100px;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .testimonial {
+        margin: 0 0 40px;
+
+        img {
+            max-width: 180px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+
+        blockquote {
+            p {
+                font-family: $brand-font-family;
+                font-size: 30px;
+                margin: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: $c-brand-main;
+        }
+    }
+
+    @include medium-screen {
+        margin: 30px auto;
+
+        .testimonial {
+            max-width: 44%;
+            margin: 0 3%;
+            float: left;
+
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            img {
+                float: left;
+                width: 20%;
+                height: auto;
+                margin: 10px 0 0;
+            }
+
+            blockquote {
+                float: right;
+                width: 75%;
+            }
+
+            .cite {
+                clear: both;
+                &:before {
+                    content: "- "
+                }
+            }
+        }
+    }
+}
+
+.contribute {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 5%;
+
+    a {
+        margin: 5px 5px;
+    }
+
+    @include medium-screen {
+        margin: 0 auto;
+    }
+}

@@ -4,5 +4,7 @@
     {% elsif block.type == 'testimonials' %}
         {% assign testimonials=block.data %}
         {% include blocks/testimonials.html testimonials=testimonials %}
+    {% elsif block.type == 'join' %}
+        {% include blocks/join.html %}
     {% endif %}
 {% endfor %}

@@ -4,6 +4,7 @@ ref: index
 layout: home
 title: Gör engagemang enkelt
 blocks:
+    -   type: join
     -   type: testimonials
         data:
             - 0

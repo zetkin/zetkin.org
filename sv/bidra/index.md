@@ -7,6 +7,8 @@ header: Bidra till Zetkin-projektet
 kicker: |
     Zetkin är ett verktyg för rörelsen, av rörelsen. Det är genom att vi slår
     våra gemensamma resurser ihop som Zetkin blir möjligt.
+blocks:
+    -   type: join
 ---
 
 Vi välkomnar alla bidrag till Zetkins utveckling. Oavsett om du har möjlighet

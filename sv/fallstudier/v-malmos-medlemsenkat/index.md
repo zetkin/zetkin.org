@@ -10,6 +10,11 @@ kicker: |
     en starkare organisation där fler kan hitta en plats och bli aktiva.
     Emma-Lina Johansson berättar hur partiföreningen lärde känna 900 medlemmar
     och sympatisörer på djupet med hjälp av Zetkin.
+blocks:
+    -   type: testimonials
+        testimonials:
+            - 1
+    -   type: join
 ---
 
 Som lösning på utmaningen att bli en mer inkluderande organisation som tar vara

@@ -6,6 +6,8 @@ title: Anslut din organisation
 kicker: |
     Om din organisation jobbar mot samma mål som Zetkin Foundation vill vi
     gärna hjälpa er utveckla er aktivism.
+blocks:
+    -   type: contribute
 ---
 
 ## Organisera aktivism

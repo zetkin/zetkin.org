@@ -10,6 +10,11 @@ kicker: |
     september – organiserade partiföreningen fler än någonsin och nådde
     rekordresultat. Daniel Sestrajcic förklarar hur man använde Zetkins
     verktyg för att nå alla sina mål.
+blocks:
+    -   type: testimonials
+        testimonials:
+            - 0
+    -   type: join
 ---
 
 Efter år av målmedvetet organisationsbygge började malmövänstern vintern 2013

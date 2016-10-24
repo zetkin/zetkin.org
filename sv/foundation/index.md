@@ -11,6 +11,8 @@ kicker: |
     att göra vinst, utan att bidra till radikal samhällsförändring i
     socialistisk, feministisk, antirasistisk och hållbar riktning. Det gör
     Zetkin till något alldeles speciellt.
+blocks:
+    -   type: contribute
 ---
 
 Zetkin Foundation ägs och styrs demokratiskt av medlemmarna i Vänsterpartiet

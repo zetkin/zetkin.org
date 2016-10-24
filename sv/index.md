@@ -3,6 +3,9 @@ lang: sv
 ref: index
 layout: home
 title: Gör engagemang enkelt
+blocks:
+    -   type: contribute
+
 ---
 
 Zetkin is a web based tool for organizing large scale activism. It is being

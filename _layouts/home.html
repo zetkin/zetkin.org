@@ -77,14 +77,7 @@
             {% assign t=site.data.testimonials[page.lang][1] %}
             {% include testimonial.html testimonial=t %}
         </section>
-        <section class="contribute">
-            <h2>{{ strings.home.contribute.h }}</h2>
-            <p>{{ strings.home.contribute.p }}</p>
-            <a href="{{ strings.home.contribute.donateLink.href }}"
-                class="button">{{ strings.home.contribute.donateLink.text }}</a>
-            <a href="{{ strings.home.contribute.volunteerLink.href }}"
-                class="button">{{ strings.home.contribute.volunteerLink.text }}</a>
-        </section>
+        {% include blocks.html %}
         {% include footer.html %}
     </body>
 </html>

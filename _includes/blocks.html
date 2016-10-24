@@ -1,0 +1,5 @@
+{% for block in page.blocks %}
+    {% if block.type == 'contribute' %}
+        {% include blocks/contribute.html %}
+    {% endif %}
+{% endfor %}

@@ -4,6 +4,7 @@ slug: v-malmos-medlemsenkat
 ref: casestudies.membersurvey
 title: "Fallstudie: V Malmös medlemsenkät"
 header: En cykelreparatör, kanelbullar och hundra nya månadsgivare med Zetkins enkäter
+image: ./ringning.jpg
 kicker: |
     Den som pratar med organisatörer i Vänsterpartiet Malmö får snart höra om
     medlemsenkäten. Den lyfts fram av alla som en viktig ingrediens i att bygga
@@ -33,6 +34,11 @@ de aktiviteter som medlemmarna efterfrågar och ta vara på den bredd av
 kompetens som medlemmarna sitter på. Ibland hittar man guldkorn – kompetens
 man inte tänkt på eller kunnat gissa fanns i organisationen.
 
+<figure markdown="1">
+![Emma-Lina Johansson](./emmalina.jpg)
+*Emma-Lina Johansson*
+</figure>
+
 – Den här omgången har vi bland annat hittat en cykelreparatör, en
 orkidéeodlare, minst en som vill baka kanelbullar och en expert på Malmös
 överbelastade vatteninfrastruktur.
@@ -52,6 +58,12 @@ Emma-Lina visar ett diagram över utvecklingen och pekar ut de olika utskicken
 via Facebook, e-post och SMS. Det är inte svårt att utläsa var ringningen kom
 igång. En gigantisk puckel en månad efter första nyhetsbrevet markerar starten
 på en sex veckor lång ringkampanj.
+
+<figure markdown="1">
+![Diagram över inkomna enkäter](./diagram.jpg)
+*En tydlig puckel mitt i diagrammet markerar den första av sex veckor med
+systematiskt ringande*
+</figure>
 
 Varje vecka anordnades ringpass fyra kvällar och vissa veckor en helgdag.
 Anmälningar till passen togs in genom Zetkins kampanjverktyg. Omkring tjugo

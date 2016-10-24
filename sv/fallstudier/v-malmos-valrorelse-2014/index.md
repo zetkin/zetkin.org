@@ -3,6 +3,7 @@ lang: sv
 slug: v-malmos-valrorelse-2014
 ref: casestudies.election14
 title: "Fallstudie: V Malmös valrörelse"
+image: ./varstad.jpg
 header: Från tiotal till hundratal – en historisk valkampanj med Zetkin
 kicker: |
     Supervalåret 2014 var på många sätt historiskt för Vänsterpartiet i Malmö.
@@ -24,6 +25,11 @@ använda Zetkin. Faktum är att det var just här som Zetkin blev till.
 – Vi kände att det fanns en outnyttjad potential, att vi hade ett stort stöd
 och att det fanns människor som var redo att gå ut på gatorna för
 Vänsterpartiet.
+
+<figure markdown="1">
+![Daniel Sestrajcic](./daniel.jpg)
+*Daniel Sestrajcic*
+</figure>
 
 Daniel Sestrajcic, erfaren organisatör och idag riksdagsledamot och ordförande
 för Zetkin Foundation, var vid tillfället ordförande och valkoordinator i
@@ -53,6 +59,11 @@ steg var att börja ringa medlemmarna systematiskt med Zetkins telefonverktyg.
 – Zetkin hade redan lyft taket för hur många vi kunde organisera, nu kunde vi
 dessutom börja mobilisera ännu fler, sammanfattar Daniel Sestrajcic den
 revolution som mobilisering via telefon skulle visa sig bli.
+
+<figure markdown="1">
+![Aktivitet i hela staden](./karta.jpg)
+*Med Zetkin fick man överblick över kampanjen i hela staden*
+</figure>
 
 Septembervalrörelsen 2014 blev den ultimata styrkemanifestationen. Under
 kampanjens tre mest intensiva veckor engagerade sig över 400 personer, mer än

@@ -14,17 +14,7 @@
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     </head>
     <body>
-        <header class="header">
-            <div class="logo">
-                <a href="/{{ page.lang }}"><img
-                    src="/assets/img/logo.svg" alt="Zetkin"></a>
-            </div>
-            <div class="menu">
-                {% assign menu=site.data.menu[page.lang] %}
-                {% capture base %}/{{ page.lang }}{% endcapture %}
-                {% include menu.html menu=menu parent=base %}
-            </div>
-        </header>
+        {% include header.html %}
         <section class="hero">
             <div class="hero-content">
                 <h1 class="slogan">{{ strings.home.hero.slogan }}</h1>

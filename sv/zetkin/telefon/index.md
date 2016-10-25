@@ -2,7 +2,7 @@
 lang: sv
 slug: telefon
 ref: zetkin.phonebank
-title: Telefonverktyg
+title: Ringa med Zetkin
 header: Nå ut till fler med rundringningar
 kicker: |
     Att ringa medlemmar, väljare eller andra systematiskt är en nyckelkomponent

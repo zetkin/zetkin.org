@@ -9,6 +9,11 @@ kicker: |
     Zetkin lär du känna varje aktivist och tappar aldrig bort någon.
 blocks:
     -   type: join
+    -   type: features
+        showMore: true
+        features:
+            - 0
+            - 2
 ---
 
 I Zetkin sparar ni säkert hela ditt medlemsregister, eller bara de personer

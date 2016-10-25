@@ -9,6 +9,11 @@ kicker: |
     Förbered er på att möta aktivister ni aldrig visste att ni hade.
 blocks:
     -   type: join
+    -   type: features
+        showMore: true
+        features:
+            - 0
+            - 1
 ---
 
 Zetkin handlar om att förenkla engagemang. Det finns människor där ute som är

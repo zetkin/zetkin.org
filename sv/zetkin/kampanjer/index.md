@@ -9,6 +9,11 @@ kicker: |
     mobilisera och organisera bättre kampanjer. Det är beprövat.
 blocks:
     -   type: join
+    -   type: features
+        showMore: true
+        features:
+            - 2
+            - 1
 ---
 
 Genomför din organisation enkla aktioner och andra arrangemang med många

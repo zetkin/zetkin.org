@@ -13,6 +13,7 @@ blocks:
         features:
             - 0
             - 1
+            - 2
     -   type: testimonials
         testimonials:
             - 0

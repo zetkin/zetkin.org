@@ -21,3 +21,15 @@
     link:
         text: "Läs mer om människor i Zetkin"
         href: /sv/zetkin/manniskor
+
+-   img:
+        src: "/sv/feature2.jpg"
+    content:
+        h: "Förenkla för fler att delta"
+        p: |
+            Det ska vara enkelt att bli aktiv. Med Zetkin kan aktivister anmäla
+            sig själva till aktioner och arrangemang. Ett mail dagen innan ser
+            till att ingen glömmer.
+    link:
+        text: "Läs mer om Zetkin för aktivister"
+        href: /sv/zetkin/aktivister

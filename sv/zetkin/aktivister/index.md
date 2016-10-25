@@ -12,8 +12,9 @@ blocks:
     -   type: features
         showMore: true
         features:
-            - 0
             - 1
+            - 0
+            - 3
 ---
 
 Zetkin handlar om att förenkla engagemang. Det finns människor där ute som är

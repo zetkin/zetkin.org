@@ -14,6 +14,7 @@ blocks:
             - 0
             - 1
             - 2
+            - 3
     -   type: testimonials
         testimonials:
             - 0

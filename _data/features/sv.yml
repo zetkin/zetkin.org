@@ -37,3 +37,17 @@
     link:
         text: "Läs mer om Zetkin för aktivister"
         href: /sv/zetkin/aktivister
+
+-   img:
+        src: "/sv/feature3.jpg"
+    content:
+        h: |
+            Ring effektivt.
+            Nå ut till fler.
+        p: |
+            Zetkin tar systematiska rundringningar till en helt ny nivå. Med
+            ringuppdrag sätter ni upp avancerade regler för vilka ni vill nå.
+            Eller kommer igång på minuter med mallar.
+    link:
+        text: "Läs mer om Zetkins telefonverktyg"
+        href: /sv/zetkin/telefon

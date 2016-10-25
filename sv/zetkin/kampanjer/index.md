@@ -12,8 +12,9 @@ blocks:
     -   type: features
         showMore: true
         features:
-            - 2
             - 1
+            - 2
+            - 3
 ---
 
 Genomför din organisation enkla aktioner och andra arrangemang med många

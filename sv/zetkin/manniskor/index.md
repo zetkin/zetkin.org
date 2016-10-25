@@ -12,8 +12,9 @@ blocks:
     -   type: features
         showMore: true
         features:
-            - 0
             - 2
+            - 3
+            - 0
 ---
 
 I Zetkin sparar ni säkert hela ditt medlemsregister, eller bara de personer

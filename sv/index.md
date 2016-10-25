@@ -7,7 +7,7 @@ blocks:
     -   type: features
         showMore: true
         features:
-            - 0
+            - 2
             - 1
     -   type: join
     -   type: testimonials

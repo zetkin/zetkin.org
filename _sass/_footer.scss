@@ -39,3 +39,18 @@
         }
     }
 }
+
+.footer-menu {
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 10px 0 0;
+        padding: 0 0 0 10px;
+        line-height: 1em;
+        border-left: 1px solid $c-ui-dark;
+
+        &:first-child {
+            border-width: 0;
+        }
+    }
+}

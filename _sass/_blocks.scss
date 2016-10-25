@@ -37,7 +37,7 @@
                 max-width: 500px;
             }
 
-            &:nth-child(odd) {
+            &.feature-0, &.feature-2, &.feature-4 {
                 .feature-screen {
                     float: left;
                     margin-left: -40%;
@@ -48,7 +48,7 @@
                 }
             }
 
-            &:nth-child(even) {
+            &.feature-1, &.feature-3, &.feature-5 {
                 .feature-screen {
                     float: right;
                     margin-right: -40%;

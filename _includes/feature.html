@@ -1,5 +1,5 @@
 {% assign feature=include.feature %}
-<div class="feature">
+<div class="feature feature-{{ include.index }}">
     <img class="feature-screen" src="{{ feature.img.src }}">
     <div class="feature-desc">
         <h3>{{ feature.content.h | newline_to_br }}</h3>

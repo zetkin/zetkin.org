@@ -5,7 +5,8 @@
     {% else %}
         {% capture slug %}{{ include.parent }}/{{ item.slug }}{% endcapture %}
     {% endif %}
-    {% if item.slug == page.slug %}
+    {% assign refpath=page.ref | split: '.' %}
+    {% if item.ref == refpath[0] %}
         {% assign class="selected" %}
     {% else %}
         {% assign class="" %}

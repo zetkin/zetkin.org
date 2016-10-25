@@ -46,3 +46,11 @@ Om du vill har du full kontroll över ringuppdragen. Om du hellre vill komma
 igång snabbt finns mallar för vanliga uppdrag inbyggda i Zetkin. Om du vill
 mobilisera, informera om något, hålla periodisk kontakt eller samla in svar
 på en enkät kan du vara igång på minuter.
+
+## Läs mer om telefonverktyget
+Allt du behöver veta om Zetkins telefonverktyg kan du lära dig i manualen.
+Börja läsa här:
+
+* ["Ringa med Zetkin" i aktivistmanualen](http://manual.zetkin.org/sv/for-aktivister/ringa-med-zetkin)
+* ["Rundringningar" i funktionärsmanualen](http://manual.zetkin.org/sv/for-funktionarer/phone-banking)
+* [Lektion: Mobilisera med ringuppdrag](http://manual.zetkin.org/sv/for-funktionarer/lektioner/mobilisera-med-ringuppdrag)

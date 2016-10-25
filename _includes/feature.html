@@ -2,7 +2,7 @@
 <div class="feature">
     <img class="feature-screen" src="{{ feature.img.src }}">
     <div class="feature-desc">
-        <h3>{{ feature.content.h }}</h3>
+        <h3>{{ feature.content.h | newline_to_br }}</h3>
         <p>{{ feature.content.p }}</p>
         <a href="{{ feature.link.href }}"
             class="button">{{ feature.link.text }}</a>

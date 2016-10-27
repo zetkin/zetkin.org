@@ -38,12 +38,12 @@
         color: black;
 
         &:hover {
-            color: $c-brand-main-pink;
+            color: $c-brand-main;
         }
 
         &.selected {
             font-weight: bold;
-            color: $c-brand-main-pink;
+            color: $c-brand-main;
 
             &:hover {
                 text-decoration: underline;

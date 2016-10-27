@@ -46,6 +46,7 @@ automatiskt när innehållet i Zetkin uppdateras. Du kan söka baserat på allt
 möjligt, såsom kampanjdeltagande, enkätsvar och huruvida någon blivit ringd.
 
 Exempel på sökningar:
+
 * Personer som inte blivit nådda via telefon under det senaste året.
 * Alla som sagt i medlemsenkäten att de vill delta vid flygbladsutdelningar
   men ännu aldrig gjort det.

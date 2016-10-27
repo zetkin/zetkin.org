@@ -46,10 +46,3 @@ Exempel på sökningar:
 * Personer som inte blivit nådda via telefon under det senaste året.
 * Alla som sagt i medlemsenkäten att de vill delta vid flygbladsutdelningar
   men ännu aldrig gjort det.
-
-## Mer om människor i Zetkin
-Om du vill lära dig mer om hur du arbetar med människor i Zetkin kan du
-läsa i den stora Zetkin-manualen.
-
-* ["Jobba med människor" i manualen](http://manual.zetkin.org/sv/for-funktionarer/manniskor)
-* [Lektion: importera dina medlemmar](http://manual.zetkin.org/sv/for-funktionarer/lektioner/importera-dina-medlemmar)

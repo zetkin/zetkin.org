@@ -39,11 +39,3 @@ aktivister direkt via telefon. Med Zetkin, så klart.
 Under kampanjens gång hjälper Zetkin dig med att hålla koll på anmälningar,
 boka in människor, utse ansvariga och skicka ut påminnelser. Allt det där
 som kan ta timmar varje dag att göra manuellt gör du på minuter med Zetkin.
-
-## Mer om kampanjer i Zetkin
-Om du vill lära dig mer om hur du kan planera, mobilisera och organisera
-kampanjer i Zetkin kan du läsa i den stora Zetkin-manualen:
-
-* ["Jobba med kampanjer" i manualen](http://manual.zetkin.org/sv/for-funktionarer/kampanjer)
-* [Lektion: Planera en kampanj](http://manual.zetkin.org/sv/for-funktionarer/lektioner/planera-en-kampanj)
-* [Lektion: Organisera en kampanj](http://manual.zetkin.org/sv/for-funktionarer/lektioner/organisera-en-kampanj)

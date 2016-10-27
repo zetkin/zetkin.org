@@ -37,11 +37,3 @@ Med Zetkin sker deltagande i kampanjer i tre enkla steg.
 För de eldsjälar som är allra mest aktiva underlättar Zetkin enormt. Istället
 för att på egen hand behöva hålla koll på alla arrangemang får eldsjälen en
 klar överblick genom sin sida i Zetkin.
-
-## Mer om att vara aktivist med Zetkin
-Om du är nyfiken på mer om hur det fungerar att använda Zetkin som aktivist kan
-du läsa i de relevanta sektionerna i Zetkin-manualen.
-
-* ["Användarkontot" i manualen](http://manual.zetkin.org/sv/grunderna/anvandarkontot)
-* ["Aktivistportalen & min sida" i manualen](http://manual.zetkin.org/sv/for-aktivister/aktivistportalen)
-* ["Delta i tre steg" i manualen](http://manual.zetkin.org/sv/for-aktivister/kampanjer/delta-i-tre-steg)

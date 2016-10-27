@@ -9,6 +9,9 @@ kicker: |
     mobilisera och organisera bättre kampanjer. Det är beprövat.
 blocks:
     -   type: join
+    -   type: testimonials
+        testimonials:
+            - 1
     -   type: features
         showMore: true
         features:

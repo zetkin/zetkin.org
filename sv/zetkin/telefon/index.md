@@ -10,6 +10,9 @@ kicker: |
     allt du behöver.
 blocks:
     -   type: join
+    -   type: testimonials
+        testimonials:
+            - 0
     -   type: features
         showMore: true
         features:

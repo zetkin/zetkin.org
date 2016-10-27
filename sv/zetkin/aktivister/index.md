@@ -9,6 +9,9 @@ kicker: |
     Förbered er på att möta aktivister ni aldrig visste att ni hade.
 blocks:
     -   type: join
+    -   type: testimonials
+        testimonials:
+            - 1
     -   type: features
         showMore: true
         features:

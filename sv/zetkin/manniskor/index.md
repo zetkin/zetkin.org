@@ -9,6 +9,9 @@ kicker: |
     Zetkin lär du känna varje aktivist och tappar aldrig bort någon.
 blocks:
     -   type: join
+    -   type: testimonials
+        testimonials:
+            - 0
     -   type: features
         showMore: true
         features:

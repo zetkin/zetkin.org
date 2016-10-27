@@ -7,9 +7,8 @@ image: /sv/fallstudier/v-malmos-valrorelse-2014/varstad.jpg
 header: Från tiotal till hundratal – en historisk valkampanj med Zetkin
 kicker: |
     Supervalåret 2014 var på många sätt historiskt för Vänsterpartiet i Malmö.
-    Under två valrörelser – EU-valet i maj och kommun- och riksdagsvalet i
-    september – organiserade partiföreningen fler än någonsin och nådde
-    rekordresultat. Daniel Sestrajcic förklarar hur man använde Zetkins
+    Under två valrörelser organiserade partiföreningen fler än någonsin och
+    nådde rekordresultat. Daniel Sestrajcic förklarar hur man använde Zetkins
     verktyg för att nå alla sina mål.
 blocks:
     -   type: testimonials
@@ -19,8 +18,9 @@ blocks:
 ---
 
 Efter år av målmedvetet organisationsbygge började malmövänstern vintern 2013
-rulla igång sin historiska valmaskin. Det var i detta läge som man började
-använda Zetkin. Faktum är att det var just här som Zetkin blev till.
+rulla igång sin historiska valmaskin. Supervalåret stod för dörren, med EU-val
+i maj och kommun- och riksdagsval i september. Det var i detta läge som man
+började använda Zetkin. Faktum är att det var just här som Zetkin blev till.
 
 – Vi kände att det fanns en outnyttjad potential, att vi hade ett stort stöd
 och att det fanns människor som var redo att gå ut på gatorna för
@@ -36,24 +36,26 @@ för Zetkin Foundation, var vid tillfället ordförande och valkoordinator i
 partiföreningen. Han hade länge sett ett behov av att sänka trösklarna för
 människor att bli aktiva.
 
-Med Zetkin blev det plötsligt enklare för fler att anmäla sig till
-partiföreningens utåtriktade aktiviteter. Det blev möjligt för partiföreningen
-att fånga upp viljan att hjälpa till, och det är precis vad som skedde.
+– Med Zetkin blev det plötsligt enklare för fler att anmäla sig till
+våra utåtriktade aktiviteter. Det blev möjligt att fånga upp viljan att
+hjälpa till.
+
+Det är precis vad som skedde.
 
 Under vintern och våren användes Zetkin för att organisera ett flertal
 kampanjer. Dessutom organiserades hundra funktionärer under Malmös största
 1 maj-firande och den lyckade gatufesten “Vår stad” med tusentals besökare.
-Våren kulminerade i kampanjen i EU-parlamentsvalet. Zetkin användes för att
+Våren kulminerade i kampanjen inför EU-parlamentsvalet. Zetkin användes för att
 organisera såväl passen i valstugan, trappspringning i bostadsområden och
 torgmöten runtom i staden.
 
 Från att tidigare räkna kampanjdeltagare i tiotal kunde man på valdagen
 konstatera att de sänkta trösklarna öppnat upp för 200 aktivister att delta
-i valkampanjen. Bara ett halvår tidigare hade det inte varit praktiskt
-genomförbart att effektivt organisera nästan en tredjedel av medlemsbasen.
+i valkampanjen. Ett halvår tidigare hade det inte varit praktiskt genomförbart
+att organisera nästan en tredjedel av medlemsbasen på det här viset.
 
 Utmaningen var inte längre att ta emot alla de människor som själva sökte
-sig till organiseringen, utan att nå ut till nästa grupp människor. Nästa
+sig till organisationen, utan att nå ut till nästa grupp människor. Nästa
 steg var att börja ringa medlemmarna systematiskt med Zetkins telefonverktyg.
 
 – Zetkin hade redan lyft taket för hur många vi kunde organisera, nu kunde vi

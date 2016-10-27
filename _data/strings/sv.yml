@@ -60,6 +60,14 @@ home:
             text: "Hjälp till att utveckla Zetkin"
             href: "/sv/bidra/volontar"
 
+blocks:
+    newsletter:
+        h: Håll dig uppdaterad
+        p: |
+            Vill du ha den senaste informationen om Zetkin? Fyll i din
+            e-postadress så skickar vi uppdateringar lite då och då.
+        emailLabel: E-postadress
+        submitLabel: Prenumerera
 breadcrumbs:
     home: "Start"
 

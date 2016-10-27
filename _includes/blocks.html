@@ -15,5 +15,7 @@
         {% assign header=block.header %}
         {% assign kicker=block.kicker %}
         {% include blocks/timeline.html points=points header=header kicker=kicker %}
+    {% elsif block.type == 'newsletter' %}
+        {% include blocks/newsletter.html %}
     {% endif %}
 {% endfor %}

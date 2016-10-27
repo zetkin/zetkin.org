@@ -253,3 +253,17 @@
         }
     }
 }
+
+.newsletter {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px 5% 100px;
+
+    label {
+        display: block;
+    }
+
+    @include medium-screen {
+        margin: 50px auto 100px;
+    }
+}

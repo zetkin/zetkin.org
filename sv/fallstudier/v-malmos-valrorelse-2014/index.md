@@ -3,7 +3,7 @@ lang: sv
 slug: v-malmos-valrorelse-2014
 ref: casestudies.election14
 title: "Fallstudie: V Malmös valrörelse"
-image: ./varstad.jpg
+image: /sv/fallstudier/v-malmos-valrorelse-2014/varstad.jpg
 header: Från tiotal till hundratal – en historisk valkampanj med Zetkin
 kicker: |
     Supervalåret 2014 var på många sätt historiskt för Vänsterpartiet i Malmö.

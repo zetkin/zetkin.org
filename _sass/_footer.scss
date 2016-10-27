@@ -1,6 +1,6 @@
 .footer {
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     color: #aaa;
     font-size: 12px;
@@ -38,19 +38,27 @@
             color: $c-brand-main;
         }
     }
+
+    p, div {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 .footer-menu {
     li {
         list-style-type: none;
         display: inline-block;
-        margin: 0 10px 0 0;
+        margin: 0 10px 10px 0;
         padding: 0 0 0 10px;
         line-height: 1em;
-        border-left: 1px solid $c-ui-dark;
 
-        &:first-child {
-            border-width: 0;
+        @include medium-screen {
+            border-left: 1px solid $c-ui-dark;
+
+            &:first-child {
+                border-width: 0;
+            }
         }
     }
 }

@@ -18,16 +18,26 @@
 
 
     .menu {
+        clear: both;
+        padding: 10px 0 0;
+        text-align: center;
+
         ul {
             clear: both;
             margin: 0;
             padding: 0;
+
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
         }
 
         li {
             list-style-type: none;
             margin: 0 2px;
-            float: left;
+            display: inline-block;
         }
     }
 
@@ -54,8 +64,7 @@
     @include medium-screen {
         .menu {
             float: right;
-            margin: 10px 0 0;
-            padding: 0;
+            clear: none;
 
             a {
                 padding: 10px;

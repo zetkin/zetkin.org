@@ -1,0 +1,19 @@
+{% for block in page.blocks %}
+    {% if block.type == 'contribute' %}
+        {% include blocks/contribute.html %}
+    {% elsif block.type == 'testimonials' %}
+        {% assign testimonials=block.testimonials %}
+        {% include blocks/testimonials.html testimonials=testimonials %}
+    {% elsif block.type == 'join' %}
+        {% include blocks/join.html %}
+    {% elsif block.type == 'features' %}
+        {% assign features=block.features %}
+        {% assign showMore=block.showMore %}
+        {% include blocks/features.html features=features showMore=showMore %}
+    {% elsif block.type == 'timeline' %}
+        {% assign points=block.points %}
+        {% assign header=block.header %}
+        {% assign kicker=block.kicker %}
+        {% include blocks/timeline.html points=points header=header kicker=kicker %}
+    {% endif %}
+{% endfor %}

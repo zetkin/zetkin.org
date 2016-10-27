@@ -1,0 +1,56 @@
+{% assign strings=site.data.strings[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ strings.title }}</title>
+        <meta name="description" content="{{ page.kicker | strip_newlines }}">
+    
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        {% if page.redirect %}
+        <meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'">
+        {% endif %}
+
+        {% include ogmeta.html %}
+    </head>
+    <body>
+        {% include header.html %}
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="slogan">{{ strings.home.hero.slogan }}</h1>
+                <p class="intro">
+                    {{ strings.home.hero.intro }}
+                </p>
+                <a href="{{ strings.home.hero.moreLink.href }}"
+                    class="button">{{ strings.home.hero.moreLink.text }}</a>
+            </div>
+        </section>
+        <section class="shortcuts">
+            <div class="info-shortcut">
+                <h2>{{ strings.home.shortcuts.info.h }}</h2>
+                <p>{{ strings.home.shortcuts.info.p }}</p>
+                <a href="{{ strings.home.shortcuts.info.link.href }}">
+                    {{ strings.home.shortcuts.info.link.text }}</a>
+            </div>
+            <div class="support-shortcut">
+                <h2>{{ strings.home.shortcuts.support.h }}</h2>
+                <p>{{ strings.home.shortcuts.support.p }}</p>
+                <a href="{{ strings.home.shortcuts.support.link.href }}">
+                    {{ strings.home.shortcuts.support.link.text }}</a>
+            </div>
+            <div class="zetkin-shortcut">
+                <h2>{{ strings.home.shortcuts.zetkin.h }}</h2>
+                <p>{{ strings.home.shortcuts.zetkin.p }}</p>
+                <a href="{{ strings.home.shortcuts.zetkin.link.href }}">
+                    {{ strings.home.shortcuts.zetkin.link.text }}</a>
+            </div>
+        </section>
+        {% include blocks.html %}
+        {% include footer.html %}
+    </body>
+</html>

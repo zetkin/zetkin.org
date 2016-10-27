@@ -17,7 +17,6 @@ blocks:
             - 0
             - 1
     -   type: contribute
-redirect: /sv/
 ---
 
 Zetkin is a web based tool for organizing large scale activism. It is being

@@ -1,0 +1,17 @@
+{% assign strings=site.data.strings[page.lang] %}
+{% capture page_title %}{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+{% capture title %}{{ page_title }} | {{ strings.title }}{% endcapture %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ page.kicker | normalize_whitespace }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% if page.ref == 'index' %}
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/hero.jpg">
+<meta property="og:image:width" content="2000">
+<meta property="og:image:height" content="1333">
+{% elsif page.image %}
+<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="650">
+{% endif %}

@@ -1,0 +1,71 @@
+title: Zetkin Foundation
+
+header:
+    brand: "Zetkin"
+    tagLine: "Foundation"
+
+home:
+    hero:
+        slogan: "Gör engagemang enkelt."
+        intro: "Zetkin är ett system för att organisera aktivism."
+        moreLink:
+            text: "Anslut din organisation"
+            href: "/sv/anslut"
+
+    shortcuts:
+        info:
+            h: "Läs mer om Zetkin"
+            p: "Om du vill veta vad Zetkin kan göra och hur det kan revolutionera er aktivism."
+            link:
+                text: "Mer om Zetkin"
+                href: "/sv/zetkin"
+
+        support:
+            h: "Lär dig använda Zetkin"
+            p: "Om du är aktiv i en ansluten organisation och vill lära dig hur man använder Zetkin."
+            link:
+                text: "Manual & support"
+                href: "/sv/support"
+
+        zetkin:
+            h: "Logga in på Zetkin"
+            p: "Om din organisation redan är ansluten och du vill logga in på Zetkin direkt"
+            link:
+                text: "Till aktivistportalen"
+                href: "http://www.zetk.in"
+
+    features:
+        link:
+            text: "Läs mer om Zetkins funktioner"
+            href: "/sv/zetkin"
+
+    join:
+        h: "Anslut din organisation"
+        p: |
+            Om din organisation jobbar mot samma mål som Zetkin Foundation
+            vill vi hjälpa er organisera aktivism mer effektivt.
+        link:
+            text: "Läs mer och ansök"
+            href: "/sv/anslut"
+
+    contribute:
+        h: "Bidra till Zetkin"
+        p: |
+            Zetkin utvecklas till stor del av ideella resurser. Du kan bidra
+            med tid eller pengar för att Zetkin ska utvecklas vidare.
+        donateLink:
+            text: "Donera till utvecklingsfonden"
+            href: "/sv/bidra"
+        volunteerLink:
+            text: "Hjälp till att utveckla Zetkin"
+            href: "/sv/bidra/volontar"
+
+breadcrumbs:
+    home: "Start"
+
+footer:
+    translations: "Alla språk"
+    text: |
+        Zetkin Foundation utvecklar verktyg för att organisera aktivism. Vårt
+        uppdrag är att verka för radikal samhällsförändring i socialistisk,
+        feministisk, antirasistisk och hållbar riktning.

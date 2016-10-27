@@ -1,0 +1,11 @@
+<header class="header">
+    <div class="logo">
+        <a href="/{{ page.lang }}"><img
+            src="/assets/img/zf-logo-red.svg" alt="Zetkin"></a>
+    </div>
+    <div class="menu">
+        {% assign menu=site.data.menu[page.lang] %}
+        {% capture base %}/{{ page.lang }}{% endcapture %}
+        {% include menu.html menu=menu parent=base %}
+    </div>
+</header>

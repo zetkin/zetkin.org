@@ -1,0 +1,12 @@
+<section class="features">
+    {% for idx in include.features %}
+        {% assign f=site.data.features[page.lang][idx] %}
+        {% include feature.html feature=f index=idx %}
+    {% endfor %}
+    {% if include.showMore %}
+    <footer>
+        <a href="{{ strings.home.features.link.href }}"
+            class="button">{{ strings.home.features.link.text }}</a>
+    </footer>
+    {% endif %}
+</section>

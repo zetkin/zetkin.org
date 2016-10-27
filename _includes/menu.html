@@ -1,0 +1,21 @@
+<ul>
+{% for item in include.menu %}
+    {% if item.slug == "" %}
+        {% assign slug=include.parent %}
+    {% else %}
+        {% capture slug %}{{ include.parent }}/{{ item.slug }}{% endcapture %}
+    {% endif %}
+    {% assign refpath=page.ref | split: '.' %}
+    {% if item.ref == refpath[0] %}
+        {% assign class="selected" %}
+    {% else %}
+        {% assign class="" %}
+    {% endif %}
+    <li><a class="{{ class }}" href="{{ slug }}">{{ item.title }}</a>
+    {% if item.sub %}
+    {{ parent }}
+    {% include menu.html menu=item.sub parent=slug %}
+    {% endif %}
+    </li>
+{% endfor %}
+</ul>

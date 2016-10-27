@@ -1,6 +1,5 @@
 {% assign strings=site.data.strings[page.lang] %}
-{% capture page_title %}{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
-{% capture title %}{{ page_title }} | {{ strings.title }}{% endcapture %}
+{% capture title %}{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ title }}">

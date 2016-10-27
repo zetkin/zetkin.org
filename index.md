@@ -1,6 +1,6 @@
 ---
 lang: sv
-ref: index
+ref: redir
 layout: home
 title: Gör engagemang enkelt med Zetkin
 kicker: |

@@ -14,8 +14,7 @@ fråga till Zetkin Foundation?
 
 ## Support
 Behöver du hjälp med något i Zetkin? Om du inte hittar det du söker i manualen
-är du välkommen att kontakta support via e-post, info@zetkin.org.
+är du välkommen att kontakta support via vårt forum.
 
 [Till manualen](http://manual.zetkin.org/sv)
-
-[Skicka e-post till info@zetkin.org](mailto:info@zetkin.org)
+[Till forumet](http://forum.zetkin.org)

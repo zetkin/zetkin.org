@@ -16,4 +16,4 @@ fråga till Zetkin Foundation?
 Behöver du hjälp med något i Zetkin? Om du inte hittar det du söker i manualen
 är du välkommen att kontakta support via vårt forum.
 
-Gå [till manualen](http://manual.zetkin.org/sv) eller [vårt forum](http://forum.zetkin.org).
+Gå [till manualen](http://manual.zetkin.org/sv) eller [vårt forum](https://forum.zetkin.org).

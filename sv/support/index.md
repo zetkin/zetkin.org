@@ -30,7 +30,7 @@ Om du inte hittar det du söker i manualerna är du välkommen att höra av dig 
 din fråga. Zetkin Foundation ger support till anslutna organisationer via vårt
 supportforum. Vi garanterar svar inom en arbetsdag.
 
-[Till vårt supportforum](http://forum.zetkin.org)
+[Till vårt supportforum](https://forum.zetkin.org)
 
 ## Utbildningar
 När din organisation ansluter sig till Zetkin ingår en heldagsutbildning på

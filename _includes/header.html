@@ -1,3 +1,13 @@
+{% if site.data.banner[page.lang] %}
+{% assign banner=site.data.banner[page.lang] %}
+<div class="banner">
+    <h1>{{ banner.header }}</h1>
+    <p>
+        {{ banner.text }}
+    </p>
+    <a href="{{ banner.cta.href }}">{{ banner.cta.text }}</a>
+</div>
+{% endif %}
 <header class="header">
     <div class="logo">
         <a href="/{{ page.lang }}"><img

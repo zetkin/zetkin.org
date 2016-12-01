@@ -1,5 +1,5 @@
 -   img:
-        src: "/sv/feature0.jpg"
+        src: /sv/zetkin/funktioner/planerakampnj.jpg
     content:
         h: |
             Planera smartare.
@@ -13,7 +13,7 @@
         href: /sv/zetkin/kampanjer
 
 -   img:
-        src: "/sv/feature1.jpg"
+        src: /sv/zetkin/funktioner/manniskor.jpg
     content:
         h: |
             Se varje aktivist.
@@ -27,7 +27,7 @@
         href: /sv/zetkin/manniskor
 
 -   img:
-        src: "/sv/feature2.jpg"
+        src: /sv/zetkin/funktioner/delta.jpg
     content:
         h: "Förenkla för fler att delta."
         p: |
@@ -39,7 +39,7 @@
         href: /sv/zetkin/aktivister
 
 -   img:
-        src: "/sv/feature3.jpg"
+        src: /sv/zetkin/funktioner/ring.jpg
     content:
         h: |
             Ring effektivt.

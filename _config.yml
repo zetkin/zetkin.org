@@ -7,8 +7,6 @@ github_username:  zetkin
 # Build settings
 exclude: [Dockerfile]
 markdown: kramdown
-gems:
-    - jekyll-sitemap
 
 defaults:
     -   scope:

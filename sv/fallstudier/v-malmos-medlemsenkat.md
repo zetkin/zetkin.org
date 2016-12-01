@@ -4,7 +4,7 @@ slug: v-malmos-medlemsenkat
 ref: casestudies.membersurvey
 title: "Fallstudie: V Malmös medlemsenkät"
 header: En cykelreparatör, kanelbullar och hundra nya månadsgivare med Zetkins enkäter
-image: /sv/fallstudier/v-malmos-medlemsenkat/ringning.jpg
+image: /sv/fallstudier/ringning.jpg
 kicker: |
     Den som pratar med organisatörer i Vänsterpartiet Malmö får snart höra om
     medlemsenkäten. Den lyfts fram av alla som en viktig ingrediens i att bygga

@@ -12,6 +12,10 @@ home:
             text: "Anslut din organisation"
             href: "/sv/anslut"
 
+    news:
+        h: "Senaste nytt"
+        dateFormat: "%e/%-m, %Y"
+
     shortcuts:
         info:
             h: "Läs mer om Zetkin"

@@ -1,0 +1,40 @@
+{% assign strings=site.data.strings[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ strings.title }}</title>
+        <meta name="description" content="{{ page.kicker | strip_newlines }}">
+
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+        {% include ogmeta.html %}
+    </head>
+    <body>
+        {% include header.html %}
+        <section class="main">
+            <h1>{% if page.header %}{{ page.header | newline_to_br }}{% else %}{{ page.title }}{% endif %}</h1>
+            {% if page.image %}
+            <img class="featured-image" src="{{ page.image }}">
+            {% endif %}
+            {% if page.kicker %}
+            <p class="kicker">
+                {{ page.kicker }}
+            </p>
+            {% endif %}
+            <div class="meta">
+                {{ page.date }}
+            </div>
+            <div class="content">
+                {{ content }}
+            </div>
+        </section>
+        {% include blocks.html %}
+        {% include footer.html %}
+    </body>
+</html>

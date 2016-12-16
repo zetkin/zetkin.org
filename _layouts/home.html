@@ -51,6 +51,18 @@
                     {{ strings.home.shortcuts.zetkin.link.text }}</a>
             </div>
         </section>
+        <section class="news">
+        <h2>{{ strings.home.news.h }}</h2>
+        {% assign news=site.pages |where:"type", "news" |where:"lang", page.lang %}
+        {% assign news=news |sort: "date" |reverse |slice: 0,3 %}
+        <ul>
+        {% for item in news %}
+            <li><a href="{{ item.url }}">
+                <span class="date">{{ item.date |date: strings.home.news.dateFormat }}</span>
+                <span class="title">{{ item.title }}</span></a></li>
+        {% endfor %}
+        </ul>
+        </section>
         {% include blocks.html %}
         {% include footer.html %}
     </body>

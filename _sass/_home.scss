@@ -61,6 +61,71 @@
     }
 }
 
+.news {
+    max-width: 800px;
+    margin: 40px 5%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(180deg,
+        darken($c-ui-bg, 10%) 0%,
+        darken($c-ui-bg, 20%) 100%
+    );
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    h2 {
+        padding: 0.5em 0;
+        font-size: inherit;
+        font-weight: bold;
+        float: left;
+        width: 20%;
+        text-align: center;
+        color: white;
+    }
+
+    ul {
+        float: left;
+        margin: 0;
+        background-color: $c-ui-bg;
+        width: 80%;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 0.5em 0;
+        margin: 0 1em;
+        font-size: 0.9em;
+
+        a {
+            color: black;
+
+            &:hover {
+                color: $c-brand-main;
+
+                .date {
+                    color: $c-ui-darker;
+                }
+            }
+        }
+
+        .date {
+            color: $c-ui-dark;
+
+            &:after {
+                content: ":";
+            }
+        }
+    }
+
+    @include medium-screen {
+        margin: 40px auto;
+    }
+}
+
 .shortcuts {
     max-width: 1200px;
     margin: 40px 5%;

@@ -9,6 +9,16 @@
 </div>
 {% endif %}
 <header class="header">
+    {% assign localizations=site.pages|where:"ref",page.ref %}
+    {% assign num_localizations=localizations|size %}
+    {% if num_localizations > 0 %}
+    <div class="lang-switch">
+        <span>{{ site.data.strings[page.lang].header.languages }}</span>
+        {% for loc in localizations %}
+        <a {% if page.lang==loc.lang %}class="selected"{% endif %} href="{{ loc.url }}">{{ loc.lang }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
     <div class="logo">
         <a href="/{{ page.lang }}"><img
             src="/assets/img/zf-logo-red.svg" alt="Zetkin"></a>

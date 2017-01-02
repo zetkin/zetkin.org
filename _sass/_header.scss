@@ -41,12 +41,29 @@
 }
 
 .header {
-    padding: 10px;
+    padding: 1em;
 
     &:after {
         content: "";
         display: block;
         clear: both;
+    }
+
+    .lang-switch {
+        text-align: right;
+        margin: 0 0 1em 0;
+
+        span {
+            color: $c-ui-dark;
+        }
+
+        a {
+            color: $c-ui-darker;
+
+            &.selected {
+                font-weight: bold;
+            }
+        }
     }
 
     .logo {
@@ -81,24 +98,24 @@
             margin: 0 2px;
             display: inline-block;
         }
-    }
 
-    a {
-        display: block;
-        text-decoration: none;
-        padding: 4px 4px;
-        color: black;
-
-        &:hover {
-            color: $c-brand-main;
-        }
-
-        &.selected {
-            font-weight: bold;
-            color: $c-brand-main;
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 4px 4px;
+            color: black;
 
             &:hover {
-                text-decoration: underline;
+                color: $c-brand-main;
+            }
+
+            &.selected {
+                font-weight: bold;
+                color: $c-brand-main;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }

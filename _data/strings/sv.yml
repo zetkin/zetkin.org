@@ -78,3 +78,8 @@ footer:
         Zetkin Foundation utvecklar verktyg för att organisera aktivism. Vårt
         uppdrag är att verka för radikal samhällsförändring i socialistisk,
         feministisk, antirasistisk och hållbar riktning.
+
+misc:
+    languages:
+        en: "Engelska"
+        sv: "Svenska"

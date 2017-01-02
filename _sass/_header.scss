@@ -49,7 +49,8 @@
         clear: both;
     }
 
-    .lang-switch {
+    .lang-select {
+        font-size: 0.8em;
         text-align: right;
         margin: 0 0 1em 0;
 
@@ -58,10 +59,25 @@
         }
 
         a {
-            color: $c-ui-darker;
+            img {
+                margin: 0 0 0 0.1em;
+                width: 1em;
+                height: auto;
+                opacity: 0.5;
+                transition: opacity 0.3s;
+            }
 
             &.selected {
-                font-weight: bold;
+                img {
+                    opacity: 0.8;
+                }
+            }
+
+            &:hover {
+                img {
+                    transition: opacity 0.1s;
+                    opacity: 1.0;
+                }
             }
         }
     }

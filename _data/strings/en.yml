@@ -70,3 +70,8 @@ footer:
         Zetkin Foundation develops tools for organizing activism. Our mission
         is to aid radical change in socity in a socialist, feminist, anti-racist
         and sustainable direction.
+
+misc:
+    languages:
+        en: "English"
+        sv: "Swedish"

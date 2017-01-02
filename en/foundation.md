@@ -7,10 +7,9 @@ header: |
     A different company.
     For a different society.
 kicker: |
-    Zetkin is developed by Zetkin Foundation – a company not for making
-    profit, but contributing to radically changing society in a socialist,
-    feminist, antiracist and sustainable direction. That makes Zetkin very
-    special.
+    Zetkin is developed by Zetkin Foundation – a company that works not
+    for profit, but to radically change society in a socialist, feminist,
+    antiracist and sustainable direction. That makes Zetkin very special.
 blocks:
     -   type: timeline
         header: The story behind Zetkin

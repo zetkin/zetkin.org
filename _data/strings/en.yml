@@ -56,10 +56,10 @@ home:
             or money to help contribute to the development of Zetkin.
         donateLink:
             text: "Help fund Zetkin development"
-            href: "/sv/contribute"
+            href: "/en/contribute"
         volunteerLink:
             text: "Volunteer as a Zetkin developer"
-            href: "/sv/contribute/volunteer"
+            href: "/en/contribute/volunteer"
 
 breadcrumbs:
     home: "Start"

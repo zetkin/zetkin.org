@@ -1,5 +1,5 @@
 ---
-lang: sv
+lang: en
 slug: contribute
 ref: contribute
 title: Contribute

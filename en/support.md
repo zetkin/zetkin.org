@@ -1,5 +1,5 @@
 ---
-lang: sv
+lang: en
 slug: support
 ref: support
 title: Support

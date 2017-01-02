@@ -52,7 +52,7 @@ total to remind them, or shape the assignment any other way you prefer it.
 
 ## Get started quickly
 If you want, you are completely in control of call assignments. If you just
-want to get satrted Zetkin has built-in templates for common assignment types.
+want to get started Zetkin has built-in templates for common assignment types.
 If you want to mobilize for a campaign, spread information about something,
 collect survey responses or periodically stay in touch you will be up and
 running in minutes.

@@ -41,12 +41,45 @@
 }
 
 .header {
-    padding: 10px;
+    padding: 1em;
 
     &:after {
         content: "";
         display: block;
         clear: both;
+    }
+
+    .lang-select {
+        font-size: 0.8em;
+        text-align: right;
+        margin: 0 0 1em 0;
+
+        span {
+            color: $c-ui-dark;
+        }
+
+        a {
+            img {
+                margin: 0 0 0 0.1em;
+                width: 1em;
+                height: auto;
+                opacity: 0.5;
+                transition: opacity 0.3s;
+            }
+
+            &.selected {
+                img {
+                    opacity: 0.8;
+                }
+            }
+
+            &:hover {
+                img {
+                    transition: opacity 0.1s;
+                    opacity: 1.0;
+                }
+            }
+        }
     }
 
     .logo {
@@ -81,24 +114,24 @@
             margin: 0 2px;
             display: inline-block;
         }
-    }
 
-    a {
-        display: block;
-        text-decoration: none;
-        padding: 4px 4px;
-        color: black;
-
-        &:hover {
-            color: $c-brand-main;
-        }
-
-        &.selected {
-            font-weight: bold;
-            color: $c-brand-main;
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 4px 4px;
+            color: black;
 
             &:hover {
-                text-decoration: underline;
+                color: $c-brand-main;
+            }
+
+            &.selected {
+                font-weight: bold;
+                color: $c-brand-main;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }

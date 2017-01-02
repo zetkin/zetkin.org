@@ -15,6 +15,13 @@
 
         li {
             display: inline-block;
+            border-right: 1px solid $c-ui-dark;
+            padding: 0 1em;
+            line-height: 1em;
+
+            &:last-child {
+                border-width: 0;
+            }
         }
 
         &:after {

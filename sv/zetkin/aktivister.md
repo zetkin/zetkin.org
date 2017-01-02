@@ -1,7 +1,7 @@
 ---
 lang: sv
-slug: kampanjer
-ref: zetkin.campaigns
+slug: aktivister
+ref: zetkin.activists
 title: Zetkin för aktivister
 header: Förenkla för fler aktivister att delta
 kicker: |

@@ -14,10 +14,11 @@
     <div class="lang-select">
         {{ strings.footer.translations }}:
         <ul>
-        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-        {% for page in pages %}
+        {% assign localizations=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for loc in localizations %}
+            {% assign label=site.data.strings[page.lang].misc.languages[loc.lang] %}
             <li>
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                <a href="{{ loc.url }}" class="{{ loc.lang }}">{{ label }}</a>
             </li>
         {% endfor %}
         </ul>

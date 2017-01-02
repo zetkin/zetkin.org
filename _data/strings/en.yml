@@ -1,9 +1,72 @@
 title: Zetkin Foundation
 
 header:
+    languages: "All languages:"
     brand: "Zetkin"
     tagLine: "Foundation"
-    translations: "All languages"
+
+home:
+    hero:
+        slogan: "Make participation simple."
+        intro: "Zetkin is a platform for organizing activism."
+        moreLink:
+            text: "Connect your organization"
+            href: "/en/join"
+
+    shortcuts:
+        info:
+            h: "Read more about Zetkin"
+            p: "If you want to learn what Zetkin can do and how it could revolutionize your activism."
+            link:
+                text: "More about Zetkin"
+                href: "/en/zetkin"
+
+        support:
+            h: "Learn how to use Zetkin"
+            p: "If your organization is already connected and you want to learn how to use Zetkin."
+            link:
+                text: "Manual & support"
+                href: "/en/support"
+
+        zetkin:
+            h: "Log into Zetkin"
+            p: "If your organization is already connected and you want to sign into Zetkin right away"
+            link:
+                text: "The activist portal"
+                href: "http://www.zetk.in"
+
+    features:
+        link:
+            text: "Read more about the features of Zetkin"
+            href: "/en/zetkin"
+
+    join:
+        h: "Connect your organization"
+        p: |
+            If your organization is working towards the same goal as Zetkin
+            Foundation we want to help your organize activism more efficiently.
+        link:
+            text: "Read more and apply"
+            href: "/en/join"
+
+    contribute:
+        h: "Contribute to Zetkin"
+        p: |
+            Zetkin is developed in large part by volunteers. You can donate time
+            or money to help contribute to the development of Zetkin.
+        donateLink:
+            text: "Help fund Zetkin development"
+            href: "/sv/contribute"
+        volunteerLink:
+            text: "Volunteer as a Zetkin developer"
+            href: "/sv/contribute/volunteer"
 
 breadcrumbs:
-    home: "Home"
+    home: "Start"
+
+footer:
+    translations: "All languages"
+    text: |
+        Zetkin Foundation develops tools for organizing activism. Our mission
+        is to aid radical change in socity in a socialist, feminist, anti-racist
+        and sustainable direction.

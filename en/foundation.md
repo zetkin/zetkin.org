@@ -86,6 +86,10 @@ blocks:
                 text: |
                     A year of focused development begins, funded by money
                     raised during 2015 (and onwards through 2016).
+            -   header: "Jan 2017 – New Zetkin launches"
+                text: |
+                    After more than a year in development, the new Zetkin
+                    sees light of day and rolls out across Sweden.
     -   type: contribute
 ---
 

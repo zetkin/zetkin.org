@@ -89,6 +89,10 @@ blocks:
                 text: |
                     Det projektår som Zetkin Foundation samlat ihop pengar till
                     inleds, och utvecklingen av nya Zetkin tar fart.
+            -   header: "Januari 2017 – Nya Zetkin lanseras"
+                text: |
+                    After mer än ett år av utveckling ser nya Zetkin dagens ljus
+                    och rullas ut runtom i Sverige.
     -   type: contribute
 ---
 

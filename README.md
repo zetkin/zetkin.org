@@ -7,7 +7,7 @@ to build and run the site. Make sure that you are in the root folder of the
 repository and run this command.
 
 ```
-$ docker run --rm -v $PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll
+$ docker run --rm -v $PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll jekyll serve
 ```
 
 This will start serving the page from port 4000 on the host that Docker is

@@ -33,16 +33,7 @@ supportforum. Vi garanterar svar inom en arbetsdag.
 [Till vårt supportforum](https://forum.zetkin.org)
 
 ## Utbildningar
-När din organisation ansluter sig till Zetkin ingår en heldagsutbildning på
-plats hos er, samt material för att kunna hålla egna fortbildningar.
+Alla nyanslutna organisationser erbjuds en kostnadsfri standardutbildning. Vi
+kan också tillhandahålla ytterligare utbildningar, fortbildningar och workshops.
 
-Den inledande utbildningen innehåller dels en teknisk del om hur man använder
-Zetkin, dels en mer allmän del om hur just er organisation kan utveckla er
-aktivism.
-
-Våra erfarna Zetkin-organisatörer kan också tillhandahålla ytterligare
-utbildningar och fortbildningar i såväl Zetkin som generellt gällande
-organisering och aktivism, skräddarsydda utifrån era behov och önskemål.
-
-[Kontakta oss](/sv/kontakt) om ni vill boka in en standardutbildning eller
-diskutera en specialutformad utbildning.
+[Läs mer om utbildningar](/sv/support/utbildningar)

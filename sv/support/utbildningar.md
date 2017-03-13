@@ -4,7 +4,7 @@ slug: support
 ref: support.courses
 title: Utbildningar
 kicker: |
-    Vi tillhandahåller såväl standardutbildningar som skrädarsydd fortbildning
+    Vi tillhandahåller såväl standardutbildningar som skräddarsydd fortbildning
     för att din organisation ska komma igång på bästa sätt.
 ---
 

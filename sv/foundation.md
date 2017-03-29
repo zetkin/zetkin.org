@@ -122,15 +122,3 @@ I Zetkin Foundations bolagsordning är syftet solklart.
 Zetkin Foundation arbetar inte för att göra vinst, utan för att åstadkomma
 förändring. Pengar är ett medel för att göra organisationen stabil och
 hållbar, men det är aldrig målet.
-
-## Vårt team
-Omkring Zetkin Foundation finns ett stort antal aktivister som bidrar utifrån
-sina egna förutsättningar. Ständigt aktiva är styrelsen och en projektledare.
-
-* Daniel Sestrajcic, ordförande
-* Jenny Gustafsson, styrelseledamot
-* Minna Skans, styrelseledamot
-* Zandra Valencia, styrelseledamot
-* Jonas Danielsson, styrelsesuppleant
-* Åsa Opperdoes, styrelsesuppleant
-* Richard Olsson, projektledare & huvudutvecklare

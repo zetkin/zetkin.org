@@ -32,8 +32,8 @@ who were never before active can approach the organization on their own terms.
 ## Participation in three simple steps
 Participating in on-the-ground campaigning is done in three steps with Zetkin.
 
-1. _Sign up. The activist signs up on their own terms online.
-2. _Organize. An official organizes the day and sends out reminders.
+1. _Sign up_. The activist signs up on their own terms online.
+2. _Organize_. An official organizes the day and sends out reminders.
 3. _Show up_. The activist only has to show up where the action takes place.
 
 ## Make life easier for your cadre

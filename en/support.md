@@ -13,13 +13,6 @@ If you want to learn how to use Zetkin, our exhaustive manual is a good place
 to start. The manual also contains guides that take you through common tasks
 step by step. At the moment, the manual is only [available in Swedish](//manual.zetkin.org/sv).
 
-## Post questions in our support forum
-If you can't find the answer to your questions, please post them to our support
-forum, where the community or a Zetkin Foundation representative will try to
-answer as best we can.
-
-[To our support forum](https://forum.zetkin.org)
-
 ## Courses and presentations
 When you connect your organization to Zetkin, a full day course is included in
 the price. The course takes place in the venue of your choice, and includes

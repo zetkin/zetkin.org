@@ -25,12 +25,13 @@ hur man kan använda Zetkin för att lösa vanliga uppgifter.
 
 [Till utvecklarmanualen](http://manual.zetkin.org/sv/for-utvecklare)
 
-## Fråga i vårt supportforum
-Om du inte hittar det du söker i manualerna är du välkommen att höra av dig med
-din fråga. Zetkin Foundation ger support till anslutna organisationer via vårt
-supportforum. Vi garanterar svar inom en arbetsdag.
+## Fråga i vår Facebook-grupp
+i Facebook-gruppen [Vi som organiserar med Zetkin](https://www.facebook.com/groups/594884747369100/)
+samlas organisatörer från olika organisationer. Där kan du ställa frågor, utbyta
+idéer och erfarenheter, eller påverka Zetkins utveckling genom direktkontakt med
+vårt team.
 
-[Till vårt supportforum](https://forum.zetkin.org)
+[Till Facebook-gruppen _Vi som organiserar med Zetkin_](https://www.facebook.com/groups/594884747369100/)
 
 ## Utbildningar
 Alla nyanslutna organisationser erbjuds en kostnadsfri standardutbildning. Vi

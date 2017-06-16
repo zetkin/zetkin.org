@@ -14,11 +14,12 @@ blocks:
 Vi välkomnar alla bidrag till Zetkins utveckling. Oavsett om du har möjlighet
 att bidra med pengar eller tid tar vi tacksamt emot ditt engagemang.
 
-## Donera till utvecklingsfonden
+## Donera till utvecklingsfonden – Swish eller BankGiro
 Oavsett om det handlar om ett stort eller litet belopp, återkommande eller vid
 ett enstaka tillfälle, är din gåva viktig för Zetkins utveckling.
 
-Sätt in ditt bidrag på bankgiro 895-0131 och märk betalningen "Gåva".
+Sätt in ditt bidrag på bankgiro 895-0131, eller skicka med Swish till
+123 412 17 03 och märk betalningen "Gåva".
 
 ## Hjälp till i utvecklingen
 Zetkin utvecklas till stor del av ideella krafter. Om du besitter kunskaper som

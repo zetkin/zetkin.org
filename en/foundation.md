@@ -103,11 +103,11 @@ with us experience, and most importantly, an attitude. An idea that we can
 bring about big change when we work together, even with small resoures. The
 strength of the left is our numbers.
 
-That why when we develop Zetkin, we do it using activist methods. Large portions
-of the work happens on a volunteer basis. Our board is a working collective,
-which makes it different from most company boards. We have constructed our
-organization around the premise that it should be as easy as possible to
-contribute according to one's ability.
+That is why when we develop Zetkin, we do it using activist methods. Large
+portions of the work happens on a volunteer basis. Our board is a working
+collective, which makes it different from most company boards. We have
+constructed our organization around the premise that it should be as easy as
+possible to contribute according to one's ability.
 
 That means that we don't just develop a tool for activists, we do it by being
 activists ourselves. Just like we've always been.
@@ -117,7 +117,6 @@ In the founding documents of Zetkin Foundation, the purpose is clear:
 
 > To work for radical change of society, in a socialist, feminist, antiracist
 > and sustainable direction (translated).
-
 
 Zetkin Foundation does not work for profit, but to achieve change. Money is a
 means to make our organization stable and sustainable, but it's never the end

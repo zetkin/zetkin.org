@@ -25,7 +25,7 @@ de volontära krafter – vare sig det handlar om teknisk kompetens,
 översättningar, support och utbildning eller marknadsföring – som vi vet
 finns och behövs för att utveckla projektet ytterligare. 
 
-Vi söker dig som under maj-juni har möjlighet att lägga grunden för ett
+Vi söker dig som under augusti-oktober har möjlighet att lägga grunden för ett
 strukturerat arbete för de volontära insatserna som behövs för att utveckla
 Zetkin vidare tillsammans med styrelsen och vår projektledare för Zetkin.
 
@@ -70,9 +70,9 @@ uppdraget som volontärsamordnare för Zetkin samt relevanta erfarenheter för
 uppdraget. Har du några tankar och idéer på vad vi borde göra kan också det
 inkluderas i brevet.
 
-Vi vill ha din ansökan senast den 20 april och du skickar den till
-[info@zetkin.org](mailto:info@zetkin.org). Styrelsen fattar beslut den 23 april
-och vi räknar med att du kan starta uppdraget senast den 2 maj.
+Vi vill ha din ansökan senast den 18 augusti och du skickar den till
+[info@zetkin.org](mailto:info@zetkin.org). Styrelsen fattar beslut den 21
+augusti.
 
 ## Mer information:
 Frågor: Daniel Sestrajcic ([daniel.sestrajcic@vansterpartiet.se](mailto:daniel.sestrajcic@gmail.com)

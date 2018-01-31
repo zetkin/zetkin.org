@@ -19,6 +19,15 @@
         }
     }
 
+    table {
+        font-size: 0.7em;
+        margin: 0 0 1em;
+
+        td, th {
+            padding: 0.1em 0.3em 0.1em 0;
+        }
+    }
+
     @include medium-screen {
         margin: 30px auto;
 
@@ -26,6 +35,15 @@
             p, ul, ol {
                 position: relative;
                 max-width: 60%;
+            }
+
+            table {
+                width: 100%;
+                font-size: 0.9em;
+
+                td, th {
+                    padding: 0.1em 2em 0.1em 0;
+                }
             }
 
             figure {

@@ -1,0 +1,66 @@
+.campaign {
+    .hero {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        width: 100%;
+        max-height: 40vw;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    
+    .hero-content {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 5%;
+        padding: 10vw 0;
+    
+        text-align: left;
+        font-family: azo-sans-web, Arial, sans-serif;
+        color: white;
+
+        small {
+            display: inline-block;
+            padding: 0.3em 0.5em;
+            margin: 0 0 0 -0.2em;
+            background-color: $c-brand-main;
+
+            &:after {
+                content: ":";
+            }
+        }
+    
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            width: 70%;
+        }
+    
+        p {
+            display: none;
+        }
+    
+        @include medium-screen {
+            margin: 0 auto;
+    
+            h1 {
+                font-size: 3em;
+                width: 60%;
+            }
+    
+            p {
+                display: block;
+                font-size: 1.2em;
+                width: 60%;
+            }
+        }
+    }
+}
+
+.campaign-att2018 {
+}

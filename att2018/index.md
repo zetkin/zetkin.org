@@ -54,6 +54,7 @@ på de stopp som görs under turnén.
 | 14 april | Västerbotten      | Umeå         | _Info kommer_
 | 15 april | Norrbotten        | Luleå        | Sunderby Folkhögskola   
 | 16 april | Uppsala           | Uppsala      | _Info kommer_
+| 17 april | Västmanland       | Västerås     | _Info kommer_
 | 18 april | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
 | 19 april | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
 | 21 april | Gävleborg         | Gävle        | _Info kommer_

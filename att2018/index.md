@@ -14,8 +14,8 @@ hero:
         organisatör från Sanders-kampanjen.
 kicker: |
     Under april 2018 arrangerar vi en utbildningsturné för Vänsterpartiet med
-    Grayson Lookner som arbetade i Bernie Sanders presidentvalskampanj 2016.
-    På den här sidan hittar du all information om turnén.
+    Grayson Lookner från Bernie Sanders presidentvalskampanj 2016. På den här
+    sidan hittar du all information om turnén.
 ---
 
 Grayson arbetade som delstatsorganisatörer i fem delstater under Sanders

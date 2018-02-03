@@ -34,6 +34,8 @@ möta och övertyga väljare på stan, vid dörrknackning eller i telefon. På e
 roligt och inspirerande vis blir du tryggare i rollen som ambassadör för
 Vänsterpartiets budskap om jämlikhet.
 
+Utbildningen tar ungefär två timmar.
+
 ## Turnéplan
 Turnén genomförs i samband med Vänsterpartiets distrikt. Nedan är en lista
 på de stopp som görs under turnén.
@@ -63,14 +65,17 @@ på de stopp som görs under turnén.
 | 25 april | Fyrbodal          | Uddevalla    | Bohusläns museum 18:30
 | 26 april | Sjuhärad          | Borås        | ABF 18:00
 
+Om du har några frågor om ett visst turnéstopp, vänd dig i första hand till
+det partidistrikt som arrangerar det, eller till info@zetkin.org.
+
 ## Vanliga frågor och svar
 ### Kostar det något att delta?
-Nej, du som deltagare behöver inte betala något.
+Nej, det är helt gratis!
 
 ### Behöver jag vara medlem i Vänsterpartiet?
 Nej, men du bör ha för avsikt att delta i Vänsterpartiets valrörelse inför
 valet i september. När du anländer kan du bli ombedd att uppge dina
-kontaktuppgifter.
+kontaktuppgifter. Men inga förkunskaper krävs!
 
 ### Behöver jag vara duktig på engelska?
 Grayson håller utbildningen på engelska och det underlättar om du kan förstå,

@@ -14,6 +14,7 @@ fråga till Zetkin Foundation?
 
 ## Support
 Behöver du hjälp med något i Zetkin? Om du inte hittar det du söker i manualen
-är du välkommen att kontakta support via vårt forum.
+är du välkommen att kontakta support via e-post eller på Facebook.
 
-Gå [till manualen](http://manual.zetkin.org/sv) eller [vårt forum](https://forum.zetkin.org).
+Gå [till manualen](http://manual.zetkin.org/sv) eller Facebook-gruppen
+[Vi som organiserar med Zetkin](https://www.facebook.com/groups/594884747369100).

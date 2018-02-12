@@ -42,16 +42,16 @@ på de stopp som görs under turnén.
 
 | Datum    | Distrikt          | Ort          | Tid och plats
 |:---------|:------------------|:-------------|:-----------------------------
-| 3 april  | Skaraborg         | Skövde       | Kommunhuset 
-| 4 april  | Göteborg          | Göteborg     | Andra långgatan 18:00
-| 5 april  | Halland           | Falkenberg   | _Info kommer_
-| 7 april  | Skåne             | Malmö        | _Info kommer_
-| 7 april  | Blekinge          | Karlshamn    | _Info kommer_
+| 3 april  | Skaraborg         | Skövde       | Stadshuset, 18:00
+| 4 april  | Göteborg          | Göteborg     | Andra långgatan, 18:00
+| 5 april  | Halland           | Falkenberg   | Mötesplats Mölle, 18:00
+| 7 april  | Skåne             | Malmö        | Sofielunds Folkets hus, 10:00
+| 7 april  | Blekinge          | Karlshamn    | Rådhussalen, 14:00
 | 8 april  | Kronoberg         | Växjö        | _Info kommer_
 | 8 april  | Kalmar län        | Kalmar       | _Info kommer_
 | 9 april  | Jönköping         | Jönköping    | _Info kommer_
-| 10 april | Östergötland      | Norrköping   | _Info kommer_
-| 11 april | Storstockholm     | Stockholm    | Kafé Marx 18:00
+| 10 april | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
+| 11 april | Storstockholm     | Stockholm    | Kafé Marx, 18:00
 | 12 april | Jämtland          | Östersund    | _Info kommer_
 | 14 april | Västerbotten      | Umeå         | _Info kommer_
 | 15 april | Norrbotten        | Luleå        | Sunderby Folkhögskola   
@@ -59,11 +59,14 @@ på de stopp som görs under turnén.
 | 17 april | Västmanland       | Västerås     | _Info kommer_
 | 18 april | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
 | 19 april | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
-| 21 april | Gävleborg         | Gävle        | _Info kommer_
+| 21 april | Gävleborg         | Gävle        | ABF Brunnsgatan 56, 11:00
 | 22 april | Dalarna           | Falun        | _Info kommer_
 | 24 april | Väst              | Alingsås     | Folkets Hus 18:00
 | 25 april | Fyrbodal          | Uddevalla    | Bohusläns museum 18:30
 | 26 april | Sjuhärad          | Borås        | ABF 18:00
+
+Facebook-event för alla turnéstoppen hittar du [på vår Facebook-sida](https://facebook.com/pg/zetkinfoundation/events).
+Hjälp gärna till att bjuda in och sprida!
 
 Om du har några frågor om ett visst turnéstopp, vänd dig i första hand till
 det partidistrikt som arrangerar det, eller till info@zetkin.org.

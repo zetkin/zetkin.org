@@ -14,6 +14,6 @@ other question to the Zetkin Foundation?
 
 ## Support
 Do you need assistance or help with using Zetkin? If you can't find an
-an answer in the manual, please contact us through our support forum.
+an answer in the manual, please contact us through our support channels.
 
 [Read more in the support section](/en/support)

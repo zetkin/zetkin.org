@@ -76,8 +76,8 @@ det partidistrikt som arrangerar det, eller till info@zetkin.org.
 Nej, det är helt gratis!
 
 ### Behöver jag vara medlem i Vänsterpartiet?
-Nej, men du bör ha för avsikt att delta i Vänsterpartiets valrörelse inför
-valet i september. När du anländer kan du bli ombedd att uppge dina
+Nej, men du bör vara intresserad av att delta i Vänsterpartiets valrörelse
+inför valet i september. När du anländer kan du bli ombedd att uppge dina
 kontaktuppgifter. Men inga förkunskaper krävs!
 
 ### Behöver jag vara duktig på engelska?

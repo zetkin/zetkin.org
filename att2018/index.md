@@ -77,8 +77,7 @@ Nej, det är helt gratis!
 
 ### Behöver jag vara medlem i Vänsterpartiet?
 Nej, men du bör vara intresserad av att delta i Vänsterpartiets valrörelse
-inför valet i september. När du anländer kan du bli ombedd att uppge dina
-kontaktuppgifter. Men inga förkunskaper krävs!
+inför valet i september. Inga förkunskaper krävs!
 
 ### Behöver jag vara duktig på engelska?
 Grayson håller utbildningen på engelska och det underlättar om du kan förstå,

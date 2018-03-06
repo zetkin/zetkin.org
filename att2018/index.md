@@ -40,30 +40,30 @@ Utbildningen tar ungefär två timmar.
 Turnén genomförs i samband med Vänsterpartiets distrikt. Nedan är en lista
 på de stopp som görs under turnén.
 
-| Datum    | Distrikt          | Ort          | Tid och plats
-|:---------|:------------------|:-------------|:-----------------------------
-| 3 april  | Skaraborg         | Skövde       | Stadshuset, 18:00
-| 4 april  | Göteborg          | Göteborg     | Andra långgatan, 18:00
-| 5 april  | Halland           | Falkenberg   | Mötesplats Mölle, 18:00
-| 7 april  | Skåne             | Malmö        | Sofielunds Folkets hus, 10:00
-| 7 april  | Blekinge          | Karlshamn    | Rådhussalen, 14:00
-| 8 april  | Kronoberg         | Växjö        | _Info kommer_
-| 8 april  | Kalmar län        | Kalmar       | Tic-Huset, Trädgårdsg 20, 14:00
-| 9 april  | Jönköping         | Jönköping    | Kulturhuset på Tändsticksområdet, 18:00
-| 10 april | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
-| 11 april | Storstockholm     | Stockholm    | Kafé Marx, 18:00
-| 12 april | Jämtland          | Östersund    | _Info kommer_
-| 14 april | Västerbotten      | Umeå         | Patienthotellet Björken, 10:00
-| 15 april | Norrbotten        | Luleå        | Sunderby Folkhögskola   
-| 16 april | Uppsala           | Uppsala      | _Info kommer_
-| 17 april | Västmanland       | Västerås     | _Info kommer_
-| 18 april | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
-| 19 april | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
-| 21 april | Gävleborg         | Gävle        | ABF Brunnsgatan 56, 11:00
-| 22 april | Dalarna           | Falun        | _Info kommer_
-| 24 april | Väst              | Alingsås     | Folkets Hus 18:00
-| 25 april | Fyrbodal          | Uddevalla    | Bohusläns museum 18:30
-| 26 april | Sjuhärad          | Borås        | ABF 18:00
+| Datum | Distrikt          | Ort          | Tid och plats
+|:------|:------------------|:-------------|:-----------------------------
+| 3/4   | Skaraborg         | Skövde       | Stadshuset, 18:00
+| 4/4   | Göteborg          | Göteborg     | Andra långgatan, 18:00
+| 5/4   | Halland           | Falkenberg   | Mötesplats Mölle, 18:00
+| 7/4   | Skåne             | Malmö        | Sofielunds Folkets hus, 10:00
+| 7/4   | Blekinge          | Karlshamn    | Rådhussalen, 14:00
+| 8/4   | Kronoberg         | Växjö        | _Info kommer_
+| 8/4   | Kalmar län        | Kalmar       | Tic-Huset, Trädgårdsg 20, 14:00
+| 9/4   | Jönköping         | Jönköping    | Kulturhuset på Tändsticksområdet, 18:00
+| 10/4  | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
+| 11/4  | Storstockholm     | Stockholm    | Kafé Marx, 18:00
+| 12/4  | Jämtland          | Östersund    | _Info kommer_
+| 14/4  | Västerbotten      | Umeå         | Patienthotellet Björken, 10:00
+| 15/4  | Norrbotten        | Luleå        | Sunderby Folkhögskola
+| 16/4  | Uppsala           | Uppsala      | _Info kommer_
+| 17/4  | Västmanland       | Västerås     | _Info kommer_
+| 18/4  | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
+| 19/4  | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
+| 21/4  | Gävleborg         | Gävle        | ABF Brunnsgatan 56, 11:00
+| 22/4  | Dalarna           | Falun        | _Info kommer_
+| 24/4  | Väst              | Alingsås     | Folkets Hus 18:00
+| 25/4  | Fyrbodal          | Uddevalla    | Bohusläns museum 18:30
+| 26/4  | Sjuhärad          | Borås        | ABF 18:00
 
 Facebook-event för alla turnéstoppen hittar du [på vår Facebook-sida](https://facebook.com/pg/zetkinfoundation/events).
 Hjälp gärna till att bjuda in och sprida!

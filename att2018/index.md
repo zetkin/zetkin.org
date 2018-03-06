@@ -48,12 +48,12 @@ på de stopp som görs under turnén.
 | 7 april  | Skåne             | Malmö        | Sofielunds Folkets hus, 10:00
 | 7 april  | Blekinge          | Karlshamn    | Rådhussalen, 14:00
 | 8 april  | Kronoberg         | Växjö        | _Info kommer_
-| 8 april  | Kalmar län        | Kalmar       | _Info kommer_
-| 9 april  | Jönköping         | Jönköping    | _Info kommer_
+| 8 april  | Kalmar län        | Kalmar       | Tic-Huset, Trädgårdsg 20, 14:00
+| 9 april  | Jönköping         | Jönköping    | Kulturhuset på Tändsticksområdet, 18:00
 | 10 april | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
 | 11 april | Storstockholm     | Stockholm    | Kafé Marx, 18:00
 | 12 april | Jämtland          | Östersund    | _Info kommer_
-| 14 april | Västerbotten      | Umeå         | _Info kommer_
+| 14 april | Västerbotten      | Umeå         | Patienthotellet Björken, 10:00
 | 15 april | Norrbotten        | Luleå        | Sunderby Folkhögskola   
 | 16 april | Uppsala           | Uppsala      | _Info kommer_
 | 17 april | Västmanland       | Västerås     | _Info kommer_

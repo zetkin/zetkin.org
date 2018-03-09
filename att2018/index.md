@@ -52,11 +52,11 @@ på de stopp som görs under turnén.
 | 9/4   | Jönköping         | Jönköping    | Kulturhuset på Tändsticksområdet, 18:00
 | 10/4  | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
 | 11/4  | Storstockholm     | Stockholm    | Kafé Marx, 18:00
-| 12/4  | Jämtland          | Östersund    | _Info kommer_
+| 12/4  | Jämtland          | Östersund    | Campus Östersund, rum G3213, 18:00
 | 14/4  | Västerbotten      | Umeå         | Patienthotellet Björken, 10:00
 | 15/4  | Norrbotten        | Luleå        | Sunderby Folkhögskola
 | 16/4  | Uppsala           | Uppsala      | _Info kommer_
-| 17/4  | Västmanland       | Västerås     | _Info kommer_
+| 17/4  | Västmanland       | Västerås     | Culturen, 18:00
 | 18/4  | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
 | 19/4  | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
 | 21/4  | Gävleborg         | Gävle        | ABF Brunnsgatan 56, 11:00

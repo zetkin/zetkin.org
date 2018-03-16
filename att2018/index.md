@@ -47,7 +47,7 @@ på de stopp som görs under turnén.
 | 5/4   | Halland           | Falkenberg   | Mötesplats Mölle, 18:00
 | 7/4   | Skåne             | Malmö        | Sofielunds Folkets hus, 10:00
 | 7/4   | Blekinge          | Karlshamn    | Rådhussalen, 14:00
-| 8/4   | Kronoberg         | Växjö        | _Info kommer_
+| 8/4   | Kronoberg         | Växjö        | Vattentorget 1, plan 2, 10:00
 | 8/4   | Kalmar län        | Kalmar       | Tic-Huset, Trädgårdsg 20, 14:00
 | 9/4   | Jönköping         | Jönköping    | Kulturhuset på Tändsticksområdet, 18:00
 | 10/4  | Östergötland      | Norrköping   | ABF Bergslagsgården, 18:00
@@ -55,12 +55,12 @@ på de stopp som görs under turnén.
 | 12/4  | Jämtland          | Östersund    | Campus Östersund, rum G3213, 18:00
 | 14/4  | Västerbotten      | Umeå         | Patienthotellet Björken, 10:00
 | 15/4  | Norrbotten        | Luleå        | Sunderby Folkhögskola
-| 16/4  | Uppsala           | Uppsala      | _Info kommer_
+| 16/4  | Uppsala           | Uppsala      | Drabanten, Bangårdsg 13c, 18:00
 | 17/4  | Västmanland       | Västerås     | Culturen, 18:00
 | 18/4  | Sörmland          | Eskilstuna   | ABF Sörmland 18:00
 | 19/4  | Örebro län        | Örebro       | ABF Fredsgatan 18, 18:30
 | 21/4  | Gävleborg         | Gävle        | ABF Brunnsgatan 56, 11:00
-| 22/4  | Dalarna           | Falun        | _Info kommer_
+| 22/4  | Dalarna           | Falun        | ABF, Stigareg 7, 12:00
 | 24/4  | Väst              | Alingsås     | Folkets Hus 18:00
 | 25/4  | Fyrbodal          | Uddevalla    | Bohusläns museum 18:30
 | 26/4  | Sjuhärad          | Borås        | ABF 18:00

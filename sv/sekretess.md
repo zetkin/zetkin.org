@@ -6,10 +6,10 @@ layout: simple
 Version 2.0 (Apr 30, 2018)
 
 Denna policy gäller Zetkin (zetk.in), Zetkin Foundations hemsida (zetkin.org)
-och relaterade webbplatser som ägs av Zetkin Foundation AB
+och relaterade webbplatser som ägs av Zetkin Foundation AB.
 
 Zetkin är en plattform för organisering av aktivism. Zetkin ägs och drivs av
-Zetkin Foundatio AB, ett icke-vinstdrivande företag som utvecklar mjukvara för
+Zetkin Foundation AB, ett icke-vinstdrivande företag som utvecklar mjukvara för
 radikal samhällsförändring. Zetkin Foundation ägs och kontrolleras av
 Vänsterpartiet i Malmö.
 

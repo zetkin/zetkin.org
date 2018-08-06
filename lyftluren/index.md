@@ -2,13 +2,13 @@
 lang: sv
 ref: campaigns.lyftluren
 layout: campaign
-title: Lyft Luren 2018
+title: "#lyftluren 2018"
 campaign:
     slug: lyftluren
     color: '#f79097'
 hero:
-    lead: Valrörelsen 2018
-    h: Lyft luren
+    lead: Valrörelse med V
+    h: "#LyftLuren 2018"
     intro: |
         Lyft luren, ring väljare och vinn valet med Vänsterpartiet
         och Zetkin Foundation.
@@ -45,6 +45,11 @@ Hittar du inte ditt distrikt i listan? Då använder de antagligen inte Zetkin i
 just den här kampanjen. Kontakta dem via deras hemsida så kan du delta ändå.
 
 ## Mer information
+
+### Lyft Luren på sociala medier
+Följ gärna vårt konto på instagram, [@lyftluren](https://instagram.com/lyftluren) för
+bilder från våra ringstugor runtom i landet. Använd hashtagen #lyftluren om du lägger
+upp egna bilder.
 
 ### Manualer och dokumentation
 Du hittar mer information här:

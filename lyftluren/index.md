@@ -23,9 +23,16 @@ Vänsterpartiet och komma med i rörelsen för jämlikhet.
 
 ## Kom igång direkt
 Att ringa väljare är ett kul sätt att bidra. Om du bor i ett distrikt som använder
-vårt verktyg Zetkin finns allt du behöver här. Det enda du behöver är en telefon och
-ett användarkonto i Zetkin. På plats i någon av våra ringstugor får du en snabb
-utbildning och allt annat du behöver.
+vårt verktyg Zetkin finns allt du behöver här. Se Mirjam Katzin från Vänsterpartiet
+Malmö berätta hur du kommer igång:
+
+<iframe style="margin: 2em 0;" width="560" height="350"
+    src="https://www.youtube.com/embed/pMSnqDXZYBg"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+Det enda du behöver är en telefon och ett användarkonto i Zetkin. På plats i någon
+av våra ringstugor får du en snabb utbildning och allt annat du behöver.
 
 Registrera ett konto och anslut dig till din organisation här:
 

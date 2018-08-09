@@ -31,10 +31,8 @@ Malmö berätta hur du kommer igång:
     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-Det enda du behöver är en telefon och ett användarkonto i Zetkin. På plats i någon
-av våra ringstugor får du en snabb utbildning och allt annat du behöver.
-
-Registrera ett konto och anslut dig till din organisation här:
+På plats i någon av våra ringstugor får du en snabb utbildning och allt annat du
+behöver. Registrera ett konto och anslut dig till din Zetkin-organisation här:
 
 | Distrikt                      | Zetkin-organisation
 |:------------------------------|:-----------------------------

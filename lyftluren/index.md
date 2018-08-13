@@ -42,6 +42,7 @@ behöver. Registrera ett konto och anslut dig till din Zetkin-organisation här:
 | Vänsterpartiet Skåne          | [zetk.in/o/v-skane-ringare](https://zetk.in/o/v-skane-ringare)
 | Vänsterpartiet Stockholm      | [zetk.in/o/v-stockholm-ringare](https://zetk.in/o/v-stockholm-ringare)
 | Vänsterpartiet Sörmland       | [zetk.in/o/v-sormland-ringare](https://zetk.in/o/v-sormland-ringare)
+| Vänsterpartiet Uppsala        | [zetk.in/o/v-uppsala-ringare](https://zetk.in/o/v-uppsala-ringare)
 | Vänsterpartiet Västerbotten   | [zetk.in/o/v-vasterbotten-ringare](https://zetk.in/o/v-vasterbotten-ringare)
 | Vänsterpartiet Örebro         | [zetk.in/o/v-orebro-ringare](https://zetk.in/o/v-orebro-ringare)
 | Vänsterpartiet Östergötland   | [zetk.in/o/v-ostergotland-ringare](https://zetk.in/o/v-ostergotland-ringare)

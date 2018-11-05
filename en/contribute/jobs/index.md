@@ -51,3 +51,9 @@ least from time to time.
 
 Please get in touch if you want to contribute to organizing the left in Sweden
 and abroad. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).
+
+## Contribute some other way?
+If the listings above are a bad fit, but you still want to contribute to Zetkin,
+please let us know! There is always room for more volunteers, regardless of
+what techniques you know or prefer. If you have a brand new idea, let us know!
+Get in touch at [info@zetkin.org](mailto:info@zetkin.org).

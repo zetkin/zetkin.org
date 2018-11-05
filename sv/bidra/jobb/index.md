@@ -53,3 +53,9 @@ plats i Malmö. Delar av vårt arbete sker på engelska.
 
 Hör gärna av dig till [info@zetkin.org](mailto:info@zetkin.org) om du vill
 vara med och bidra till Vänsterns organisering i Sverige, och utomlands!
+
+## Hjälp till på annat sätt?
+Vill du bidra till Zetkins utveckling, men hittar inte något som passar här?
+Det finns alltid plats för fler volontärer, oavsett vilka tekniker du kan
+eller föredrar. Om du har nya idéer är det också värdefullt! Hör av dig till
+[info@zetkin.org](mailto:info@zetkin.org).

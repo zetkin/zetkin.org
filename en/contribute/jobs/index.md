@@ -9,6 +9,16 @@ kicker: |
     project and wants to contribute.
 ---
 
+Zetkin is a web based platform for organizing activism using tools that make
+participation easier and simplifies common tasks in activist organizations.
+
+Zetkin Foundation is a part of Vänsterpartiet Malmö, developing Zetkin and
+working to spread successful organizing methods to the Swedish and
+international left.
+
+* [Read more about Zetkin](/en/zetkin)
+* [Read more about Zetkin Foundation](/en/foundation)
+
 ## Hacktivists needed
 Most of the work in Zetkin Foundation is done by volunteers, but there is also
 paid work. Right now we are looking for developers to help us with one of our

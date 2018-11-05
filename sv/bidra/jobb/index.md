@@ -9,7 +9,18 @@ kicker: |
     vi dig som tror på vårt projekt och vill bidra med din kompetens.
 ---
 
-## Vi behöver fler hacktivister
+Zetkin är en webbaserad plattform för att organisera aktivism med hjälp av
+verktyg som sänker trösklar för engagemang och underlättar vanliga
+uppgifter i en aktivistisk organisation.
+
+Zetkin Foundation är en underorganisation till Vänsterpartiet Malmö, och
+jobbar med att utveckla Zetkin och att sprida framgångsrika metoder till
+vänstern i Sverige och utomlands.
+
+* [Läs mer om Zetkin](/sv/zetkin)
+* [Läs mer om Zetkin Foundation](/sv/foundation)
+
+## Vi söker fler hacktivister
 Det mesta arbetet i Zetkin Foundation sker volontärt, men det förekommer också
 arvodering. Just nu är vi särskilt på jakt efter utvecklare som kan hjälpa oss
 i något av våra pågående utvecklingsprojekt.

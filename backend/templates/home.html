@@ -5,8 +5,38 @@
         {% render_block "css" %}
     </head>
     <body>
-        {% cms_toolbar %}
+      {% cms_toolbar %}
+      <header class="header">
+        {% load menu_tags %}
+        <div class="lang-select">
+          <span>Alla språk:</span>
+            {% language_chooser %}
+        </div>
+
+        <div class="logo">
+          <a href="/sv"><img
+          src="/assets/img/zf-logo-red.svg" alt="Zetkin"></a>
+        </div>
+
+        <div class="menu">
+
+          <ul class="nav navbar-nav">
+            {% show_menu 0 100 100 100 %}
+          </ul>
+        </div>
+      </header>
+
+      <section class="hero">
+        {% placeholder "hero" %}
+      </section>
+
+      <section>
         {% placeholder "content" %}
-        {% render_block "js" %}
+      </section>
+
+      <footer class="footer">
+        {% static_placeholder "footer" %}
+      </footer>
+      {% render_block "js" %}
     </body>
 </html>

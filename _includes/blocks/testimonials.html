@@ -1,6 +1,0 @@
-<section class="testimonials">
-    {% for idx in include.testimonials %}
-        {% assign t=site.data.testimonials[page.lang][idx] %}
-        {% include testimonial.html testimonial=t %}
-    {% endfor %}
-</section>

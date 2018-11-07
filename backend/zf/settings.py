@@ -141,6 +141,8 @@ LANGUAGES = [
     ('sv', 'Swedish'),
 ]
 
+DJANGOCMS_PICTURE_RESPONSIVE_IMAGES = False
+
 LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'

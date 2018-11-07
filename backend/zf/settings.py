@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    '192.168.99.100',
 ]
 
 CMS_TEMPLATES = [

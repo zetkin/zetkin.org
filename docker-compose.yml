@@ -2,6 +2,11 @@ version: "2.2"
 volumes:
     dbdata:
 services:
+    builder:
+        build: ./frontend
+        volumes:
+            - ./frontend/src:/var/frontend/src
+            - ./backend/static:/var/frontend/output
     www:
         build: ./backend
         ports:

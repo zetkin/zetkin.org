@@ -1,8 +1,11 @@
+{% load static %}
 {% load cms_tags sekizai_tags %}
+<!doctype html>
 <html>
     <head>
         <title>{% page_attribute "page_title" %}</title>
         {% render_block "css" %}
+        <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}">
     </head>
     <body>
       {% cms_toolbar %}

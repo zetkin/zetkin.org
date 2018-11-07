@@ -1,0 +1,24 @@
+{
+  "name": "zetkin.org",
+  "version": "1.0.0",
+  "description": "Zetkin.org front-end code",
+  "main": "\"\"",
+  "scripts": {
+    "watch": "gulp watch",
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zetkin/zetkin.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zetkin/zetkin.org/issues"
+  },
+  "homepage": "https://github.com/zetkin/zetkin.org#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

@@ -1,6 +1,6 @@
 {% load cms_tags menu_tags sekizai_tags %}
-<DOCTYPE html>
-<html lang = "{{ LANGUAGE_CODE}}">
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
 
   <head>
     <meta name="description" content="{% page_attribute 'meta_description' %}">
@@ -28,7 +28,6 @@
       </div>
     </header>
 
-    <!-- Child template content block is automatically placed between these two -->
     {% block content%}
     {% endblock %}
 

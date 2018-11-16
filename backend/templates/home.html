@@ -1,45 +1,18 @@
-{% load static %}
-{% load cms_tags sekizai_tags %}
-<!doctype html>
-<html>
-    <head>
-        <title>{% page_attribute "page_title" %}</title>
-        {% render_block "css" %}
-        <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}">
-    </head>
-    <body>
-      {% cms_toolbar %}
-      <header class="header">
-        {% load menu_tags %}
-        <div class="lang-select">
-          <span>Alla språk:</span>
-            {% language_chooser %}
-        </div>
+{% extends "base.html" %}
+{% load cms_tags%}
 
-        <div class="logo">
-          <a href="/sv"><img
-          src="/assets/img/zf-logo-red.svg" alt="Zetkin"></a>
-        </div>
+{% block content%}
+  {% placeholder "hero" or %}
+  <div class="container">
+    <p>I could be your hero</p>
+  </div>
+  {% endplaceholder%}
 
-        <div class="menu">
+  {% placeholder "content" or %}
+  <div class="container">
+    <p>Reserved for content</p>
+  </div>
+  {% endplaceholder%}
 
-          <ul class="nav navbar-nav">
-            {% show_menu 0 100 100 100 %}
-          </ul>
-        </div>
-      </header>
-
-      <section class="hero">
-        {% placeholder "hero" %}
-      </section>
-
-      <section>
-        {% placeholder "content" %}
-      </section>
-
-      <footer class="footer">
-        {% static_placeholder "footer" %}
-      </footer>
-      {% render_block "js" %}
-    </body>
-</html>
+  {% placeholder "actions" %}
+{% endblock %}

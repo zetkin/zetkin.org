@@ -1,0 +1,41 @@
+{% load cms_tags menu_tags sekizai_tags static %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+  <head>
+    <meta name="description" content="{% page_attribute 'meta_description' %}">
+    <title>{% page_attribute "page_title" %}</title>
+    {% render_block "css" %}
+    <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}">
+  </head>
+
+  <body>
+    {% cms_toolbar %}
+    <header class="header">
+
+      <div class="lang-select">
+          {% language_chooser %}
+      </div>
+
+      <div class="logo">
+        <a href="/sv"><img
+        src="/assets/img/zf-logo-red.svg" alt="ZetkinLogo"></a>
+      </div>
+
+      <div class="menu">
+        <ul class="nav navbar-nav">
+          {% show_menu 0 100 100 100 %}
+        </ul>
+      </div>
+    </header>
+
+    {% block content%}
+    {% endblock %}
+
+    <footer class="footer">
+      {% static_placeholder "footer" %}
+    </footer>
+
+  {% render_block "js" %}
+  </body>
+</html>

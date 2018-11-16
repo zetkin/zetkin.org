@@ -33,6 +33,8 @@ ALLOWED_HOSTS = [
 ]
 
 CMS_TEMPLATES = [
+    ('fullwidth.html', 'Fullwidth page template'),
+    ('centered.html', 'Centered page template'),
     ('home.html', 'Home page template'),
 ]
 

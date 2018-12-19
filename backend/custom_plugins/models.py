@@ -5,6 +5,15 @@ from cms.models.fields import PageField
 from cms.models import CMSPlugin
 
 
+class Icon(models.Model):
+    name = models.CharField(max_length=32)
+    icon = models.ImageField()
+
+
+    def __str__(self):
+        return self.name
+
+
 class Blurb(CMSPlugin):
     #TODO: Insert icon here
     headline = models.CharField(

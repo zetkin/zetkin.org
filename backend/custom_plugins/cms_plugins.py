@@ -10,4 +10,5 @@ class Blurb(CMSPluginBase):
     name = 'Blurb'
     render_template = 'custom_plugins/blurb.html'
 
+
 plugin_pool.register_plugin(Blurb)

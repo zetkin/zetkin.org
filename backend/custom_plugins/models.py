@@ -14,6 +14,15 @@ class Icon(models.Model):
         return self.name
 
 class Blurb(CMSPlugin):
+    TYPE_CHOICES = (
+        ('link', 'Link'),
+        ('button', 'Button'),
+    )
+    type = models.CharField(
+        max_length=8,
+        choices = TYPE_CHOICES,
+        default = 'link'
+    )
     icon = models.ForeignKey(Icon)
     headline = models.CharField(max_length=200)
     text = models.TextField(blank=True)

@@ -13,16 +13,11 @@ class Icon(models.Model):
     def __str__(self):
         return self.name
 
-
 class Blurb(CMSPlugin):
     icon = models.ForeignKey(Icon)
-    headline = models.CharField(
-        max_length=200,
-    )
-    text = models.TextField(
-        blank=True,
-    )
-    #TODO: Get link generation to work and enable linking to other sites
+    headline = models.CharField(max_length=200)
+    text = models.TextField(blank=True)
+    link_text = models.CharField(max_length=40)
     link = PageField()
     def __str__(self):
         return self.headline

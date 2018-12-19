@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'djangocms_link',
     'djangocms_picture',
     'djangocms_column',
+    'custom_plugins'
 ]
 
 SITE_ID = 1

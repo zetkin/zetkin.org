@@ -1,0 +1,10 @@
+{% load cms_tags %}
+<div class="myplugin">
+    {{ instance.my_content }}
+    {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+    {% endfor %}
+</div>
+<h1>{{instance.headline}}</h1>
+<a>{{instance.text}}</a>
+<href>{{instance.link}}</href>

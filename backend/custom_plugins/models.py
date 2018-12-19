@@ -15,7 +15,7 @@ class Icon(models.Model):
 
 
 class Blurb(CMSPlugin):
-    #TODO: Insert icon here
+    icon = models.ForeignKey(Icon)
     headline = models.CharField(
         max_length=200,
     )

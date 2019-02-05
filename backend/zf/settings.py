@@ -33,9 +33,7 @@ ALLOWED_HOSTS = [
 ]
 
 CMS_TEMPLATES = [
-    ('fullwidth.html', 'Fullwidth page template'),
-    ('centered.html', 'Centered page template'),
-    ('home.html', 'Home page template'),
+    ('default.html', 'Default template'),
 ]
 
 # Application definition
@@ -60,7 +58,7 @@ INSTALLED_APPS = [
     'djangocms_link',
     'djangocms_picture',
     'djangocms_column',
-    'custom_plugins'
+    'zf_plugins',
 ]
 
 SITE_ID = 1

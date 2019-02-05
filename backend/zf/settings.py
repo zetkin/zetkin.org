@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'djangocms_link',
     'djangocms_picture',
     'djangocms_column',
+    'zf_plugins',
 ]
 
 SITE_ID = 1

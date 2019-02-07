@@ -10,6 +10,7 @@
 }
 
 .testimonial__headshot {
+  flex-shrink: 0;
   margin-right: $space-large-md;
   width: 200px;
   height: 200px;

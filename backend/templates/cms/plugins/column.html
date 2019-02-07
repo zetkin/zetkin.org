@@ -1,5 +1,5 @@
 {% load cms_tags %}
-<div class="jidder column" style="width: {{ instance.width }}; float: left;">
+<div class="grid__item">
 {% for plugin in instance.child_plugin_instances %}
     {% render_plugin plugin %}
 {% endfor %}

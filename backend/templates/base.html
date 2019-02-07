@@ -3,6 +3,8 @@
 <html lang="{{ LANGUAGE_CODE }}">
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{% page_attribute 'meta_description' %}">
     <title>{% page_attribute "page_title" %}</title>
     {% render_block "css" %}
@@ -11,32 +13,86 @@
 
   <body>
     {% cms_toolbar %}
-    <header class="header">
 
-      <div class="lang-select">
-          {% language_chooser %}
-      </div>
+    <!-- {% language_chooser %} -->
 
-      <div class="logo">
-        <a href="/sv"><img
-        src="/assets/img/zf-logo-red.svg" alt="ZetkinLogo"></a>
-      </div>
+    <!-- {% show_menu 0 100 100 100 %} -->
 
-      <div class="menu">
-        <ul class="nav navbar-nav">
-          {% show_menu 0 100 100 100 %}
-        </ul>
-      </div>
-    </header>
+    <div class="navbar" role="navigation">
+      <ul class="navbar__menu">
+        <li class="navbar__logo navbar__divider">
+          <a href="" class="navbar__link">
+            <img src="/assets/img/zetkin-logo@2x.png" alt="Zetkin logo">
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-book.svg" alt="" class="navbar__icon">Lär dig Zetkin</a>
+          <ul class="dropdown__menu">
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-share.svg" alt="" class="navbar__icon">Bidra till Zetkin</a>
+          <ul class="dropdown__menu">
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-info.svg" alt="" class="navbar__icon">Om Zetkin Foundation</a>
+          <ul class="dropdown__menu">
+            <li><a href="#" class="dropdown__link">Menu item</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar__menu">
+        <li class="dropdown">
+          <a href="#" class="navbar__link navbar__link--muted">Språk: Svenska</a>
+          <ul class="dropdown__menu">
+            <li><a href="#" class="dropdown__link">✓ Svenska</a></li>
+            <li><a href="#" class="dropdown__link">English</a></li>
+            <li><a href="#" class="dropdown__link">Deutsch</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="button navbar__button u-pointer">Logga in</a>
+        </li>
+      </ul>
+    </div>
 
     {% block content%}
     {% endblock %}
 
-    <footer class="footer">
-      {% static_placeholder "footer" %}
-    </footer>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="/assets/img/zetkin-logo@2x.png" alt="Zetkin logo">
+        </div>
+        <div class="footer__body">
+          <ul class="list list--inline" role="navigation">
+            <li><a href="#">Lär dig Zetkin</a></li>
+            <li class="list__divider"><a href="#">Bidra till Zetkin</a></li>
+            <li class="list__divider"><a href="#">Om Zetkin Foundation</a></li>
+            <li class="list__divider"><a href="#">Logga in</a></li>
+          </ul>
+          <ul class="list list--inline u-margin-top-xsmall">
+            <li>Språk:</li>
+            <li><a href="#"><strong>✓ Svenska</strong></a></li>
+            <li class="list__divider"><a href="#">English</a></li>
+            <li class="list__divider"><a href="#">Deutsch</a></li>
+          </ul>
+          <ul class="list list--inline u-margin-top-xsmall">
+            <li>Support:</li>
+            <li><a href="#">info@zetkin.org</a></li>
+            <li class="list__divider"><a href="#">Zetkin Foundation på Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  {% render_block "js" %}
+    {% render_block "js" %}
     <script src="https://use.typekit.net/tqq3ylv.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>

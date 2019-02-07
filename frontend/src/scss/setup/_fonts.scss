@@ -1,0 +1,42 @@
+//
+// SETUP / FONTS
+//-----------------------------------------------------------------------
+
+// Karmilla
+// -------------------------
+
+@font-face {
+  font-family: 'azo-sans-web';
+  src: font-url('AzoSans-Regular.woff2') format('woff2'),
+       font-url('AzoSans-Regular.woff') format('woff'),
+       font-url('AzoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans-web';
+  src: font-url('AzoSans-Italic.woff2') format('woff2'),
+       font-url('AzoSans-Italic.woff') format('woff'),
+       font-url('AzoSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans-web';
+  src: font-url('AzoSans-Bold.woff2') format('woff2'),
+       font-url('AzoSans-Bold.woff') format('woff'),
+       font-url('AzoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans-web';
+  src: font-url('AzoSans-BoldItalic.woff2') format('woff2'),
+       font-url('AzoSans-BoldItalic.woff') format('woff'),
+       font-url('AzoSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

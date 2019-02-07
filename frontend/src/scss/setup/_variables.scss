@@ -1,0 +1,74 @@
+//
+// SETUP / VARIABLES
+//-----------------------------------------------------------------------
+
+// Colors
+// -------------------------
+
+$black:                     #231f20;
+$white:                     #fff;
+$gray-dark:                 #4f4c4d;
+$gray:                      #7b7979;
+$gray-light:                #efefef;
+$gray-lightest:             #f5f5f5;
+$red:                       #ee3236;
+$pink:                      #fdeaea;
+
+$body-bg-color:             $white;
+$fg-color:                  $black;
+$soft-fg-color:             $gray-dark;
+$muted-fg-color:            $gray;
+$button-fg-color:           $red;
+$link-color:                $red;
+$link-highlight-color:      darken($red, 20%);
+$border-color:              $gray-light;
+
+
+// Typography
+// -------------------------
+
+$font-regular:              "azo-sans-web", "Helveteica Neue", Helvetica, sans-serif;
+
+$base-font-size:            1.125rem;
+$small-font-size:           1rem;
+$large-font-size:           1.25rem;
+
+$base-font-size-md:         1.125rem;
+$small-font-size-md:        1rem;
+$large-font-size-md:        1.25rem;
+
+$base-line-height:          1.425;
+$base-line-height-md:       1.5;
+
+
+// Spacing
+// -------------------------
+
+$space-base:                $base-font-size * $base-line-height;
+$space-tiny:                $space-base * 0.25;
+$space-xsmall:              $space-base * 0.5;
+$space-small:               $space-base * 0.75;
+$space-large:               $space-base * 1.5;
+$space-xlarge:              $space-base * 2;
+$space-huge:                $space-base * 4;
+
+$space-base-md:             $base-font-size-md * $base-line-height-md;
+$space-tiny-md:             $space-base-md * 0.25;
+$space-xsmall-md:           $space-base-md * 0.5;
+$space-small-md:            $space-base-md * 0.75;
+$space-large-md:            $space-base-md * 1.5;
+$space-xlarge-md:           $space-base-md * 2;
+$space-huge-md:             $space-base-md * 4;
+
+
+// Z-index
+// -------------------------
+
+$dropdown-z:                1000;
+
+
+// Breakpoints
+// -------------------------
+
+$medium:                    "only screen and (min-width : 48rem)";
+$large:                     "only screen and (min-width : 60rem)";

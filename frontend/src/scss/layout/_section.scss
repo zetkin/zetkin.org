@@ -1,0 +1,46 @@
+//
+// LAYOUT / SECTION
+//-----------------------------------------------------------------------
+
+.section {
+  padding-top: $space-huge-md;
+  padding-bottom: $space-huge-md;
+}
+
+.section--bordered {
+  border: solid $gray-lightest;
+  border-width: 2px 0;
+}
+
+.section--band {
+  position: relative;
+  background-color: $black;
+  background-size: cover;
+  background-position: center;
+  color: $white;
+
+  a {
+    color: $white;
+
+    &:hover, &:focus {
+      color: darken($white, 15%);
+    }
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.8;
+  }
+}

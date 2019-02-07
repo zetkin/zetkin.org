@@ -1,0 +1,37 @@
+//
+// COMPONENTS / DROPDOWN
+//-----------------------------------------------------------------------
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  z-index: $dropdown-z;
+  top: 100%;
+  width: 15rem;
+  min-width: 100%;
+  left: 0;
+  border: 2px solid $border-color;
+  background-color: $white;
+
+  .dropdown:hover &,
+  .dropdown:focus & {
+    display: block;
+  }
+}
+
+.dropdown__link {
+  display: block;
+  padding: $space-xsmall-md $space-small-md;
+  font-size: $small-font-size-md;
+  text-decoration: none;
+  color: $fg-color;
+
+  &:hover, &:focus {
+    background-color: $gray-lightest;
+    color: $fg-color;
+  }
+}

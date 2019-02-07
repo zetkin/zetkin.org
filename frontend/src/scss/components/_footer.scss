@@ -1,0 +1,43 @@
+//
+// COMPONENTS / FOOTER
+//-----------------------------------------------------------------------
+
+.footer {
+  padding-top: $space-huge-md;
+  padding-bottom: $space-huge-md;
+  background-color: $gray-lightest;
+  color: $soft-fg-color;
+  font-size: $small-font-size-md;
+  display: flex;
+
+  a {
+    color: $soft-fg-color;
+    font-weight: normal;
+
+    &:hover, &:focus {
+      color: $fg-color;
+    }
+  }
+
+  p {
+    font-size: $small-font-size-md;
+  }
+
+  .container {
+    flex: 1;
+  }
+}
+
+.footer__logo {
+  margin-right: $space-xlarge-md;
+  flex-shrink: 0;
+
+  img {
+    width: 46px;
+    height: auto;
+  }
+}
+
+.footer__body {
+  flex: 1;
+}

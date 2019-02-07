@@ -1,0 +1,17 @@
+//
+// COMPONENTS / SYMBOL
+//-----------------------------------------------------------------------
+
+.symbol {
+  display: inline-flex;
+  width: 7rem;
+  height: 7rem;
+  background-color: $pink;
+  border-radius: 50%;
+
+  img {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: auto;
+  }
+}

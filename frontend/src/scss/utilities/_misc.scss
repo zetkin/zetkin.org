@@ -1,0 +1,102 @@
+//
+// UTILITIES / MISC
+//-----------------------------------------------------------------------
+
+.u-pointer, .u-pointer-negative {
+  &:after {
+    content: '';
+    position: relative;
+    top: -2px;
+    left: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 18px;
+    margin-left: $space-tiny-md;
+    background: image-url('icon-pointer-red.svg') no-repeat;
+    transition: left 0.1s ease-out;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    left: 3px;
+  }
+
+  &.button:hover:after,
+  &.button:focus:after {
+    background-image: image-url('icon-pointer-white.svg');
+  }
+}
+
+.u-pointer-negative {
+  &:after {
+    background-image: image-url('icon-pointer-white.svg');
+  }
+}
+
+.u-dotted-bottom {
+  $height: 9px;
+  $width: 144px;
+
+  position: relative;
+  padding-bottom: calc(#{$space-large-md} + #{$height});
+
+  &:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: image-url('dotted-break.svg') no-repeat;
+    width: $width;
+    height: $height;
+  }
+
+  &.u-text-center,
+  .u-text-center & {
+    &:after {
+      left: calc(50% - (#{$width} / 2));
+    }
+  }
+}
+
+.u-dotted-top {
+  $height: 9px;
+  $width: 144px;
+
+  position: relative;
+  padding-top: calc(#{$space-large-md} + #{$height});
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: image-url('dotted-break.svg') no-repeat;
+    width: $width;
+    height: $height;
+  }
+
+  &.u-text-center,
+  .u-text-center & {
+    &:before {
+      left: calc(50% - (#{$width} / 2));
+    }
+  }
+}
+
+.u-text-mark,
+.u-text-mark-light {
+  display: inline;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  background-image: image-url('mark-line.svg');
+  background-size: 100% (1em * $base-line-height-md);
+  background-position: 0 0.25em;
+  background-repeat: repeat-y;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.u-text-mark-light {
+  background-image: image-url('mark-line-light.svg');
+}

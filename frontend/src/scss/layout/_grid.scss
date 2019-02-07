@@ -1,0 +1,39 @@
+//
+// LAYOUT / GRID
+//-----------------------------------------------------------------------
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: $space-xlarge-md;
+}
+
+.grid--3-columns {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $space-base-md;
+}
+
+.grid--bordered {
+  grid-gap: 0;
+
+  > * {
+    padding-top: $space-large-md;
+    padding-bottom: $space-large-md;
+
+    &:nth-child(2n-1) {
+      padding-right: $space-large-md;
+      border-right: 1px solid $gray-lightest;
+    }
+
+    &:nth-child(2n) {
+      padding-left: $space-large-md;
+      border-left: 1px solid $gray-lightest;
+    }
+
+    &:nth-child(2n+3),
+    &:nth-child(2n+4) {
+      border-top: 2px solid $gray-lightest;
+    }
+  }
+}

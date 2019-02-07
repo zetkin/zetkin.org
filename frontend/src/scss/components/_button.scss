@@ -1,0 +1,42 @@
+//
+// COMPONENTS / BUTTON
+//-----------------------------------------------------------------------
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  padding: $space-tiny-md $space-base-md;
+  border: 2px solid $link-color;
+  border-radius: 100em;
+  color: $button-fg-color;
+  font-size: $base-font-size-md;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.1s ease-out;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    background-color: $button-fg-color;
+    color: $white;
+  }
+}
+
+.button--primary {
+  background-color: $link-color;
+  box-shadow: 0 5px 10px -5px rgba($link-color, 0.6);
+  color: $white;
+
+  &:hover, &:focus {
+    background-color: $link-highlight-color;
+    border-color: $link-highlight-color;
+    box-shadow: 0 5px 10px -5px rgba($link-highlight-color, 0.6);
+  }
+}
+
+.button--large {
+  font-size: 1.25rem;
+  padding: ($space-tiny-md * 1.75) ($space-base-md * 1.25);
+}

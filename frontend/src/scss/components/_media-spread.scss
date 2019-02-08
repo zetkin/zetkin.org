@@ -1,0 +1,29 @@
+//
+// COMPONENTS / MEDIA SPREAD
+//-----------------------------------------------------------------------
+
+.media-spread {
+  margin-top: $space-xlarge-md;
+  margin-bottom: $space-xlarge-md;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.media-spread__media {
+  display: block;
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.media-spread__caption {
+  display: block;
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $space-small-md;
+  color: $muted-fg-color;
+  font-size: $small-font-size-md;
+}

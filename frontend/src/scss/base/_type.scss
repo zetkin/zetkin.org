@@ -1,0 +1,85 @@
+//
+// BASE / TYPE
+//-----------------------------------------------------------------------
+
+body {
+  font-family: $font-regular;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $fg-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media #{$medium} {
+    line-height: $base-line-height-md;
+    font-size: $base-font-size-md;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  line-height: 1.25;
+  margin-bottom: $space-base-md;
+
+  * + & {
+    margin-top: $space-large-md;
+  }
+}
+
+h1 {
+  font-size: 2.625rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+p {
+  max-width: 60ch;
+  font-size: $large-font-size-md;
+  color: $soft-fg-color;
+
+  * + & {
+    margin-top: $space-base-md;
+  }
+}
+
+a {
+  color: $link-color;
+  font-weight: bold;
+  text-decoration: underline;
+
+  &:hover, &:focus {
+    color: $link-highlight-color;
+  }
+}
+
+blockquote {
+  max-width: 50ch;
+  margin-top: $space-xlarge-md;
+  margin-bottom: $space-xlarge-md;
+  font-size: 1.625rem;
+  font-weight: bold;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    background: url('../images/quote.svg') no-repeat;
+    width: 32px;
+    height: 28px;
+    margin-right: $space-tiny-md;
+  }
+}

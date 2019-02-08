@@ -1,0 +1,13 @@
+//
+// LAYOUT / CONTAINER
+//-----------------------------------------------------------------------
+
+.container {
+  display: inherit;
+  flex-direction: inherit;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $space-base-md;
+  padding-right: $space-base-md;
+}

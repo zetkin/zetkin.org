@@ -1,0 +1,62 @@
+//
+// COMPONENTS / HERO
+//-----------------------------------------------------------------------
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: $space-huge-md;
+  background-color: $black;
+  color: $white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.8;
+  }
+}
+
+.hero__title {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.hero__subtitle {
+  margin-top: $space-large-md;
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: $white;
+}
+
+.hero__product {
+  width: 40rem;
+  height: 20rem;
+  margin-top: $space-huge-md;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #666;
+}
+
+.hero__cta  {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}

@@ -7,7 +7,7 @@
   -moz-appearance: none;
   appearance: none;
   display: inline-block;
-  padding: $space-tiny-md $space-base-md;
+  padding: ($space-tiny-md * 0.55) $space-base-md $space-tiny-md;
   border: 2px solid $link-color;
   border-radius: 100em;
   color: $button-fg-color;
@@ -38,5 +38,5 @@
 
 .button--large {
   font-size: 1.25rem;
-  padding: ($space-tiny-md * 1.75) ($space-base-md * 1.25);
+  padding: (($space-tiny-md * 1.85) * 0.55) ($space-base-md * 1.25) ($space-tiny-md * 1.85);
 }

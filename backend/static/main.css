@@ -166,7 +166,7 @@ blockquote {
   -moz-appearance: none;
   appearance: none;
   display: inline-block;
-  padding: 0.42188rem 1.6875rem;
+  padding: 0.23203rem 1.6875rem 0.42188rem;
   border: 2px solid #ee3236;
   border-radius: 100em;
   color: #ee3236;
@@ -191,7 +191,7 @@ blockquote {
 
 .button--large {
   font-size: 1.25rem;
-  padding: 0.73828rem 2.10938rem; }
+  padding: 0.42926rem 2.10938rem 0.78047rem; }
 
 .symbol {
   display: inline-flex;

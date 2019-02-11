@@ -296,7 +296,7 @@ blockquote {
   .testmonial__quote:before {
     content: '';
     display: inline-block;
-    background: url("../images/quote.svg") no-repeat;
+    background: url("images/quote.svg") no-repeat;
     width: 32px;
     height: 28px;
     margin-right: 0.42188rem; }
@@ -580,17 +580,17 @@ p.u-text-center,
   width: 21px;
   height: 18px;
   margin-left: 0.42188rem;
-  background: image-url("icon-pointer-red.svg") no-repeat;
+  background: url("images/icon-pointer-red.svg") no-repeat;
   transition: left 0.1s ease-out; }
 
 .u-pointer:hover:after, .u-pointer:focus:after, .u-pointer-negative:hover:after, .u-pointer-negative:focus:after {
   left: 3px; }
 
 .u-pointer.button:hover:after, .u-pointer.button:focus:after, .u-pointer-negative.button:hover:after, .u-pointer-negative.button:focus:after {
-  background-image: image-url("icon-pointer-white.svg"); }
+  background-image: url("images/icon-pointer-white.svg"); }
 
 .u-pointer-negative:after {
-  background-image: image-url("icon-pointer-white.svg"); }
+  background-image: url("images/icon-pointer-white.svg"); }
 
 .u-dotted-bottom {
   position: relative;
@@ -600,7 +600,7 @@ p.u-text-center,
     content: '';
     bottom: 0;
     left: 0;
-    background: image-url("dotted-break.svg") no-repeat;
+    background: url("images/dotted-break.svg") no-repeat;
     width: 144px;
     height: 9px; }
   .u-dotted-bottom.u-text-center:after,
@@ -615,7 +615,7 @@ p.u-text-center,
     content: '';
     top: 0;
     left: 0;
-    background: image-url("dotted-break.svg") no-repeat;
+    background: url("images/dotted-break.svg") no-repeat;
     width: 144px;
     height: 9px; }
   .u-dotted-top.u-text-center:before,
@@ -627,12 +627,12 @@ p.u-text-center,
   display: inline;
   padding-left: 0.25em;
   padding-right: 0.25em;
-  background-image: image-url("mark-line.svg");
+  background-image: url("images/mark-line.svg");
   background-size: 100% 1.5em;
-  background-position: 0 0.25em;
+  background-position: 0 0.35em;
   background-repeat: repeat-y;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone; }
 
 .u-text-mark-light {
-  background-image: image-url("mark-line-light.svg"); }
+  background-image: url("images/mark-line-light.svg"); }

@@ -13,7 +13,7 @@
     width: 21px;
     height: 18px;
     margin-left: $space-tiny-md;
-    background: image-url('icon-pointer-red.svg') no-repeat;
+    background: url('images/icon-pointer-red.svg') no-repeat;
     transition: left 0.1s ease-out;
   }
 
@@ -24,13 +24,13 @@
 
   &.button:hover:after,
   &.button:focus:after {
-    background-image: image-url('icon-pointer-white.svg');
+    background-image: url('images/icon-pointer-white.svg');
   }
 }
 
 .u-pointer-negative {
   &:after {
-    background-image: image-url('icon-pointer-white.svg');
+    background-image: url('images/icon-pointer-white.svg');
   }
 }
 
@@ -46,7 +46,7 @@
     content: '';
     bottom: 0;
     left: 0;
-    background: image-url('dotted-break.svg') no-repeat;
+    background: url('images/dotted-break.svg') no-repeat;
     width: $width;
     height: $height;
   }
@@ -71,7 +71,7 @@
     content: '';
     top: 0;
     left: 0;
-    background: image-url('dotted-break.svg') no-repeat;
+    background: url('images/dotted-break.svg') no-repeat;
     width: $width;
     height: $height;
   }
@@ -89,14 +89,14 @@
   display: inline;
   padding-left: 0.25em;
   padding-right: 0.25em;
-  background-image: image-url('mark-line.svg');
+  background-image: url('images/mark-line.svg');
   background-size: 100% (1em * $base-line-height-md);
-  background-position: 0 0.25em;
+  background-position: 0 0.35em;
   background-repeat: repeat-y;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
 
 .u-text-mark-light {
-  background-image: image-url('mark-line-light.svg');
+  background-image: url('images/mark-line-light.svg');
 }

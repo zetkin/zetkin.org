@@ -13,9 +13,9 @@ Zetkin är en webbaserad plattform för att organisera aktivism med hjälp av
 verktyg som sänker trösklar för engagemang och underlättar vanliga
 uppgifter i en aktivistisk organisation.
 
-Zetkin Foundation är en underorganisation till Vänsterpartiet Malmö, och
-jobbar med att utveckla Zetkin och att sprida framgångsrika metoder till
-vänstern i Sverige och utomlands.
+Zetkin Foundation drivs av Vänsterpartiet Malmö, och jobbar med att utveckla
+Zetkin och att sprida framgångsrika metoder till vänstern i Sverige och
+utomlands.
 
 * [Läs mer om Zetkin](/sv/zetkin)
 * [Läs mer om Zetkin Foundation](/sv/foundation)
@@ -35,9 +35,11 @@ de tekniker vi använder. De programmeringsspråk som förekommer mest i
 projektet är Javascript och Python.
 
 ### Arvoderat och volontärt
-Vi söker någon att arvodera på halvtid, eller eventuellt något mindre enligt
-överenskommelse. Alla som är arvoderade i Zetkin Foundation gör också insatser
-volontärt.
+Vi söker nu någon att arvodera på halvtid, eller eventuellt mindre enligt
+överenskommelse. Vi söker också dig med samma eller andra kompetenser som
+just nu kan tänka dig att göra kortare arvoderade insatser under vårens
+utvecklingsprojekt. Alla som är arvoderade i Zetkin Foundation gör också
+insatser volontärt.
 
 När vi arvoderar gör vi det enligt en enhetsprincip där arvodet baseras på
 hur löner ser ut i Vänsterpartiet. Det är inget som kan konkurrera med
@@ -47,7 +49,9 @@ projekt och genom ditt arbete vill bidra till vänsterns framryckning.
 Vi söker främst dig som har möjlighet att då och då delta i arbetet på
 plats i Malmö. Delar av vårt arbete sker på engelska.
 
-Vi välkomnar frågor och ansökningar och rekryteringen pågår löpande.
+Vi välkomnar frågor och ansökningar och rekryteringen pågår löpande. Vi
+uppmuntrar särskilt sökande som jämnar ut vår snedfördelning vad gäller kön
+och mångfald bland arvoderade och volontärer.
 
 Hör gärna av dig till [info@zetkin.org](mailto:info@zetkin.org) om du vill
 vara med och bidra till Vänsterns organisering i Sverige, och utomlands!

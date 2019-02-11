@@ -20,28 +20,24 @@ vänstern i Sverige och utomlands.
 * [Läs mer om Zetkin](/sv/zetkin)
 * [Läs mer om Zetkin Foundation](/sv/foundation)
 
-## Vi söker fler hacktivister
-Det mesta arbetet i Zetkin Foundation sker volontärt, men det förekommer också
-arvodering. Just nu är vi särskilt på jakt efter utvecklare som kan hjälpa oss
-i något av våra pågående utvecklingsprojekt.
+## Vi söker full stack-hacktivist på halvtid
+Just nu är vi särskilt på jakt efter utvecklare som vill delta långsiktigt
+med arvodering på halvtid. Du kommer ingå i ett team med duktiga utvecklare
+som brinner för politisk förändring. Vissa är arvoderade på deltid, men de
+flesta är volontärer.
 
 <figure markdown="1">
 ![Kod](./kod.jpg)
-*Oavsett om du kan programmera är du välkommen att delta i arbetet med Zetkin*
 </figure>
 
-Vi söker främst dig som vill bli en del av vårt team långsiktigt, och som kan
-eller är beredd att lära dig något av följande:
-
-* Responsiv design med CSS/SASS
-* React/Redux (eller liknande ramverk)
-* Python för serverutveckling
-* Integrering av tredjepartssystem för betalning (troligtvis Stripe)
+Vi söker dig som har erfarenhet av webbutveckling och är beredd att lära dig
+de tekniker vi använder. De programmeringsspråk som förekommer mest i
+projektet är Javascript och Python.
 
 ### Arvoderat och volontärt
-Vi söker dig som vill bidra volontärt långsiktigt och under avgränsade perioder
-arvoderas på hel- eller deltid, exempelvis vid sidan av studier eller mellan
-två frilansjobb.
+Vi söker någon att arvodera på halvtid, eller eventuellt något mindre enligt
+överenskommelse. Alla som är arvoderade i Zetkin Foundation gör också insatser
+volontärt.
 
 När vi arvoderar gör vi det enligt en enhetsprincip där arvodet baseras på
 hur löner ser ut i Vänsterpartiet. Det är inget som kan konkurrera med

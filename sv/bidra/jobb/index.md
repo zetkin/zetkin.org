@@ -22,9 +22,12 @@ utomlands.
 
 ## Vi söker full stack-hacktivist på halvtid
 Just nu är vi särskilt på jakt efter utvecklare som vill delta långsiktigt
-med arvodering på halvtid. Du kommer ingå i ett team med duktiga utvecklare
-som brinner för politisk förändring. Vissa är arvoderade på deltid, men de
-flesta är volontärer.
+med arvodering på halvtid. Vi söker också dig med samma eller andra
+kompetenser som just nu kan tänka dig att göra kortare arvoderade insatser
+under vårens utvecklingsprojekt.
+
+Du kommer ingå i ett team med duktiga utvecklare som brinner för politisk
+förändring. Vissa är arvoderade på deltid, men de flesta är volontärer.
 
 <figure markdown="1">
 ![Kod](./kod.jpg)
@@ -36,9 +39,7 @@ projektet är Javascript och Python.
 
 ### Arvoderat och volontärt
 Vi söker nu någon att arvodera på halvtid, eller eventuellt mindre enligt
-överenskommelse. Vi söker också dig med samma eller andra kompetenser som
-just nu kan tänka dig att göra kortare arvoderade insatser under vårens
-utvecklingsprojekt. Alla som är arvoderade i Zetkin Foundation gör också
+överenskommelse. Alla som är arvoderade i Zetkin Foundation gör också
 insatser volontärt.
 
 När vi arvoderar gör vi det enligt en enhetsprincip där arvodet baseras på

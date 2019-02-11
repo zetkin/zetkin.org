@@ -47,6 +47,8 @@ projekt och genom ditt arbete vill bidra till vänsterns framryckning.
 Vi söker främst dig som har möjlighet att då och då delta i arbetet på
 plats i Malmö. Delar av vårt arbete sker på engelska.
 
+Vi välkomnar frågor och ansökningar och rekryteringen pågår löpande.
+
 Hör gärna av dig till [info@zetkin.org](mailto:info@zetkin.org) om du vill
 vara med och bidra till Vänsterns organisering i Sverige, och utomlands!
 

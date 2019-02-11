@@ -61,11 +61,11 @@
         </li>
       </ul>
     </div>
-
-    {% block content%}
-    {% endblock %}
-
-    <div class="footer">
+    <div class="main" role="main">
+      {% block content%}
+      {% endblock %}
+    </div>
+    <div class="footer u-margin-top-huge">
       <div class="container">
         <div class="footer__logo">
           <img src="{% static "images/zetkin-logo@2x.png" %}" alt="Zetkin logo">

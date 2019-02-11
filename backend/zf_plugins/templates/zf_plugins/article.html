@@ -1,7 +1,7 @@
 {% load cms_tags %}
 
-<article>
-    {% for plugin in instance.child_plugin_instances %}
-        {% render_plugin plugin %}
-    {% endfor %}
-</article>
+<div class="container">
+  {% for plugin in instance.child_plugin_instances %}
+      {% render_plugin plugin %}
+  {% endfor %}
+</div>

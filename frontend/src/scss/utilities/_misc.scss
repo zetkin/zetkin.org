@@ -89,9 +89,10 @@
   display: inline;
   padding-left: 0.25em;
   padding-right: 0.25em;
+  padding-bottom: 0.25em;
   background-image: url('images/mark-line.svg');
   background-size: 100% (1em * $base-line-height-md);
-  background-position: 0 0.35em;
+  background-position: 0 0.45em;
   background-repeat: repeat-y;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;

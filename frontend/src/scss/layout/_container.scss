@@ -8,6 +8,11 @@
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: $space-base-md;
-  padding-right: $space-base-md;
+  padding-left: $space-small;
+  padding-right: $space-small;
+
+  @media #{$medium} {
+    padding-left: $space-base-md;
+    padding-right: $space-base-md;
+  }
 }

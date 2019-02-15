@@ -25,8 +25,8 @@ svg polygon {
 
 body {
   font-family: "azo-sans-web", "Helveteica Neue", Helvetica, sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.425;
+  font-size: 1rem;
+  line-height: 1.5;
   color: #231f20;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -42,12 +42,20 @@ strong {
 h1, h2, h3, h4 {
   font-weight: bold;
   line-height: 1.25;
-  margin-bottom: 1.6875rem; }
+  margin-bottom: 1.5rem; }
   * + h1, * + h2, * + h3, * + h4 {
-    margin-top: 2.53125rem; }
+    margin-top: 2.25rem; }
+  @media only screen and (min-width: 48rem) {
+    h1, h2, h3, h4 {
+      margin-bottom: 1.6875rem; }
+      * + h1, * + h2, * + h3, * + h4 {
+        margin-top: 2.53125rem; } }
 
 h1 {
-  font-size: 2.625rem; }
+  font-size: 2.125rem; }
+  @media only screen and (min-width: 48rem) {
+    h1 {
+      font-size: 2.625rem; } }
 
 h2 {
   font-size: 1.75rem; }
@@ -57,10 +65,14 @@ h3 {
 
 p {
   max-width: 60ch;
-  font-size: 1.25rem;
   color: #4f4c4d; }
   * + p {
-    margin-top: 1.6875rem; }
+    margin-top: 1.5rem; }
+  @media only screen and (min-width: 48rem) {
+    p {
+      font-size: 1.25rem; }
+      * + p {
+        margin-top: 1.6875rem; } }
 
 a {
   color: #ee3236;
@@ -89,8 +101,12 @@ blockquote {
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.6875rem;
-  padding-right: 1.6875rem; }
+  padding-left: 1.125rem;
+  padding-right: 1.125rem; }
+  @media only screen and (min-width: 48rem) {
+    .container {
+      padding-left: 1.6875rem;
+      padding-right: 1.6875rem; } }
 
 .section {
   padding-top: 6.75rem;
@@ -484,7 +500,7 @@ p.u-text-center,
 
 .u-text-small,
 .u-text-small p {
-  font-size: 1rem !important; }
+  font-size: 0.875rem !important; }
 
 @media only screen and (min-width: 48rem) {
   .u-text-small,
@@ -505,67 +521,67 @@ p.u-text-center,
   margin-top: 0 !important; }
 
 .u-margin-top-tiny {
-  margin-top: 0.40078rem !important; }
+  margin-top: 0.375rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-tiny {
       margin-top: 0.42188rem !important; } }
 
 .u-margin-top-xsmall {
-  margin-top: 0.80156rem !important; }
+  margin-top: 0.75rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-xsmall {
       margin-top: 0.84375rem !important; } }
 
 .u-margin-top-small {
-  margin-top: 1.20234rem !important; }
+  margin-top: 1.125rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-small {
       margin-top: 1.26562rem !important; } }
 
 .u-margin-top-baseline {
-  margin-top: 1.60313rem !important; }
+  margin-top: 1.5rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-baseline {
       margin-top: 1.6875rem !important; } }
 
 .u-margin-top-large {
-  margin-top: 2.40469rem !important; }
+  margin-top: 2.25rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-large {
       margin-top: 2.53125rem !important; } }
 
 .u-margin-top-xlarge {
-  margin-top: 3.20625rem !important; }
+  margin-top: 3rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-xlarge {
       margin-top: 3.375rem !important; } }
 
 .u-margin-top-huge {
-  margin-top: 6.4125rem !important; }
+  margin-top: 6rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-top-huge {
       margin-top: 6.75rem !important; } }
 
 .u-margin-bottom-baseline {
-  margin-bottom: 1.60313rem !important; }
+  margin-bottom: 1.5rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-bottom-baseline {
       margin-bottom: 1.6875rem !important; } }
 
 .u-margin-bottom-large {
-  margin-bottom: 2.40469rem !important; }
+  margin-bottom: 2.25rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-bottom-large {
       margin-bottom: 2.53125rem !important; } }
 
 .u-margin-bottom-xlarge {
-  margin-bottom: 3.20625rem !important; }
+  margin-bottom: 3rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-bottom-xlarge {
       margin-bottom: 3.375rem !important; } }
 
 .u-margin-bottom-huge {
-  margin-bottom: 6.4125rem !important; }
+  margin-bottom: 6rem !important; }
   @media only screen and (min-width: 48rem) {
     .u-margin-bottom-huge {
       margin-bottom: 6.75rem !important; } }

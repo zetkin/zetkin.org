@@ -28,15 +28,27 @@ strong {
 h1, h2, h3, h4 {
   font-weight: bold;
   line-height: 1.25;
-  margin-bottom: $space-base-md;
+  margin-bottom: $space-base;
 
   * + & {
-    margin-top: $space-large-md;
+    margin-top: $space-large;
+  }
+
+  @media #{$medium} {
+    margin-bottom: $space-base-md;
+
+    * + & {
+      margin-top: $space-large-md;
+    }
   }
 }
 
 h1 {
-  font-size: 2.625rem;
+  font-size: 2.125rem;
+
+  @media #{$medium} {
+    font-size: 2.625rem;
+  }
 }
 
 h2 {
@@ -49,11 +61,18 @@ h3 {
 
 p {
   max-width: 60ch;
-  font-size: $large-font-size-md;
   color: $soft-fg-color;
 
   * + & {
-    margin-top: $space-base-md;
+    margin-top: $space-base;
+  }
+
+  @media #{$medium} {
+    font-size: $large-font-size-md;
+
+    * + & {
+      margin-top: $space-base-md;
+    }
   }
 }
 

@@ -10,17 +10,24 @@
   padding: ($space-tiny-md * 0.55) $space-base-md $space-tiny-md;
   border: 2px solid $link-color;
   border-radius: 100em;
+  background-color: transparent;
   color: $button-fg-color;
-  font-size: $base-font-size-md;
+  font-family: $font-regular;
+  font-size: $base-font-size;
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
   transition: all 0.1s ease-out;
 
   &:hover, &:focus {
     text-decoration: none;
     background-color: $button-fg-color;
     color: $white;
+  }
+
+  @media #{$medium} {
+    font-size: $base-font-size-md;
   }
 }
 
@@ -39,4 +46,16 @@
 .button--large {
   font-size: 1.25rem;
   padding: (($space-tiny-md * 1.85) * 0.55) ($space-base-md * 1.25) ($space-tiny-md * 1.85);
+}
+
+.button--bare {
+  border-radius: 0;
+  padding: 0;
+  border: 0;
+  color: $link-color;
+
+  &:hover, &:focus {
+    background-color: transparent;
+    color: $link-highlight-color;
+  }
 }

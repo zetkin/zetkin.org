@@ -45,3 +45,7 @@ Vår förhoppning är att vi tillsammans lär oss, möts och utvecklar metoder o
 verktyg som gör det enklare att sätta människor i rörelse.
 
 Var med och skapa Organize! Movement meetup tillsammans med oss!
+
+## Mer info
+Snart kommer mer information här. Kontakta oss på info@zetkin.org om du har
+några frågor under tiden.

@@ -2,7 +2,7 @@
 lang: sv
 ref: campaigns.organize2019
 layout: campaign
-title: "Organize Movement Meetup 2019"
+title: "Organize! Movement Meetup 2019"
 campaign:
     slug: organize2019
     color: '#ff0060'
@@ -21,8 +21,8 @@ Zetkin Foundation utvecklar digitala verktyg för organisering av aktivism och
 ökat engagemang. Vi har en fot i aktivismen och en fot i techvärlden. Det som
 driver oss är att vi vill skapa ett bättre samhälle.
 
-I juni bjuder vi in _Organize! Movement meetup 2019_ för att sammanföra 150
-programmerare och organisatörer i en meetup om organisering, gräsrotskampanjande
+I juni bjuder vi in till _Organize! Movement meetup 2019_ för att sammanföra
+150 programmerare och organisatörer i en meetup om organisering, gräsrotskampanjande
 och digital aktivism. Välkommen!
 
 Viljan till engagemang för ett bättre samhället växer som aldrig förr. Många

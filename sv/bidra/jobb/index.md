@@ -20,7 +20,7 @@ utomlands.
 * [Läs mer om Zetkin](/sv/zetkin)
 * [Läs mer om Zetkin Foundation](/sv/foundation)
 
-## Bli projektledare hos Zetkin Foundation
+## Bli projektledare hos Zetkin Foundation (ansök senast 1 juni)
 Vi söker en projektledare hos Zetkin Foundation vars arbete är att samordna och rekrytera volontära insatser, sköta försäljning av plattformen Zetkin och tillhörande produkter samt övrigt finansierings arbete som exempelvis insamlingar, ansökningar och crowdfunding för att stärka Zetkin Foundations basverksamhet. Ytterligare uppgifter handlar om att ta huvudansvaret för Zetkin-konferensen Organize! Movement meetup en konferens för organisatörer och techfolk som med gemensamma krafter vill verka för en radikal och progressiv förändring. Men också andra uppdrag tillsammans med volontärer som finns i organisationen.
 
 Är du personen vi söker? Zetkin är inne i en fas där det krävs mycket arbete på alla fronter för att både utveckla Zetkin, sprida Zetkin till fler och säkra extra ekonomiska resurser för projektet som helhet. Zetkin används idag i tre länder och Zetkin Foundation utvecklas från att vara en teknisk leverantör till att arbeta med organisering och utveckling av kampanjmetoder på bred front.

@@ -25,7 +25,7 @@
 
 .dropdown__link {
   display: block;
-  padding: $space-xsmall-md $space-small-md;
+  padding: $space-xsmall;
   font-size: $small-font-size-md;
   text-decoration: none;
   color: $fg-color;
@@ -33,5 +33,9 @@
   &:hover, &:focus {
     background-color: $gray-lightest;
     color: $fg-color;
+  }
+
+  @media #{$medium} {
+    padding: $space-xsmall-md $space-small-md;
   }
 }

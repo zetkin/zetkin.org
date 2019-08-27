@@ -4,7 +4,7 @@ from cms.plugin_pool import plugin_pool
 @plugin_pool.register_plugin
 class ArticlePlugin(CMSPluginBase):
     allow_children = True
-    child_classes = ['TextPlugin', 'PicturePlugin',]
+    child_classes = ['TextPlugin', 'PicturePlugin', 'MediaSpreadPlugin']
     name = 'Article'
     render_template = 'zf_plugins/article.html'
 
@@ -53,6 +53,12 @@ class HistoryTimelinePlugin(CMSPluginBase):
 class MediaHeroPlugin(CMSPluginBase):
     name = 'Media Hero'
     render_template = 'zf_plugins/media_hero.html'
+
+
+@plugin_pool.register_plugin
+class MediaSpreadPlugin(CMSPluginBase):
+    name = 'Media Spread'
+    render_template = 'zf_plugins/media_spread.html'
 
 
 @plugin_pool.register_plugin

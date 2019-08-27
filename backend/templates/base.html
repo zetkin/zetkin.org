@@ -19,56 +19,59 @@
     <!-- {% show_menu 0 100 100 100 %} -->
 
     <div class="navbar" role="navigation">
-      <ul class="navbar__menu">
-        <li class="navbar__logo navbar__divider">
-          <a href="" class="navbar__link">
-            <img src="/assets/img/zetkin-logo@2x.png" alt="Zetkin logo">
-          </a>
-        </li>
-        <li class="dropdown">
-          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-book.svg" alt="" class="navbar__icon">Lär dig Zetkin</a>
-          <ul class="dropdown__menu">
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-share.svg" alt="" class="navbar__icon">Bidra till Zetkin</a>
-          <ul class="dropdown__menu">
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="" class="navbar__link"><img src="/assets/images/icons/svg/symbol-info.svg" alt="" class="navbar__icon">Om Zetkin Foundation</a>
-          <ul class="dropdown__menu">
-            <li><a href="#" class="dropdown__link">Menu item</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="navbar__menu">
-        <li class="dropdown">
-          <a href="#" class="navbar__link navbar__link--muted">Språk: Svenska</a>
-          <ul class="dropdown__menu">
-            <li><a href="#" class="dropdown__link">✓ Svenska</a></li>
-            <li><a href="#" class="dropdown__link">English</a></li>
-            <li><a href="#" class="dropdown__link">Deutsch</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#" class="button navbar__button u-pointer">Logga in</a>
-        </li>
-      </ul>
+      <div class="navbar__logo navbar__divider">
+        <a href="/" class="navbar__link">
+          <img src="{% static "images/zetkin-logo@2x.png" %}" alt="Zetkin logo">
+        </a>
+      </div>
+      <button class="button button--bare navbar__trigger">Meny</button>
+      <div class="navbar__collapse">
+        <ul class="navbar__menu">
+          <li class="dropdown navbar__dropdown">
+            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-book.svg" %}" alt="" class="navbar__icon">Lär dig Zetkin</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+            </ul>
+          </li>
+          <li class="dropdown navbar__dropdown">
+            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-share.svg" %}" alt="" class="navbar__icon">Bidra till Zetkin</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+            </ul>
+          </li>
+          <li class="dropdown navbar__dropdown">
+            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-info.svg" %}" alt="" class="navbar__icon">Om Zetkin Foundation</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Menu item</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar__menu">
+          <li class="dropdown navbar__dropdown">
+            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: Svenska</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">✓ Svenska</a></li>
+              <li><a href="#" class="dropdown__link">English</a></li>
+              <li><a href="#" class="dropdown__link">Deutsch</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="button navbar__button u-pointer">Logga in</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    {% block content%}
-    {% endblock %}
-
-    <div class="footer">
+    <div class="main" role="main">
+      {% block content%}
+      {% endblock %}
+    </div>
+    <div class="footer u-margin-top-huge">
       <div class="container">
         <div class="footer__logo">
-          <img src="/assets/img/zetkin-logo@2x.png" alt="Zetkin logo">
+          <img src="{% static "images/zetkin-logo@2x.png" %}" alt="Zetkin logo">
         </div>
         <div class="footer__body">
           <ul class="list list--inline" role="navigation">

@@ -35,3 +35,10 @@ class MediaHeroConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     sub_header = models.CharField(max_length=200)
     background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL)
+
+
+class QuoteHeroConfig(CMSPlugin):
+    background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL, related_name='quote_hero_background')
+    citation = models.CharField(max_length=400)
+    portrait = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL, related_name='quote_hero_portrait')
+    quote = models.CharField(max_length=200)

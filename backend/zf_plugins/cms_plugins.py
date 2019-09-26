@@ -78,6 +78,9 @@ class MediaSpreadPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class QuoteHeroPlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['ButtonPlugin']
+    model = models.QuoteHeroConfig
     name = 'Quote Hero'
     render_template = 'zf_plugins/quote_hero.html'
 

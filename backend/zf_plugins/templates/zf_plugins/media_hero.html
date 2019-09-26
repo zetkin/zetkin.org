@@ -1,10 +1,13 @@
-<div class="hero" style="background-image: url('/assets/images/hero-bg.jpg');">
+{% load cms_tags %}
+<div class="hero" style="background-image: url('{{ instance.background.url }}');">
   <div class="container">
-    <h1 class="hero__title"><span class="u-text-mark">Delta i kampen för rättvisa</span></h1>
-    <p class="hero__subtitle">Zetkin är ett system för att organisera aktivism.</p>
+    <h1 class="hero__title"><span class="u-text-mark">{{ instance.header }}</h1>
+    <p class="hero__subtitle">{{ instance.sub_header }}</p>
     <div class="hero__product">
       <img src="" alt="">
     </div>
-    <a href="#" class="button button--primary button--large hero__cta u-pointer-negative">Logga in på Zetkin</a>
+    {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+    {% endfor %}
   </div>
 </div>

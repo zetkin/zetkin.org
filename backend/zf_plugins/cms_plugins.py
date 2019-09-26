@@ -1,6 +1,8 @@
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 
+from . import models
+
 @plugin_pool.register_plugin
 class ArticlePlugin(CMSPluginBase):
     allow_children = True
@@ -51,6 +53,7 @@ class HistoryTimelinePlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class MediaHeroPlugin(CMSPluginBase):
+    model = models.MediaHeroConfig
     name = 'Media Hero'
     render_template = 'zf_plugins/media_hero.html'
 

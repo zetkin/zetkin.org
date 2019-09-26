@@ -60,6 +60,8 @@ class HistoryTimelinePlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class MediaHeroPlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['ButtonPlugin']
     model = models.MediaHeroConfig
     name = 'Media Hero'
     render_template = 'zf_plugins/media_hero.html'

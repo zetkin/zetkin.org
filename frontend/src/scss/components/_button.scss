@@ -32,20 +32,11 @@
 }
 
 .button--primary {
-  background-color: $link-color;
-  box-shadow: 0 5px 10px -5px rgba($link-color, 0.6);
-  color: $white;
-
-  &:hover, &:focus {
-    background-color: $link-highlight-color;
-    border-color: $link-highlight-color;
-    box-shadow: 0 5px 10px -5px rgba($link-highlight-color, 0.6);
-  }
+  @include primary-button;
 }
 
 .button--large {
-  font-size: 1.25rem;
-  padding: (($space-tiny-md * 1.85) * 0.55) ($space-base-md * 1.25) ($space-tiny-md * 1.85);
+  @include large-button;
 }
 
 .button--bare {

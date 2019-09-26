@@ -26,6 +26,13 @@ class BlurbGridPlugin(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
+class ButtonPlugin(CMSPluginBase):
+    model = models.ButtonConfig
+    name = 'Button'
+    render_template = 'zf_plugins/button.html'
+
+
+@plugin_pool.register_plugin
 class FAQAccordionPlugin(CMSPluginBase):
     name = 'FAQ Accordion'
     render_template = 'zf_plugins/faq_accordion.html'

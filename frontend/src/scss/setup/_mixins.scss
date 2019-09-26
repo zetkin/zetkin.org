@@ -19,3 +19,54 @@
     }
   }
 }
+
+@mixin primary-button {
+  background-color: $link-color;
+  box-shadow: 0 5px 10px -5px rgba($link-color, 0.6);
+  color: $white;
+
+  &:hover, &:focus {
+    background-color: $link-highlight-color;
+    border-color: $link-highlight-color;
+    box-shadow: 0 5px 10px -5px rgba($link-highlight-color, 0.6);
+  }
+}
+
+@mixin large-button {
+  font-size: 1.25rem;
+  padding: (($space-tiny-md * 1.85) * 0.55) ($space-base-md * 1.25) ($space-tiny-md * 1.85);
+}
+
+@mixin u-pointer {
+  &:after {
+    content: '';
+    position: relative;
+    top: -2px;
+    left: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 18px;
+    margin-left: $space-tiny-md;
+    background: url('images/icon-pointer-red.svg') no-repeat;
+    transition: left 0.1s ease-out;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    left: 3px;
+  }
+
+  &.button:hover:after,
+  &.button:focus:after {
+    background-image: url('images/icon-pointer-white.svg');
+  }
+}
+
+@mixin u-pointer-negative {
+  @include u-pointer;
+
+  &:after {
+    background-image: url('images/icon-pointer-white.svg');
+  }
+}

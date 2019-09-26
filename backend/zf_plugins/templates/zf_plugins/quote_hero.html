@@ -1,13 +1,19 @@
-<div class="section section--band" style="background-image: url('/assets/images/section-bg.jpg');">
+{% load thumbnail %}
+{% load cms_tags %}
+<div class="section section--band" style="background-image: url('{{ instance.background.url }}');">
   <div class="container">
     <div class="testimonial">
-      <img src="testimonial-headshot.jpg" alt="" class="testimonial__headshot">
+      {% if instance.portrait %}
+      <img src="{% thumbnail instance.portrait 250x250 crop %}" alt="" class="testimonial__headshot">
+      {% endif %}
       <div>
         <blockquote class="testmonial__quote u-margin-bottom-baseline">
-          <span class="u-text-mark">Det fanns människor som var redo att gå ut på gatorna för Vänsterpartiet.</span>
-          <cite class="testimonial__cite"><strong>Daniel Sestrajcic</strong>, Vänsterpartiet Malmö, om den historiska valrörelsen 2014 då partiföreningen organiserade 400 aktivister med Zetkin.</cite>
+          <span class="u-text-mark">{{ instance.quote }}</span>
+          <cite class="testimonial__cite">{{ instance.citation }}</cite>
         </blockquote>
-        <a href="#" class="u-pointer-negative">Läs hela fallstudien</a>
+        {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+        {% endfor %}
       </div>
     </div>
   </div>

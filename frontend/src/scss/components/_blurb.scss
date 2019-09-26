@@ -31,4 +31,8 @@
   > * + * {
     margin-top: $space-tiny-md;
   }
+
+  .button {
+    @include u-pointer;
+  }
 }

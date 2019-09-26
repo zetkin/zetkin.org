@@ -20,7 +20,26 @@
   }
 }
 
+@mixin button {
+  padding: ($space-tiny-md * 0.55) $space-base-md $space-tiny-md;
+  border: 2px solid $link-color;
+  border-radius: 100em;
+  background-color: transparent;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    background-color: $button-fg-color;
+    color: $white;
+  }
+
+  @media #{$medium} {
+    font-size: $base-font-size-md;
+  }
+}
+
 @mixin primary-button {
+  @include button;
+
   background-color: $link-color;
   box-shadow: 0 5px 10px -5px rgba($link-color, 0.6);
   color: $white;

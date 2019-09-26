@@ -7,10 +7,6 @@
   -moz-appearance: none;
   appearance: none;
   display: inline-block;
-  padding: ($space-tiny-md * 0.55) $space-base-md $space-tiny-md;
-  border: 2px solid $link-color;
-  border-radius: 100em;
-  background-color: transparent;
   color: $button-fg-color;
   font-family: $font-regular;
   font-size: $base-font-size;
@@ -19,16 +15,6 @@
   white-space: nowrap;
   cursor: pointer;
   transition: all 0.1s ease-out;
-
-  &:hover, &:focus {
-    text-decoration: none;
-    background-color: $button-fg-color;
-    color: $white;
-  }
-
-  @media #{$medium} {
-    font-size: $base-font-size-md;
-  }
 }
 
 .button--primary {
@@ -40,6 +26,8 @@
 }
 
 .button--bare {
+  @include button;
+
   border-radius: 0;
   padding: 0;
   border: 0;

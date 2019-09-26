@@ -13,6 +13,9 @@ class ArticlePlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class BlurbPlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['ButtonPlugin']
+    model = models.BlurbConfig
     name = 'Blurb'
     render_template = 'zf_plugins/blurb.html'
 

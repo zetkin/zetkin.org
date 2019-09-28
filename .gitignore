@@ -4,3 +4,5 @@
 *.pyc
 backend/media
 backend/static/main.css
+db/seed-20*.sql
+db/seed.sql.gz

@@ -18,9 +18,29 @@ Add the `-d` flag if you want to return to your shell and not display any log
 output while you're developing (not recommended).
 
 ### First run
-The first time you start the project, you will need to create a database and a
-superuser to log into Django. Without stopping the docker-compose process, e.g.
-in a new shell, run this to create the database:
+The first time you start the project you will need to configure data in the
+database somehow. There are two ways, with the recommended one being to start
+from the common developer dummy data.
+
+#### Using dummy data seed
+There is a development seed file in the db folder containing dummy data for
+developers. Before building and starting anything, copy it as `seed.sql.gz` to
+use it as dummy data when starting.
+
+```
+$ cp db/dev.sql.gz db/seed.sql.gz
+$ docker-compose up --build
+```
+
+See db/README.md for more details, including the necessary steps to take if you
+had already started the system before doing this, in which case the above step
+will not generate any data.
+
+
+#### Setting up data manually
+If you want to start completely from scratch, you will need to generate the
+database and a superuser to log into Django. Without stopping the
+docker-compose process, e.g. in a new shell, run this to create the database:
 
 ```
 docker-compose exec www python3 manage.py migrate

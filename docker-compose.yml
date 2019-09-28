@@ -16,7 +16,7 @@ services:
         volumes:
             - ./backend:/var/app
     db:
-        image: postgres
+        build: ./db
         environment:
             POSTGRES_PASSWORD: password
             POSTGRES_USER: django

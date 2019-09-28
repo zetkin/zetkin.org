@@ -41,6 +41,11 @@ class MediaHeroConfig(CMSPlugin):
     background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL)
 
 
+class WideImageConfig(CMSPlugin):
+    image = FilerImageField(on_delete=models.CASCADE)
+    caption = models.TextField(null=True, blank=True)
+
+
 class QuoteHeroConfig(CMSPlugin):
     background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL, related_name='quote_hero_background')
     citation = models.CharField(max_length=400)

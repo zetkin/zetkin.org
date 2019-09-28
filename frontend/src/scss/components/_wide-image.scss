@@ -1,15 +1,15 @@
 //
-// COMPONENTS / MEDIA SPREAD
+// COMPONENTS / WIDE IMAGE
 //-----------------------------------------------------------------------
 
-.media-spread {
+.wide-image {
   margin-top: $space-xlarge-md;
   margin-bottom: $space-xlarge-md;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
 }
 
-.media-spread__media {
+.wide-image__media {
   display: block;
   width: 100%;
   max-width: 75rem;
@@ -17,7 +17,7 @@
   margin-right: auto;
 }
 
-.media-spread__caption {
+.wide-image__caption {
   display: block;
   width: 100%;
   max-width: 75rem;

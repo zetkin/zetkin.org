@@ -6,7 +6,7 @@ from . import models
 @plugin_pool.register_plugin
 class ArticlePlugin(CMSPluginBase):
     allow_children = True
-    child_classes = ['TextPlugin', 'MediaSpreadPlugin']
+    child_classes = ['TextPlugin', 'WideImagePlugin']
     model = models.ArticleConfig
     name = 'Article'
     render_template = 'zf_plugins/article.html'
@@ -72,9 +72,10 @@ class MediaHeroPlugin(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
-class MediaSpreadPlugin(CMSPluginBase):
-    name = 'Media Spread'
-    render_template = 'zf_plugins/media_spread.html'
+class WideImagePlugin(CMSPluginBase):
+    model = models.WideImageConfig
+    name = 'Wide Image'
+    render_template = 'zf_plugins/wide_image.html'
 
 
 @plugin_pool.register_plugin

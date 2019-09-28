@@ -6,7 +6,8 @@ from . import models
 @plugin_pool.register_plugin
 class ArticlePlugin(CMSPluginBase):
     allow_children = True
-    child_classes = ['TextPlugin', 'PicturePlugin', 'MediaSpreadPlugin']
+    child_classes = ['TextPlugin', 'MediaSpreadPlugin']
+    model = models.ArticleConfig
     name = 'Article'
     render_template = 'zf_plugins/article.html'
 

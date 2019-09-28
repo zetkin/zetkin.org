@@ -2,6 +2,10 @@ from cms.models.pluginmodel import CMSPlugin
 from django.db import models
 from filer.fields.image import FilerImageField
 
+class ArticleConfig(CMSPlugin):
+    title = models.CharField(max_length=100)
+    kicker = models.TextField(max_length=400)
+
 class BlurbConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     symbol = models.CharField(null=True, blank=True, max_length=20, choices=(

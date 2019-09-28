@@ -5,6 +5,9 @@ Seeds are database dumps of setups which developers can use to avoid having to
 first create a bunch of dummy data. There is a seed file stored in the git
 repo, but you can create new ones yourself.
 
+This is also useful if you want to back up data before making any schema
+changes or running new migrations.
+
 ## Starting from dev seed
 There is a development seed in this folder containing dummy data for
 development. Before building and starting anything, copy it as `seed.sql.gz` to

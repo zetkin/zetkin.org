@@ -1,11 +1,10 @@
-{% load cms_tags static %}
+{% load cms_tags %}
+{% load zf_tags %}
 
 <div class="blurb">
   {% if instance.symbol %}
   <div class="symbol">
-    {% with 'images/symbols/svg/symbol-'|add:instance.symbol|add:'.svg' as symbol %}
-    <img src="{% static symbol %}" alt="">
-    {% endwith %}
+    <img src="{% static_symbol instance.symbol %}" alt="">
   </div>
   {% endif %}
   <h3 class="blurb__title">{{ instance.header }}</h3>

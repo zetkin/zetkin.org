@@ -1,6 +1,8 @@
 {% load cms_tags %}
 
-<div class="container">
+<div class="article container">
+  <h1>{{ instance.title }}</h1>
+  <p class="kicker">{{ instance.kicker }}</p>
   {% for plugin in instance.child_plugin_instances %}
       {% render_plugin plugin %}
   {% endfor %}

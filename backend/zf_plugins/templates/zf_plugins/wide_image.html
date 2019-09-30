@@ -1,0 +1,9 @@
+{% load cms_tags %}
+{% load thumbnail %}
+
+<figure class="wide-image">
+  <img src="{% thumbnail instance.image 1400x600 crop %}" class="wide-image__media">
+  {% if instance.caption %}
+  <figcaption class="wide-image__caption">{{ instance.caption }}</figcaption>
+  {% endif %}
+</figure>

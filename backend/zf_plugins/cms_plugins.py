@@ -72,6 +72,13 @@ class MediaHeroPlugin(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
+class NavMenu(CMSPluginBase):
+    model = models.NavMenuConfig
+    name = 'Navigation menu'
+    render_template = 'zf_plugins/navigation/menu.html'
+
+
+@plugin_pool.register_plugin
 class WideImagePlugin(CMSPluginBase):
     model = models.WideImageConfig
     name = 'Wide Image'

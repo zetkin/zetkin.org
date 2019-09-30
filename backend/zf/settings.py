@@ -36,6 +36,13 @@ CMS_TEMPLATES = [
     ('default.html', 'Default template'),
 ]
 
+CMS_PLACEHOLDER_CONF = {
+    'navigation': {
+        'name': 'Navigation',
+        'plugins': ('NavMenu',),
+    },
+}
+
 # Application definition
 
 INSTALLED_APPS = [

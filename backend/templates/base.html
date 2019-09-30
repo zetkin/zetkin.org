@@ -16,8 +16,6 @@
 
     <!-- {% language_chooser %} -->
 
-    <!-- {% show_menu 0 100 100 100 %} -->
-
     <div class="navbar" role="navigation">
       <div class="navbar__logo navbar__divider">
         <a href="/" class="navbar__link">
@@ -26,6 +24,10 @@
       </div>
       <button class="button button--bare navbar__trigger">Meny</button>
       <div class="navbar__collapse">
+        <ul class="navbar__menu">
+        {% static_placeholder "navigation" %}
+        </ul>
+        <!--
         <ul class="navbar__menu">
           <li class="dropdown navbar__dropdown">
             <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-book.svg" %}" alt="" class="navbar__icon">Lär dig Zetkin</a>
@@ -62,6 +64,7 @@
             <a href="#" class="button navbar__button u-pointer">Logga in</a>
           </li>
         </ul>
+        -->
       </div>
     </div>
     <div class="main" role="main">

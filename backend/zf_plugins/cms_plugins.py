@@ -81,9 +81,18 @@ class NavMenu(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
+class NavDeeplinkItemPlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['LinkPlugin']
+    model = models.NavDeeplinkItemConfig
+    name = 'Deeplinking menu item'
+    render_template = 'zf_plugins/navigation/deeplink_item.html'
+
+
+@plugin_pool.register_plugin
 class NavMenuColumn(CMSPluginBase):
     allow_children = True
-    child_classes = ['NavSimpleItemPlugin']
+    child_classes = ['NavSimpleItemPlugin', 'NavDeeplinkItemPlugin']
     render_template = 'zf_plugins/navigation/column.html'
 
 

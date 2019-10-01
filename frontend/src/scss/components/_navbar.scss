@@ -100,19 +100,15 @@
 .mainnav__item {
   font-size: 0.8em;
 
-  @media #{$medium} {
-    padding: 1em;
-
-    &:hover {
-      background-color: $gray-lightest;
-    }
-  }
-
   a {
     display: block;
     color: inherit;
     text-decoration: none;
     font-weight: normal;
+
+    &:hover {
+      background-color: $gray-lightest;
+    }
   }
 
   p {
@@ -120,6 +116,38 @@
     font-size: 100%;
   }
 }
+
+.mainnav__itemhead {
+  @media #{$medium} {
+    padding: 1em;
+  }
+}
+
+.mainnav__deeplinks {
+  li {
+    a {
+      padding: 0.5em 1em;
+    }
+  }
+}
+
+.mainnav__deeplinkitem--short {
+  .mainnav__deeplinks {
+    li {
+      display: inline-block;
+      width: 49%;
+    }
+  }
+}
+
+.mainnav__summary {
+  @media #{$medium} {
+    padding: 1em;
+  }
+
+  @include u-pointer;
+}
+
 
 .navbar__link {
   display: block;

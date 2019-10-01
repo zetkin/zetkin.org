@@ -1,4 +1,5 @@
 from cms.models.pluginmodel import CMSPlugin
+from cms.models.fields import PageField
 from django.db import models
 from filer.fields.image import FilerImageField
 
@@ -50,6 +51,12 @@ class NavMenuConfig(CMSPlugin):
 
     def __str__(self):
         return self.label
+
+
+class NavSimpleItemConfig(CMSPlugin):
+  label = models.CharField(max_length=100)
+  description = models.TextField(max_length=400, blank=True)
+  link_page = PageField()
 
 
 class WideImageConfig(CMSPlugin):

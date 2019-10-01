@@ -73,9 +73,25 @@ class MediaHeroPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class NavMenu(CMSPluginBase):
+    allow_children = True
+    child_classes = ['NavMenuColumn']
     model = models.NavMenuConfig
     name = 'Navigation menu'
     render_template = 'zf_plugins/navigation/menu.html'
+
+
+@plugin_pool.register_plugin
+class NavMenuColumn(CMSPluginBase):
+    allow_children = True
+    child_classes = ['NavSimpleItemPlugin']
+    render_template = 'zf_plugins/navigation/column.html'
+
+
+@plugin_pool.register_plugin
+class NavSimpleItemPlugin(CMSPluginBase):
+    model = models.NavSimpleItemConfig
+    name = 'Simple menu item'
+    render_template = 'zf_plugins/navigation/simple_item.html'
 
 
 @plugin_pool.register_plugin

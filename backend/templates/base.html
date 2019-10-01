@@ -1,4 +1,4 @@
-{% load cms_tags menu_tags sekizai_tags static %}
+{% load cms_tags i18n menu_tags sekizai_tags static %}
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 
@@ -20,8 +20,6 @@
 
   <body>
     {% cms_toolbar %}
-
-    <!-- {% language_chooser %} -->
 
     <div class="navbar" role="navigation">
       <div class="navbar__logo navbar__divider">
@@ -60,12 +58,11 @@
         </ul>
         -->
         <ul class="navbar__menu">
-          <li class="dropdown navbar__dropdown">
-            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: Svenska</a>
+          <li class="dropdown navbar__dropdown navbar__lang">
+            {% get_language_info for LANGUAGE_CODE as lang %}
+            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: {{ lang.name_local }}</a>
             <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">✓ Svenska</a></li>
-              <li><a href="#" class="dropdown__link">English</a></li>
-              <li><a href="#" class="dropdown__link">Deutsch</a></li>
+              {% language_chooser %}
             </ul>
           </li>
           <li>

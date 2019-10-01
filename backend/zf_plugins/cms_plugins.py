@@ -90,9 +90,17 @@ class NavDeeplinkItemPlugin(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
+class NavImageItemPlugin(CMSPluginBase):
+    model = models.NavImageItemConfig
+    name = 'Image menu item'
+    render_template = 'zf_plugins/navigation/image_item.html'
+
+
+@plugin_pool.register_plugin
 class NavMenuColumn(CMSPluginBase):
     allow_children = True
-    child_classes = ['NavSimpleItemPlugin', 'NavDeeplinkItemPlugin']
+    child_classes = ['NavSimpleItemPlugin', 'NavDeeplinkItemPlugin', 'NavImageItemPlugin']
+    child_classes = ['NavDeeplinkItemPlugin', 'NavImageItemPlugin', 'NavSimpleItemPlugin']
     render_template = 'zf_plugins/navigation/column.html'
 
 

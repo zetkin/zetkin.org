@@ -56,6 +56,13 @@ class NavDeeplinkItemConfig(CMSPlugin):
   summary_link_target = PageField(blank=True)
 
 
+class NavImageItemConfig(CMSPlugin):
+    image = FilerImageField(on_delete=models.CASCADE)
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_page = PageField()
+
+
 class NavMenuConfig(CMSPlugin):
     label = models.CharField(max_length=100)
     symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
@@ -65,9 +72,9 @@ class NavMenuConfig(CMSPlugin):
 
 
 class NavSimpleItemConfig(CMSPlugin):
-  label = models.CharField(max_length=100)
-  description = models.TextField(max_length=400, blank=True)
-  link_page = PageField()
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_page = PageField()
 
 
 class WideImageConfig(CMSPlugin):

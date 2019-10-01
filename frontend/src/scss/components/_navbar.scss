@@ -68,29 +68,19 @@
   }
 }
 
-.navbar__dropdown {
-
-  .dropdown__menu {
-    display: none;
+.mainnav {
+  .navbar__dropdown {
     position: static;
-    border-width: 0;
 
     @media #{$medium} {
-      display: none;
-      position: absolute;
-      border-width: 2px;
-    }
-  }
+      .dropdown__menu {
+        position: absolute;
+        left: 0;
+        right: 0;
 
-  &:hover, &:focus {
-    .dropdown__menu {
-      display: none;
-    }
-  }
-
-  &.is-open {
-    .dropdown__menu {
-      display: block;
+        padding: 1em;
+        box-shadow: 0 5px 5px rgba(#000, 0.05);
+      }
     }
   }
 }

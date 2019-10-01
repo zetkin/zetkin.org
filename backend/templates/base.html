@@ -1,4 +1,4 @@
-{% load cms_tags menu_tags sekizai_tags static %}
+{% load cms_tags i18n menu_tags sekizai_tags static %}
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 
@@ -9,14 +9,17 @@
     <title>{% page_attribute "page_title" %}</title>
     {% render_block "css" %}
     <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}">
+    {% if request.toolbar.edit_mode_active %}
+    <style>
+      .cms-tooltip {
+        pointer-events: none;
+      }
+    </style>
+    {% endif %}
   </head>
 
   <body>
     {% cms_toolbar %}
-
-    <!-- {% language_chooser %} -->
-
-    <!-- {% show_menu 0 100 100 100 %} -->
 
     <div class="navbar" role="navigation">
       <div class="navbar__logo navbar__divider">
@@ -26,36 +29,15 @@
       </div>
       <button class="button button--bare navbar__trigger">Meny</button>
       <div class="navbar__collapse">
-        <ul class="navbar__menu">
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-book.svg" %}" alt="" class="navbar__icon">Lär dig Zetkin</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-share.svg" %}" alt="" class="navbar__icon">Bidra till Zetkin</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-info.svg" %}" alt="" class="navbar__icon">Om Zetkin Foundation</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
+        <ul class="navbar__menu mainnav">
+        {% static_placeholder "navigation" %}
         </ul>
         <ul class="navbar__menu">
-          <li class="dropdown navbar__dropdown">
-            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: Svenska</a>
+          <li class="dropdown navbar__dropdown navbar__lang">
+            {% get_language_info for LANGUAGE_CODE as lang %}
+            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: {{ lang.name_local }}</a>
             <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">✓ Svenska</a></li>
-              <li><a href="#" class="dropdown__link">English</a></li>
-              <li><a href="#" class="dropdown__link">Deutsch</a></li>
+              {% language_chooser %}
             </ul>
           </li>
           <li>

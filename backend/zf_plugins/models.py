@@ -1,6 +1,25 @@
 from cms.models.pluginmodel import CMSPlugin
+from cms.models.fields import PageField
 from django.db import models
 from filer.fields.image import FilerImageField
+
+SYMBOL_CHOICES = (
+    (None, '-'),
+    ('book', 'Book'),
+    ('calendar', 'Calendar'),
+    ('chat', 'Chat'),
+    ('feed', 'Feed'),
+    ('info', 'Info'),
+    ('money', 'Money'),
+    ('person', 'Person'),
+    ('pin', 'Pin'),
+    ('point', 'Point'),
+    ('question', 'Question'),
+    ('share', 'Share'),
+    ('sound', 'Sound'),
+    ('time', 'Time'),
+)
+
 
 class ArticleConfig(CMSPlugin):
     title = models.CharField(max_length=100)
@@ -8,22 +27,7 @@ class ArticleConfig(CMSPlugin):
 
 class BlurbConfig(CMSPlugin):
     header = models.CharField(max_length=200)
-    symbol = models.CharField(null=True, blank=True, max_length=20, choices=(
-        (None, '-'),
-        ('book', 'Book'),
-        ('calendar', 'Calendar'),
-        ('chat', 'Chat'),
-        ('feed', 'Feed'),
-        ('info', 'Info'),
-        ('money', 'Money'),
-        ('person', 'Person'),
-        ('pin', 'Pin'),
-        ('point', 'Point'),
-        ('question', 'Question'),
-        ('share', 'Share'),
-        ('sound', 'Sound'),
-        ('time', 'Time'),
-    ))
+    symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
     text = models.TextField()
 
 
@@ -39,6 +43,38 @@ class MediaHeroConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     sub_header = models.CharField(max_length=200)
     background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL)
+
+
+class NavDeeplinkItemConfig(CMSPlugin):
+  label = models.CharField(max_length=100)
+  description = models.TextField(max_length=400, blank=True)
+  link_format = models.CharField(max_length=8, choices=(
+      ('short', 'Short (columns)'),
+      ('long', 'Long (full-width)'),
+  ))
+  summary_link_label = models.CharField(max_length=100, blank=True)
+  summary_link_target = PageField(blank=True)
+
+
+class NavImageItemConfig(CMSPlugin):
+    image = FilerImageField(on_delete=models.CASCADE)
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_page = PageField()
+
+
+class NavMenuConfig(CMSPlugin):
+    label = models.CharField(max_length=100)
+    symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
+
+    def __str__(self):
+        return self.label
+
+
+class NavSimpleItemConfig(CMSPlugin):
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_page = PageField()
 
 
 class WideImageConfig(CMSPlugin):

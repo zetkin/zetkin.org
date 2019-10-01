@@ -1,0 +1,10 @@
+{% load thumbnail %}
+<div class="mainnav__item mainnav__imageitem">
+  <a class="mainnav__itemhead" href="{{ instance.link_target }}">
+    <img class="mainnav__imageitem-image" src="{% thumbnail instance.image 600x300 crop %}" alt="{{ instance.label }}">
+    <strong class="mainnav__item-label">{{ instance.label }}</strong>
+    {% if instance.description %}
+    <p class="mainnav__item-desc">{{ instance.description }}</p>
+    {% endif %}
+  </a>
+</div>

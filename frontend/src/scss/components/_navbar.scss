@@ -68,32 +68,95 @@
   }
 }
 
-.navbar__dropdown {
-
-  .dropdown__menu {
-    display: none;
+.mainnav {
+  .navbar__dropdown {
     position: static;
-    border-width: 0;
 
     @media #{$medium} {
-      display: none;
-      position: absolute;
-      border-width: 2px;
-    }
-  }
+      .dropdown__menu {
+        position: absolute;
+        left: 0;
+        right: 0;
 
-  &:hover, &:focus {
-    .dropdown__menu {
-      display: none;
-    }
-  }
+        box-shadow: 0 5px 5px rgba(#000, 0.05);
 
-  &.is-open {
-    .dropdown__menu {
-      display: block;
+      }
+      &:hover, &:focus, &.is-open {
+        .dropdown__menu {
+          display: flex;
+        }
+      }
     }
   }
 }
+
+.mainnav__column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  margin: 1em;
+}
+
+.mainnav__item {
+  font-size: 0.8em;
+
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+
+  }
+
+  &:hover {
+    background-color: $gray-lightest;
+  }
+
+  p {
+    margin: 0 0 0.5em;
+    font-size: 100%;
+  }
+}
+
+.mainnav__itemhead {
+  @media #{$medium} {
+    padding: 1em;
+  }
+}
+
+.mainnav__deeplinks {
+  li {
+    a {
+      padding: 0.5em 1em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.mainnav__deeplinkitem--short {
+  .mainnav__deeplinks {
+    li {
+      display: inline-block;
+      width: 49%;
+    }
+  }
+}
+
+.mainnav__summary {
+  @media #{$medium} {
+    padding: 1em;
+  }
+
+  @include u-pointer;
+}
+
+.mainnav__imageitem-image {
+  margin-bottom: 0.5em;
+}
+
 
 .navbar__link {
   display: block;
@@ -204,6 +267,33 @@
       left: calc(100% + #{$space-base-md / 2});
       width: 2px;
       background-color: $border-color;
+    }
+  }
+}
+
+.navbar__lang {
+  a {
+    display: block;
+    padding: $space-xsmall;
+    font-size: $small-font-size-md;
+    text-decoration: none;
+    color: $fg-color;
+
+    &:hover, &:focus {
+      background-color: $gray-lightest;
+      color: $fg-color;
+    }
+
+    @media #{$medium} {
+      padding: $space-xsmall-md $space-small-md;
+    }
+  }
+
+  .lang.active {
+    a {
+      &:before {
+        content: "✓ ";
+      }
     }
   }
 }

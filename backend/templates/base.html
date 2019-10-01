@@ -32,31 +32,6 @@
         <ul class="navbar__menu mainnav">
         {% static_placeholder "navigation" %}
         </ul>
-        <!--
-        <ul class="navbar__menu">
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-book.svg" %}" alt="" class="navbar__icon">Lär dig Zetkin</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-share.svg" %}" alt="" class="navbar__icon">Bidra till Zetkin</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
-          <li class="dropdown navbar__dropdown">
-            <a href="" class="navbar__link"><img src="{% static "images/symbols/svg/symbol-info.svg" %}" alt="" class="navbar__icon">Om Zetkin Foundation</a>
-            <ul class="dropdown__menu">
-              <li><a href="#" class="dropdown__link">Menu item</a></li>
-            </ul>
-          </li>
-        </ul>
-        -->
         <ul class="navbar__menu">
           <li class="dropdown navbar__dropdown navbar__lang">
             {% get_language_info for LANGUAGE_CODE as lang %}

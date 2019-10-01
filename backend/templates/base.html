@@ -9,6 +9,13 @@
     <title>{% page_attribute "page_title" %}</title>
     {% render_block "css" %}
     <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}">
+    {% if request.toolbar.edit_mode_active %}
+    <style>
+      .cms-tooltip {
+        pointer-events: none;
+      }
+    </style>
+    {% endif %}
   </head>
 
   <body>

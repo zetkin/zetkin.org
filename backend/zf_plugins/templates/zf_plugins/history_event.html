@@ -1,0 +1,8 @@
+{% load thumbnail %}
+<li class="history-timeline__event">
+    {% if instance.image %}
+    <img src="{% thumbnail instance.image 320x200 crop %}">
+    {% endif %}
+    <h3>{{ instance.header }}</h3>
+    <p>{{ instance.description }}</p>
+</li>

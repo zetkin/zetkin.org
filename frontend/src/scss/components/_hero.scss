@@ -66,3 +66,19 @@
     transform: translate(-50%, 50%);
   }
 }
+
+.simple-hero {
+  min-height: 60vh;
+  justify-content: center;
+
+  @media #{$medium} {
+    p {
+      width: 50%;
+    }
+  }
+
+  p {
+    text-align: left;
+    color: $white;
+  }
+}

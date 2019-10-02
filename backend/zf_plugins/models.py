@@ -105,6 +105,11 @@ class SectionHeadConfig(CMSPlugin):
     intro = models.TextField(blank=True)
 
 
+class SimpleHeroConfig(CMSPlugin):
+    text = models.TextField()
+    background = FilerImageField(blank=True, null=True, on_delete=models.SET_NULL)
+
+
 class WideImageConfig(CMSPlugin):
     image = FilerImageField(on_delete=models.CASCADE)
     caption = models.TextField(null=True, blank=True)

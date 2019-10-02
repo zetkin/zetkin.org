@@ -53,25 +53,11 @@
     <div class="footer u-margin-top-huge">
       <div class="container">
         <div class="footer__logo">
-          <img src="{% static "images/zetkin-logo@2x.png" %}" alt="Zetkin logo">
+          <img src="{% static "images/zf-logo@2x.png" %}" alt="Zetkin logo">
         </div>
         <div class="footer__body">
-          <ul class="list list--inline" role="navigation">
-            <li><a href="#">Lär dig Zetkin</a></li>
-            <li class="list__divider"><a href="#">Bidra till Zetkin</a></li>
-            <li class="list__divider"><a href="#">Om Zetkin Foundation</a></li>
-            <li class="list__divider"><a href="#">Logga in</a></li>
-          </ul>
-          <ul class="list list--inline u-margin-top-xsmall">
-            <li>Språk:</li>
-            <li><a href="#"><strong>✓ Svenska</strong></a></li>
-            <li class="list__divider"><a href="#">English</a></li>
-            <li class="list__divider"><a href="#">Deutsch</a></li>
-          </ul>
-          <ul class="list list--inline u-margin-top-xsmall">
-            <li>Support:</li>
-            <li><a href="#">info@zetkin.org</a></li>
-            <li class="list__divider"><a href="#">Zetkin Foundation på Facebook</a></li>
+          <ul class="list" role="navigation">
+            {% show_menu 1 2 1 2 %}
           </ul>
         </div>
       </div>

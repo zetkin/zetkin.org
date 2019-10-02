@@ -132,6 +132,7 @@ class QuoteHeroPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class SectionHeadPlugin(CMSPluginBase):
+    model = models.SectionHeadConfig
     name = 'Section Head'
     render_template = 'zf_plugins/section_head.html'
 

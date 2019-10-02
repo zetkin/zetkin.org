@@ -84,6 +84,11 @@ class NavSimpleItemConfig(CMSPlugin):
     link_page = PageField()
 
 
+class SectionHeadConfig(CMSPlugin):
+    header = models.CharField(max_length=100)
+    intro = models.TextField(blank=True)
+
+
 class WideImageConfig(CMSPlugin):
     image = FilerImageField(on_delete=models.CASCADE)
     caption = models.TextField(null=True, blank=True)

@@ -66,3 +66,29 @@
     transform: translate(-50%, 50%);
   }
 }
+
+.simple-hero {
+  min-height: 60vh;
+  text-align: left;
+  justify-content: center;
+  padding-top: 0;
+
+  @media #{$medium} {
+    p {
+      width: 50%;
+    }
+  }
+
+  p {
+    color: $white;
+  }
+}
+
+.simple-hero__actions {
+  .button {
+    color: $white;
+    margin: 0.5em 0;
+    display: block;
+    @include u-pointer-negative;
+  }
+}

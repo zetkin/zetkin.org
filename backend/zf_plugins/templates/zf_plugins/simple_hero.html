@@ -1,3 +1,15 @@
-<div class="simple-hero">
-    SIMPLE HERO
+{% load cms_tags %}
+<div class="hero simple-hero" style="background-image: url('{{ instance.background.url }}');">
+  <div class="container">
+    <p class="u-h2 u-dotted-top">
+      {{ instance.text }}
+    </p>
+    {% if instance.child_plugin_instances %}
+    <div class="simple-hero__actions">
+    {% for plugin in instance.child_plugin_instances %}
+      {% render_plugin plugin %}
+    {% endfor %}
+    </div>
+    {% endif %}
+  </div>
 </div>

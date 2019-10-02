@@ -149,5 +149,8 @@ class SectionHeadPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class SimpleHeroPlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['ButtonPlugin']
+    model = models.SimpleHeroConfig
     name = 'Simple Hero'
     render_template = 'zf_plugins/simple_hero.html'

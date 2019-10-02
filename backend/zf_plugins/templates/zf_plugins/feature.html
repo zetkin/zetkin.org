@@ -1,3 +1,22 @@
+{% load cms_tags %}
+{% load thumbnail %}
+{% load zf_tags %}
 <div class="feature">
-    FEATURE
+  <img class="feature__image" src="{% thumbnail instance.image 600x450 crop %}" alt="{{ instance.header }}">
+  <div class="feature__blurb">
+    <div class="blurb">
+      {% if instance.symbol %}
+      <div class="symbol">
+        <img src="{% static_symbol instance.symbol %}" alt="">
+      </div>
+      {% endif %}
+      <h3 class="blurb__title">{{ instance.header }}</h3>
+      <p class="blurb__text">{{ instance.text }}</p>
+      <div class="blurb__actions">
+      {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>

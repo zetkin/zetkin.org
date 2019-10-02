@@ -39,6 +39,13 @@ class ButtonConfig(CMSPlugin):
         return self.link_href
 
 
+class FeatureConfig(CMSPlugin):
+    image = FilerImageField(on_delete=models.CASCADE)
+    header = models.CharField(max_length=200)
+    symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
+    text = models.TextField()
+
+
 class MediaHeroConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     sub_header = models.CharField(max_length=200)
@@ -46,14 +53,14 @@ class MediaHeroConfig(CMSPlugin):
 
 
 class NavDeeplinkItemConfig(CMSPlugin):
-  label = models.CharField(max_length=100)
-  description = models.TextField(max_length=400, blank=True)
-  link_format = models.CharField(max_length=8, choices=(
-      ('short', 'Short (columns)'),
-      ('long', 'Long (full-width)'),
-  ))
-  summary_link_label = models.CharField(max_length=100, blank=True)
-  summary_link_target = PageField(blank=True)
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_format = models.CharField(max_length=8, choices=(
+        ('short', 'Short (columns)'),
+        ('long', 'Long (full-width)'),
+    ))
+    summary_link_label = models.CharField(max_length=100, blank=True)
+    summary_link_target = PageField(blank=True)
 
 
 class NavImageItemConfig(CMSPlugin):
@@ -75,6 +82,11 @@ class NavSimpleItemConfig(CMSPlugin):
     label = models.CharField(max_length=100)
     description = models.TextField(max_length=400, blank=True)
     link_page = PageField()
+
+
+class SectionHeadConfig(CMSPlugin):
+    header = models.CharField(max_length=100)
+    intro = models.TextField(blank=True)
 
 
 class WideImageConfig(CMSPlugin):

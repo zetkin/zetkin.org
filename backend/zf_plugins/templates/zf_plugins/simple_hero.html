@@ -4,5 +4,12 @@
     <p class="u-h2 u-dotted-top">
       {{ instance.text }}
     </p>
+    {% if instance.child_plugin_instances %}
+    <div class="simple-hero__actions">
+    {% for plugin in instance.child_plugin_instances %}
+      {% render_plugin plugin %}
+    {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>

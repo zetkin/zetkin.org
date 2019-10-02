@@ -39,6 +39,13 @@ class ButtonConfig(CMSPlugin):
         return self.link_href
 
 
+class FeatureConfig(CMSPlugin):
+    image = FilerImageField(on_delete=models.CASCADE)
+    header = models.CharField(max_length=200)
+    symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
+    text = models.TextField()
+
+
 class MediaHeroConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     sub_header = models.CharField(max_length=200)

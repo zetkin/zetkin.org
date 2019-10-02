@@ -1,6 +1,6 @@
 {% load cms_tags %}
 
-<div class="feature-grid">
+<div class="feature-grid container">
     {% for plugin in instance.child_plugin_instances %}
         {% render_plugin plugin %}
     {% endfor %}

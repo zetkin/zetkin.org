@@ -44,6 +44,9 @@ class FAQAccordionPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class FeaturePlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['ButtonPlugin']
+    model = models.FeatureConfig
     name = 'Feature'
     render_template = 'zf_plugins/feature.html'
 

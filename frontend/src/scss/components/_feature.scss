@@ -1,0 +1,30 @@
+.feature {
+  @media #{$medium} {
+    display: flex;
+
+    &:nth-child(even) {
+      .feature__blurb {
+        order: 1;
+      }
+      .feature__image {
+        order: 2;
+      }
+    }
+
+    .feature__image {
+      width: 50%;
+    }
+  }
+}
+
+.feature__blurb {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 0;
+
+  .blurb {
+    width: 90%;
+  }
+}

@@ -1,5 +1,5 @@
 .history-timeline {
-  margin-top: 2em;
+  margin-top: 6em;
   margin-bottom: 3em;
 
   ol {
@@ -9,6 +9,7 @@
 
   @media #{$medium} {
     ol {
+      margin-top: 3em;
       margin-left: 50%;
       width: 50%;
     }

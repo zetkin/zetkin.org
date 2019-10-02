@@ -53,14 +53,14 @@ class MediaHeroConfig(CMSPlugin):
 
 
 class NavDeeplinkItemConfig(CMSPlugin):
-  label = models.CharField(max_length=100)
-  description = models.TextField(max_length=400, blank=True)
-  link_format = models.CharField(max_length=8, choices=(
-      ('short', 'Short (columns)'),
-      ('long', 'Long (full-width)'),
-  ))
-  summary_link_label = models.CharField(max_length=100, blank=True)
-  summary_link_target = PageField(blank=True)
+    label = models.CharField(max_length=100)
+    description = models.TextField(max_length=400, blank=True)
+    link_format = models.CharField(max_length=8, choices=(
+        ('short', 'Short (columns)'),
+        ('long', 'Long (full-width)'),
+    ))
+    summary_link_label = models.CharField(max_length=100, blank=True)
+    summary_link_target = PageField(blank=True)
 
 
 class NavImageItemConfig(CMSPlugin):

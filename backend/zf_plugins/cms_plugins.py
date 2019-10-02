@@ -61,8 +61,18 @@ class FeatureGridPlugin(CMSPluginBase):
 
 @plugin_pool.register_plugin
 class HistoryTimelinePlugin(CMSPluginBase):
+    allow_children = True
+    child_classes = ['HistoryEventPlugin']
+    model = models.HistoryTimelineConfig
     name = 'History Timeline'
     render_template = 'zf_plugins/history_timeline.html'
+
+
+@plugin_pool.register_plugin
+class HistoryEventPlugin(CMSPluginBase):
+    model = models.HistoryEventConfig
+    name = 'Timeline event'
+    render_template = 'zf_plugins/history_event.html'
 
 
 @plugin_pool.register_plugin

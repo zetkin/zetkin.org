@@ -46,6 +46,22 @@ class FeatureConfig(CMSPlugin):
     text = models.TextField()
 
 
+class HistoryTimelineConfig(CMSPlugin):
+    header = models.CharField(max_length=100, blank=True)
+
+    def __str__(self):
+        return self.header
+
+
+class HistoryEventConfig(CMSPlugin):
+    image = FilerImageField(blank=True, null=True, on_delete=models.SET_NULL)
+    header = models.CharField(max_length=100)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.header
+
+
 class MediaHeroConfig(CMSPlugin):
     header = models.CharField(max_length=200)
     sub_header = models.CharField(max_length=200)

@@ -1,3 +1,11 @@
-<div class="history-timeline">
-    HISTORY TIMELINE
+{% load cms_tags %}
+<div class="history-timeline container">
+    {% if instance.header %}
+    <h2 class="u-text-center u-dotted-bottom">{{ instance.header }}</h2>
+    {% endif %}
+    <ol>
+    {% for plugin in instance.child_plugin_instances %}
+    {% render_plugin plugin %}
+    {% endfor %}
+    </ol>
 </div>

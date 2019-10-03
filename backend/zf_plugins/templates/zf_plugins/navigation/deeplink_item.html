@@ -1,7 +1,7 @@
 {% load cms_tags %}
 
 <div class="mainnav__item mainnav__deeplinkitem mainnav__deeplinkitem--{{instance.link_format}}">
-  <a class="mainnav__itemhead" href="{{ instance.link_target }}">
+  <a class="mainnav__itemhead" href="{% page_url instance.summary_link_target %}">
     <strong class="mainnav__item-label">{{ instance.label }}</strong>
     {% if instance.description %}
     <p class="mainnav__item-desc">{{ instance.description }}</p>

@@ -12,7 +12,6 @@
 
   a {
     color: $soft-fg-color;
-    font-weight: normal;
 
     &:hover, &:focus {
       color: $fg-color;
@@ -40,4 +39,72 @@
 
 .footer__body {
   flex: 1;
+
+  li {
+    margin: 0 0 1em;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li li {
+    margin: 0 0 0 0.5em;
+
+    a {
+      font-weight: normal;
+    }
+  }
+
+  .selected > a {
+    color: $fg-color;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  @media #{$medium} {
+    & > ul {
+      display: flex;
+      flex-wrap: wrap;
+      //flex-flow: column wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      & > li {
+        width: 40%;
+        //margin-right: 2%;
+      }
+    }
+  }
+}
+
+.footer__misc {
+  border-top: 1px solid $gray-light;
+  margin: 0.5em 0;
+  padding: 1em 0;
+
+  & > * {
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  @media #{$medium} {
+    text-align: center;
+
+    & > * {
+      display: inline-block;
+      padding-right: 1em;
+      border-right: 1px solid $gray;
+      margin-left: 1em;
+
+      &:last-child {
+          border-width: 0;
+      }
+    }
+  }
 }

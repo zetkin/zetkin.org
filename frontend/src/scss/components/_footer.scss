@@ -81,3 +81,30 @@
     }
   }
 }
+
+.footer__misc {
+  border-top: 1px solid $gray-light;
+  margin: 0.5em 0;
+  padding: 1em 0;
+
+  & > * {
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  @media #{$medium} {
+    text-align: center;
+
+    & > * {
+      display: inline-block;
+      padding-right: 1em;
+      border-right: 1px solid $gray;
+      margin-left: 1em;
+
+      &:last-child {
+          border-width: 0;
+      }
+    }
+  }
+}

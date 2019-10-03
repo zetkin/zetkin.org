@@ -1,5 +1,6 @@
+{% load cms_tags %}
 <div class="mainnav__item mainnav__simpleitem">
-  <a class="mainnav__itemhead" href="{{ instance.link_target }}">
+  <a class="mainnav__itemhead" href="{% page_url instance.link_page %}">
     <strong class="mainnav__item-label">{{ instance.label }}</strong>
     {% if instance.description %}
     <p class="mainnav__item-desc">{{ instance.description }}</p>

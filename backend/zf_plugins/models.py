@@ -89,6 +89,7 @@ class NavImageItemConfig(CMSPlugin):
 class NavMenuConfig(CMSPlugin):
     label = models.CharField(max_length=100)
     symbol = models.CharField(null=True, blank=True, max_length=20, choices=SYMBOL_CHOICES)
+    section_page = PageField()
 
     def __str__(self):
         return self.label

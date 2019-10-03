@@ -2,7 +2,7 @@
 {% load zf_tags %}
 
 <li class="dropdown navbar__dropdown">
-  <a href="" class="navbar__link"><img src="{% static_symbol instance.symbol %}" alt="" class="navbar__icon">{{ instance.label }}</a>
+  <a href="{% page_url instance.section_page %}" class="navbar__link"><img src="{% static_symbol instance.symbol %}" alt="" class="navbar__icon">{{ instance.label }}</a>
   <div class="mainnav__drawer dropdown__menu">
     {% for plugin in instance.child_plugin_instances %}
     {% render_plugin plugin %}

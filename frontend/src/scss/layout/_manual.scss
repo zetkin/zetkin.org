@@ -1,0 +1,60 @@
+.manual-toc {
+  @media #{$medium} {
+    width: 23%;
+    margin-right: 5%;
+    padding-top: 1em;
+    border-right: 1px solid $border-color;
+  }
+
+  font-size: 0.8em;
+
+  ul {
+    margin-left: 2.5em;
+  }
+
+  li {
+    list-style-type: disc;
+
+    a {
+      font-weight: normal;
+    }
+
+    &.selected {
+      & > a {
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.manual-content {
+  @media #{$medium} {
+    width: 72%;
+  }
+
+  .blurb {
+    margin: 3em auto;
+  }
+}
+
+.manual-content__header {
+  margin: 0 0 2em;
+
+  h1 {
+    margin: 0;
+  }
+
+  small {
+    font-size: 0.6em;
+    font-style: italic;
+  }
+}
+
+.manual-page {
+  margin-top: 4em;
+
+  @media #{$medium} {
+    display: flex;
+  }
+}

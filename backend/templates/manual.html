@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+{% load menu_tags %}
+{% block bodyclasses %}manual{% endblock %}
+{% block content%}
+  <div class="container manual-page">
+    <aside class="manual-toc" role="nav">
+      {% show_menu 3 100 0 100 %}
+    </aside>
+    <div class="manual-content">
+      <header class="manual-content__header">
+        <h1>{% page_attribute "page_title" %}</h2>
+        {% page_attribute "changed_date" as changed_date %}
+        <small>{{ changed_date|date:"Y-m-d, H:i" }}</small>
+      </header>
+      {% placeholder "manual-content" or %}
+      <p>Placeholder Content</p>
+      {% endplaceholder %}
+    </div>
+  </div>
+{% endblock %}

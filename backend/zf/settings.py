@@ -29,17 +29,43 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    'www.localhost',
+    'manual.localhost',
     '192.168.99.100',
 ]
 
 CMS_TEMPLATES = [
     ('default.html', 'Default template'),
+    ('manual.html', 'Manual page'),
 ]
 
 CMS_PLACEHOLDER_CONF = {
     'navigation': {
         'name': 'Navigation',
         'plugins': ('NavMenu',),
+    },
+    'content': {
+        'name': 'Content',
+        'plugins': (
+            'ArticlePlugin',
+            'BlurbPlugin',
+            'BlurbGridPlugin',
+            'FeatureGridPlugin',
+            'HistoryTimelinePlugin',
+            'MediaHeroPlugin',
+            'QuoteHeroPlugin',
+            'SimpleHeroPlugin',
+            'SectionHeadPlugin',
+            'MultiColumnPlugin',
+        ),
+    },
+    'manual-content': {
+        'name': 'Content',
+        'plugins': (
+            'BlurbPlugin',
+            'PicturePlugin',
+            'TextPlugin',
+        ),
     },
 }
 
@@ -68,7 +94,7 @@ INSTALLED_APPS = [
     'zf_plugins',
 ]
 
-SITE_ID = 1
+SITE_ID = int(os.environ.get('SITE_ID', 1))
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

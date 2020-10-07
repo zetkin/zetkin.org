@@ -3,8 +3,13 @@
 //-----------------------------------------------------------------------
 
 .section {
-  padding-top: $space-huge-md;
-  padding-bottom: $space-huge-md;
+  padding-top: $space-large-md;
+  padding-bottom: $space-large-md;
+
+  @media #{$medium} {
+    padding-top: $space-huge-md;
+    padding-bottom: $space-huge-md;
+  }
 }
 
 .section--bordered {

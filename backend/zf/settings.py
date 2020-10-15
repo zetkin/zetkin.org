@@ -32,6 +32,9 @@ ALLOWED_HOSTS = [
     'www.localhost',
     'manual.localhost',
     '192.168.99.100',
+    'zetkin.org',
+    'www.zetkin.org',
+    'manual.zetkin.org',
 ]
 
 CMS_TEMPLATES = [

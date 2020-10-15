@@ -27,22 +27,22 @@
           <img src="{% static "images/zetkin-logo@2x.png" %}" alt="Zetkin logo">
         </a>
       </div>
-      <button class="button button--bare navbar__trigger">Meny</button>
+      <button class="button button--bare navbar__trigger">{% trans "Menu" %}</button>
       <div class="navbar__collapse">
-        <button class="button button--bare navbar__close">Close</button>
+        <button class="button button--bare navbar__close">{% trans "Close" %}</button>
         <ul class="navbar__menu mainnav">
         {% static_placeholder "navigation" %}
         </ul>
         <ul class="navbar__menu">
           <li class="dropdown navbar__dropdown navbar__lang">
             {% get_language_info for LANGUAGE_CODE as lang %}
-            <a href="#" class="navbar__link navbar__link--muted u-caret">Språk: {{ lang.name_local }}</a>
+            <a href="#" class="navbar__link navbar__link--muted u-caret">{% trans "Language" %}: {{ lang.name_local }}</a>
             <ul class="dropdown__menu">
               {% language_chooser %}
             </ul>
           </li>
           <li>
-            <a href="https://www.zetk.in/dashboard" class="button navbar__button u-pointer">Logga in</a>
+            <a href="https://www.zetk.in/dashboard" class="button navbar__button u-pointer">{% trans "Log in" %}</a>
           </li>
         </ul>
       </div>

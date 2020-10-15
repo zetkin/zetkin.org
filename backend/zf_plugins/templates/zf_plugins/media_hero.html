@@ -3,9 +3,14 @@
   <div class="container">
     <h1 class="hero__title"><span class="u-text-mark">{{ instance.header }}</h1>
     <p class="hero__subtitle">{{ instance.sub_header }}</p>
+    {% comment %}TODO: Add actual video support to enable this{% endcomment %}
+    {% if instance.video %}
     <div class="hero__product">
       <img src="" alt="">
     </div>
+    {% endif %}
+  </div>
+  <div class="media-hero__buttons">
     {% for plugin in instance.child_plugin_instances %}
         {% render_plugin plugin %}
     {% endfor %}

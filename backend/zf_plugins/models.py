@@ -67,6 +67,8 @@ class MediaHeroConfig(CMSPlugin):
     sub_header = models.CharField(max_length=200)
     background = FilerImageField(null=True, blank=True, on_delete=models.SET_NULL)
 
+    # TODO: Add video support
+
 
 class NavDeeplinkItemConfig(CMSPlugin):
     label = models.CharField(max_length=100)

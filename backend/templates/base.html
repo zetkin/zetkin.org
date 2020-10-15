@@ -29,6 +29,7 @@
       </div>
       <button class="button button--bare navbar__trigger">Meny</button>
       <div class="navbar__collapse">
+        <button class="button button--bare navbar__close">Close</button>
         <ul class="navbar__menu mainnav">
         {% static_placeholder "navigation" %}
         </ul>
@@ -71,5 +72,27 @@
     {% render_block "js" %}
     <script src="https://use.typekit.net/tqq3ylv.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+      // Click "menu" button to open main nav
+      document.querySelector('.navbar__trigger').addEventListener('click', () => {
+        document.querySelector('.navbar__collapse').classList.add('is-open');
+      });
+
+      // Click "close" button to close main nav
+      document.querySelector('.navbar__close').addEventListener('click', () => {
+        document.querySelector('.navbar__collapse').classList.remove('is-open');
+        document.querySelectorAll('li.dropdown').forEach(elem => {
+          elem.classList.remove('is-open');
+        });
+      });
+
+      // Click any sub-menu to expand
+      document.querySelectorAll('li.dropdown').forEach(elem => {
+        elem.querySelector('.navbar__link').addEventListener('click', ev => {
+          elem.classList.toggle('is-open');
+          ev.preventDefault();
+        });
+      });
+    </script>
   </body>
 </html>

@@ -48,8 +48,10 @@
 }
 
 .hero__product {
-  width: 40rem;
-  height: 20rem;
+  width: 80vw;
+  height: 40vw;
+  max-width: 40rem;
+  max-height: 20rem;
   margin-top: $space-huge-md;
   margin-left: auto;
   margin-right: auto;
@@ -57,19 +59,26 @@
 }
 
 .media-hero {
+  padding-bottom: $space-huge-md;
+
+  &:after {
+    opacity: 0.8;
+  }
+}
+
+.media-hero__buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translate(0, 50%);
+
+  text-align: center;
+
   .button {
     @include primary-button;
     @include large-button;
     @include u-pointer-negative;
-
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 50%);
-  }
-
-  &:after {
-    opacity: 0.8;
   }
 }
 

@@ -3,7 +3,10 @@
 //-----------------------------------------------------------------------
 
 .testimonial {
-  display: flex;
+  @media #{$medium} {
+    display: flex;
+  }
+
   max-width: 60rem;
   margin-left: auto;
   margin-right: auto;
@@ -16,12 +19,18 @@
 }
 
 .testimonial__headshot {
-  flex-shrink: 0;
   margin-right: $space-large-md;
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  max-width: 14rem;
+  height: auto;
   border-radius: 50%;
   border: 4px solid $white;
+  margin-bottom: 2rem;
+
+  @media #{$medium} {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
 }
 
 .testmonial__quote {

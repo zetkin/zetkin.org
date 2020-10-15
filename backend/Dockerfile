@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.9
 MAINTAINER Richard Olsson <r@richardolsson.se>
 
 ENV DEBIAN_FRONTEND noninteractive

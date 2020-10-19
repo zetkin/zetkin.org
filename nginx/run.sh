@@ -29,5 +29,12 @@ else
     echo "Not using TLS"
 fi
 
+if [ -n "$ZETKIN_HTPASSWD" ]
+then
+    echo "Setting up password protection"
+    echo -n 'zf:' >> /etc/nginx/.htpasswd
+    echo $ZETKIN_HTPASSWD | openssl passwd -stdin -noverify -apr1 >> /etc/nginx/.htpasswd
+fi
+
 echo "Booting nginx"
 exec nginx

@@ -41,6 +41,7 @@ services:
             - 80:80
         environment:
             ZETKIN_DOMAIN: localhost
+            ZETKIN_HTPASSWD: ${ZETKIN_HTPASSWD}
         links:
             - www
             - manual

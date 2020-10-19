@@ -33,6 +33,7 @@
     border-top: 2px solid $border-color;
     border-bottom: 2px solid $border-color;
     padding-top: 0;
+    overflow-y: initial;
   }
 
   &.is-open {

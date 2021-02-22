@@ -12,48 +12,50 @@ kicker: |
 Zetkin is a web based platform for organizing activism using tools that make
 participation easier and simplifies common tasks in activist organizations.
 
-Zetkin Foundation is a part of Vänsterpartiet Malmö, developing Zetkin and
-working to spread successful organizing methods to the Swedish and
-international left.
+Zetkin Foundation is a part of Vänsterpartiet Malmö, responsible for developing
+Zetkin and spreading successful organizing methods through the international left.
 
 * [Read more about Zetkin](/en/zetkin)
 * [Read more about Zetkin Foundation](/en/foundation)
 
-## Hacktivists needed
-Most of the work in Zetkin Foundation is done by volunteers, but there is also
-paid work. Right now we are looking for developers to help us with one of our
-on-going projects.
+## Our development team is growing
+Most of the people doing work in Zetkin Foundation are volunteers, but there is
+also a core team of part-time developers, and in 2021 and 2022 we want to grow
+that team.
 
 <figure markdown="1">
 ![Code](./kod.jpg)
 </figure>
 
-We really want to hear from you if you know (or are willing to learn) one of
+We really want to hear from you if you know (or are willing to learn) some of
 the following, and want to be part of our development team.
 
+* Node and React (or similar frameworks)
 * Responsive design with CSS/SASS
-* React/Redux (or similar)
+* Cross-platform mobile development (e.g. Flutter)
 * Python for server development
-* Integrating third-party payment systems (probably Stripe)
+* Docker and dev/ops
 
-### Paid and volunteer work
-We hope that you are willing to contribute as a volunteer for the long term,
-and take on paid work during limited periods of time. Perfect on the side of
-studies or between two freelance gigs.
+### Let's define the role together
+You can be a junior developer fresh out of school, a capable hobbyist or an
+experienced senior. It's not important whether your primary skills are front-end
+or back-end development, mobile or web.
 
-All our paid staff are paid a unified fee based on salaries in Vänsterpartiet.
-It is not something that can compete with comercial salaries so it is
-important that ou believe in our project and want your work to contribute to
-the advancement of the left.
+For us the most important thing is to find someone who shares our progressive
+vision and is willing to learn what's necessary. We can define the role together
+based on some common principles:
 
-We are primarily looking for someone who can participate on-site in Malmö, at
-least from time to time.
+* Everyone at Zetkin Foundation have the same salary, which is higher than a
+  typical Swedish junior salary, but lower than a senior
+* Everyone at Zetkin Foundation work part-time
+* We have a distributed team who works mostly remotely, and our working
+  language is English (but we all also currently speak Swedish)
 
-Please get in touch if you want to contribute to organizing the left in Sweden
-and abroad. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).
+Please get in touch if you want to contribute to empowering progressive
+organizations everywhere. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).
 
 ## Contribute some other way?
 If the listings above are a bad fit, but you still want to contribute to Zetkin,
 please let us know! There is always room for more volunteers, regardless of
-what techniques you know or prefer. If you have a brand new idea, let us know!
+what your skills and preferences are. If you have a brand new idea, let us know!
 Get in touch at [info@zetkin.org](mailto:info@zetkin.org).

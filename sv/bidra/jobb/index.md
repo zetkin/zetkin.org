@@ -28,7 +28,32 @@ teamet.
 ![Kod](./kod.jpg)
 </figure>
 
-Se [hela beskrivningen på engelska](/en/contribute/jobs).
+Vi vill gärna höra från dig om du kan (eller vill lära dig) några av
+följande tekniker och vill bli en del av vårt utvecklarteam.
+
+* Node och React (eller liknande ramverk)
+* Responsive design med CSS/SASS
+* Cross-platform mobile development (ex Flutter)
+* Python för server-utveckling
+* Docker och dev/ops
+
+### Vi definierar rollen tillsammans
+Du kan vara en junior utvecklare som just slutat skolan, en kunnig hobbykodare
+eller en erfaren senior. Om du främst kan front-end, back-end, mobil eller web
+är inte viktigt.
+
+För oss är det viktigaste att hitta någon som delar vår progressiva vision och
+är villig att lära sig det som behövs. Vi kan definiera rollen tillsammans
+baserat på några gemensamma principer:
+
+* Alla på Zetkin Foundation har samma lön, som är högre än en typisk junior
+  utvecklarlön, men längre än en senior.
+* Alla på Zetkin Foundation jobbar deltid
+* Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar
+  på svenska och engelska.
+
+Hör gärna av dig om du vill bidra till progressiva organisationers arbete
+genom att vara med och utveckla Zetkin. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).
 
 ## Hjälp till på annat sätt?
 Vill du bidra till Zetkins utveckling, men hittar inte något som passar här?

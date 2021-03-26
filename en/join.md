@@ -21,7 +21,7 @@ by connected organizations. As more of us discover and start using Zetkin, costs
 and prices go down.
 
 ## Who can use Zetkin?
-Zetkin Foundation's mission is to work towards radical change of socity in a
+Zetkin Foundation's mission is to work towards radical change of society in a
 socialist, feminist, antiracist and sustainabile direction. To be able to use
 Zetkin, your organization's work must be compatible with this goal. If you are
 unsure, please contact us!

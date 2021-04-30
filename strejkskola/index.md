@@ -21,6 +21,8 @@ kicker: |
 
 Vill du bli bättre på att organisera arbetskamrater och kamper i ditt fackliga arbete för att vinna fler segrar? Vill du få nycklarna för hur en hyresrätskampen kan bli effektivare? Vill du lära dig metoderna för en lyckad kampanj som får igenom sina krav?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ImUTNobE6ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Internationellt program för organisatörer
 Vi bjuder in dig som är organisatör och idag organiserar på din arbetsplats, i ditt parti, i en kampanj eller i ditt bostadsområde att söka en plats i det internationella programmet Organizing för Power - Workers rising everywhere. Programmet utbildar organisatörer, med fokus på fackliga organisatörer, över hela världen från USA, Tyskland och Norge till Sydafrika, Mexiko och Turkiet och genomförs digitalt för tredje gången.
 

@@ -2,7 +2,7 @@
 lang: sv
 ref: campaigns.strejkskola
 layout: campaign
-title: Activist Training Tour 2018
+title: Organizing For Power
 campaign:
     slug: strejkskola
     color: '#a92d69'

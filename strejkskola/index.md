@@ -40,7 +40,7 @@ Utbildningen fokuserar på du ska få färdigheterna och kunna tillämpa dem dir
 ## Våra sex utbildningstillfällen
 
 ## Ansök om din plats senast 15 maj
-Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att fylla i din digitala ansökan senast den 15 maj. Vi antar löpande under ansökningstiden och senast den 16 maj får du veta om du blivit antagen till en av platserna.
+Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](http://bit.ly/O4P21) senast den 15 maj. Vi antar löpande under ansökningstiden och senast den 16 maj får du veta om du blivit antagen till en av platserna.
 
 ## Bjud in fler - ställ frågor till oss
 Se och sprid vår korta film om Organizing For Power och ställ frågor i [vårt Facebook-event](https://fb.me/e/589UEtyZq). Du kan också mejla oss på [mailto:daniel@zetkin.org](daniel@zetkin.org).

@@ -37,8 +37,6 @@ Programmet arbetar med deltagande metoder som blandar föreläsningar och konkre
 
 Utbildningen fokuserar på du ska få färdigheterna och kunna tillämpa dem direkt i ditt konkreta organiseringsarbete. Utbildningen går enbart att följa live eftersom en central del är arbetet i mindre grupper.
 
-Vill du bli inspirerad och veta vad som ingår i utbildningsprogrammet så kolla in den preliminära [deltagarmanualen](https://docs.google.com/document/d/1iOM9l4wq5slmWstleGJJVYTKTTMixGl7FQKhE-t5kgQ/edit?usp=sharing)!
-
 ## Ansök om din plats senast 15 maj
 Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](http://bit.ly/O4P21) senast den 15 maj. Vi antar löpande under ansökningstiden och senast den 16 maj får du veta om du blivit antagen till en av platserna.
 

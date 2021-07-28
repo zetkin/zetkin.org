@@ -3,10 +3,10 @@ lang: sv
 slug: utvecklingsfonden
 ref: devfund
 title: Utvecklingsfonden
-header: Hjälp oss att bygga upp Zetkins utvecklingsfond
+header: Hjälp oss bygga upp Zetkins utvecklingsfond
 image: /sv/bidra/utvecklingsfonden/nathaliesoderberg1.jpg
 kicker: |
-    När vi äger vår egen infrastruktur slipper vi förlita oss på kommersiella storföreta. Läs vår intervju med
+    När vi äger vår egen infrastruktur slipper vi förlita oss på kommersiella storföretag. Läs vår intervju med
     Nathalie Söderberg om varför du och din organisation bör donera till vår utvecklingsfond.
 ---
 

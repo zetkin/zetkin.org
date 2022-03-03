@@ -45,7 +45,7 @@ För oss är det viktigaste att hitta någon som delar vår progressiva vision o
 * Alla på Zetkin Foundation jobbar deltid
 * Alla på Zetkin bidrar i någon omfattning med volontära insatser
 
-Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar på svenska och engelska.
+Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar på engelska.
 
 Hör gärna av dig om du vill bidra till progressiva organisationers arbete genom att vara med och organisera i Zetkin Foundation. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).
 

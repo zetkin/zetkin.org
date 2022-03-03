@@ -49,7 +49,7 @@ based on some common principles:
   typical Swedish junior salary, but lower than a senior
 * Everyone at Zetkin Foundation work part-time
 * We have a distributed team who works mostly remotely, and our working
-  language is English (but we all also currently speak Swedish)
+  language is English
 
 Please get in touch if you want to contribute to empowering progressive
 organizations everywhere. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).

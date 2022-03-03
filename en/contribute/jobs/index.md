@@ -27,7 +27,7 @@ that team.
 ![Code](./kod.jpg)
 </figure>
 
-We really want to hear from you if you know (or **would like to learn**) some of
+We really want to hear from you if you know (or would like to learn) some of
 the following, and want to be part of our development team.
 
 * Node and React (or similar frameworks)

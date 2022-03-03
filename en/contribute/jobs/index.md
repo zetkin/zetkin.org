@@ -42,8 +42,8 @@ experienced senior. It's not important whether your primary skills are front-end
 or back-end development, mobile or web.
 
 For us the most important thing is to find someone who shares our progressive
-vision and is willing to learn what's necessary. We can define the role together
-based on some common principles:
+ideas and can learn what's necessary. We can define the role together based on
+some common principles:
 
 * Everyone at Zetkin Foundation have the same salary, which is higher than a
   typical Swedish junior salary, but lower than a senior
@@ -52,7 +52,7 @@ based on some common principles:
   language is English
 
 Please get in touch if you want to contribute to empowering progressive
-organizations everywhere. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).
+organizations. Send us an e-mail at [info@zetkin.org](mailto:info@zetkin.org).
 
 ## Contribute some other way?
 If the listings above are a bad fit, but you still want to contribute to Zetkin,

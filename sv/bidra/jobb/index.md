@@ -39,13 +39,13 @@ Vi söker organisatörer som har erfarenhet av (eller är beredd/har förmåga a
 ### Vi definierar rollen tillsammans
 Du kan vara ny på organisering med brinna för det, du kan vara gammal i gemet och ha organiserat sedan barnsben i olika rörelser. Du kan komma från näringslivet med massa erfarenheter i bagaget eller ha en utbildning inom något av ovanstående områden. Eller så har du utbildningen från rörelsen genom att om och om och om igen ha organiserat och/eller varit aktivist.
 
-För oss är det viktigaste att hitta någon som delar vår progressiva vision och är villig lägga tiden och kraften på det vi gör. Vi söker dig som är prestigelös, noggrann och kan jobba såväl i team som ensam. Vi kan definiera uppdraget och uppgifterna tillsammans baserat på några gemensamma principer:
+För oss är det viktigaste att hitta någon som delar våra progressiva idéer och är villig lägga tiden och kraften på det vi gör. Vi söker dig som är prestigelös, noggrann och kan jobba såväl i team som ensam. Vi kan definiera uppdraget och uppgifterna tillsammans baserat på några gemensamma principer:
 
 * Alla på Zetkin Foundation har samma lön
 * Alla på Zetkin Foundation jobbar deltid
 * Alla på Zetkin bidrar i någon omfattning med volontära insatser
 
-Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar på engelska.
+Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar på svenska och engelska.
 
 Hör gärna av dig om du vill bidra till progressiva organisationers arbete genom att vara med och organisera i Zetkin Foundation. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).
 
@@ -68,15 +68,15 @@ Du kan vara en junior utvecklare som just slutat skolan, en kunnig hobbykodare
 eller en erfaren senior. Om du främst kan front-end, back-end, mobil eller web
 är inte viktigt.
 
-För oss är det viktigaste att hitta någon som delar vår progressiva vision och
-är villig att lära sig det som behövs. Vi kan definiera rollen tillsammans
-baserat på några gemensamma principer:
+För oss är det viktigaste att hitta någon som delar våra progressiva idéer och
+kan lära sig det som behövs. Vi kan definiera rollen tillsammans baserat på
+några gemensamma principer:
 
 * Alla på Zetkin Foundation har samma lön, som är högre än en typisk junior
   utvecklarlön, men längre än en senior.
 * Alla på Zetkin Foundation jobbar deltid
 * Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar
-  på svenska och engelska.
+  på engelska.
 
 Hör gärna av dig om du vill bidra till progressiva organisationers arbete
 genom att vara med och utveckla Zetkin. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).

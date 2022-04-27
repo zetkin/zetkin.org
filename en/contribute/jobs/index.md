@@ -18,15 +18,31 @@ Zetkin and spreading successful organizing methods through the international lef
 * [Read more about Zetkin](/en/zetkin)
 * [Read more about Zetkin Foundation](/en/foundation)
 
-## Our development team is growing
+## Our team is growing
 Most of the people doing work in Zetkin Foundation are volunteers, but there is
-also a core team of part-time developers, and in 2021 and 2022 we want to grow
-that team.
+also a core team of part-time designers and developers, and over the next few
+years we want to grow that team.
 
 <figure markdown="1">
 ![Code](./kod.jpg)
 </figure>
 
+
+### Are you a UX/UI designer?
+Our team of permanent part-time developers has grown and we need to add someone
+with UX/UI skills to the team, so that we're always one step ahead in our
+development process.
+
+We really want to hear from you if you have experience with things like:
+
+* UX research and design
+* Design systems
+* Product design
+* User testing
+
+If you're able to code a little (we use Typescript and React) that's a big plus!
+
+### Are you a developer?
 We really want to hear from you if you know (or would like to learn) some of
 the following, and want to be part of our development team.
 
@@ -36,9 +52,9 @@ the following, and want to be part of our development team.
 * Python for server development
 * Docker and dev/ops
 
-### Let's define the role together
-You can be a junior developer fresh out of school, a capable hobbyist or an
-experienced senior. It's not important whether your primary skills are front-end
+## Let's define the role together
+You can be a junior fresh out of school, a capable hobbyist or an experienced
+senior. It's not important whether your primary skills are design, front-end
 or back-end development, mobile or web.
 
 For us the most important thing is to find someone who shares our progressive

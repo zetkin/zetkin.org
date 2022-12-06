@@ -33,7 +33,7 @@ Programmet arbetar med deltagande metoder som blandar föreläsningar och konkre
 Utbildningen fokuserar på du ska få färdigheterna och kunna tillämpa dem direkt i ditt konkreta organiseringsarbete. Utbildningen går enbart att följa live eftersom en central del är arbetet i mindre grupper.
 
 ## Ansök om din plats senast 15 januari
-Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](http://bit.ly/O4P21) senast den 15 januari. Vi antar löpande under ansökningstiden.
+Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](https://www.zetk.in/o/433/surveys/846) senast den 15 januari. Vi antar löpande under ansökningstiden.
 
 ## Bjud in fler - ställ frågor till oss
 Se och sprid vår korta film om Organizing For Power. Du kan också mejla oss på [nathalie.soderberg@zetkin.org](mailto:nathalie.soderberg@zetkin.org).

@@ -26,7 +26,7 @@ Vi bjuder in dig som är organisatör och idag organiserar på din arbetsplats, 
 Programmet leds av Jane McAlevey, [en av USAs mest framgångsrika fackliga organisatörer](https://www.youtube.com/watch?v=bl6P_2jt_Vs), som utbildat fackliga aktivister på plats i bland annat Tyskland och Storbritannien utöver USA där hon organiserat flera fackliga strider som lett till seger. Jane har skrivit No Shortcuts: Organizing for Power och är skolad i den amerikanska radikala traditionen av organisering.
 
 ## Online program live
-Vi träffas online på Zoom sex tisdagar med start den 8 februari mellan klockan 18.00-20.00.
+Vi träffas online på Zoom sex onsdagar med start den 8 februari klockan 18.00-20.00. För att bli antagen till utbildningen förväntas du delta på samtliga onsdagsträffar. Utöver det kommer vi också att anordna svenska träffar för diskussion och träning sex söndagar med start 12 februari. Tiden återkommer vi med.
 
 Programmet arbetar med deltagande metoder som blandar föreläsningar och konkret träning med samtal i mindre grupper. Föreläsningarna är på engelska men samtalen sker på svenska/skandinaviska i mindre grupper. Mellan tillfällena får du en träningsuppgift.
 

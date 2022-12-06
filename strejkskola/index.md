@@ -8,40 +8,35 @@ campaign:
     color: '#a92d69'
 hero:
     lead: Organizing For Power
-    h: Organisera för att vinna 2021
+    h: Organisera för att vinna 2023
     intro: |
         Vill du delta i det internationella programmet Organizing för Power?
         Lära av USAs främsta organisatör?
 kicker: |
-    18 maj - 22 juni genomförs programmet Organizing for Power - workers rising
-    everywhere som utbildar organisatörer i hela världen som vill vinna segrar
-    genom organisering. Här hittar du allt du behöver veta och hur du söker en
-    av de svenska platserna.
+    8 februari - 15 mars genomförs programmet Organizing for Power - Core Fundamentals som utbildar organisatörer i hela världen som vill vinna segrar genom organisering. Här hittar du allt du behöver veta och hur du söker en av de svenska platserna.
 ---
 
 Vill du bli bättre på att organisera arbetskamrater och kamper i ditt fackliga arbete för att vinna fler segrar? Vill du få nycklarna för hur en hyresrätskampen kan bli effektivare? Vill du lära dig metoderna för en lyckad kampanj som får igenom sina krav?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ImUTNobE6ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k7Sf4XQxpRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Internationellt program för organisatörer
-Vi bjuder in dig som är organisatör och idag organiserar på din arbetsplats, i ditt parti, i en kampanj eller i ditt bostadsområde att söka en plats i det internationella programmet Organizing för Power - Workers rising everywhere. Programmet utbildar organisatörer, med fokus på fackliga organisatörer, över hela världen och genomförs digitalt för tredje gången.
+Vi bjuder in dig som är organisatör och idag organiserar på din arbetsplats, i ditt parti, i en kampanj eller i ditt bostadsområde att söka en plats i det internationella programmet Organizing för Power - Core Fundamentals. Programmet utbildar organisatörer, med fokus på fackliga organisatörer, över hela världen.
 
 Programmet leds av Jane McAlevey, [en av USAs mest framgångsrika fackliga organisatörer](https://www.youtube.com/watch?v=bl6P_2jt_Vs), som utbildat fackliga aktivister på plats i bland annat Tyskland och Storbritannien utöver USA där hon organiserat flera fackliga strider som lett till seger. Jane har skrivit No Shortcuts: Organizing for Power och är skolad i den amerikanska radikala traditionen av organisering.
 
-Jane leder utbildningen tillsammans med ett team av utbildare samt 150 facilatorer från hela världen. Just nu är deltagare från över 60 länder registrerade.
-
 ## Online program live
-Vi träffas online på Zoom sex tisdagar med start den 18 maj mellan klockan 18.00-20.00.
+Vi träffas online på Zoom sex tisdagar med start den 8 februari mellan klockan 18.00-20.00.
 
 Programmet arbetar med deltagande metoder som blandar föreläsningar och konkret träning med samtal i mindre grupper. Föreläsningarna är på engelska men samtalen sker på svenska/skandinaviska i mindre grupper. Mellan tillfällena får du en träningsuppgift.
 
 Utbildningen fokuserar på du ska få färdigheterna och kunna tillämpa dem direkt i ditt konkreta organiseringsarbete. Utbildningen går enbart att följa live eftersom en central del är arbetet i mindre grupper.
 
-## Ansök om din plats senast 15 maj
-Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](http://bit.ly/O4P21) senast den 15 maj. Vi antar löpande under ansökningstiden och senast den 16 maj får du veta om du blivit antagen till en av platserna.
+## Ansök om din plats senast 15 januari
+Vi har ett begränsat antal platser. Du ansöker om att få en av platserna i programmet genom att [fylla i din digitala ansökan](http://bit.ly/O4P21) senast den 15 januari. Vi antar löpande under ansökningstiden.
 
 ## Bjud in fler - ställ frågor till oss
-Se och sprid vår korta film om Organizing For Power och ställ frågor i [vårt Facebook-event](https://fb.me/e/589UEtyZq). Du kan också mejla oss på [daniel@zetkin.org](mailto:daniel@zetkin.org).
+Se och sprid vår korta film om Organizing For Power. Du kan också mejla oss på [nathalie.soderberg@zetkin.org](mailto:nathalie.soderberg@zetkin.org).
 
 ## Vanliga frågor och svar
 ### Kostar det något att delta?

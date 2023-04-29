@@ -27,43 +27,36 @@ years we want to grow that team.
 ![Code](./kod.jpg)
 </figure>
 
+## Are you a mobile developer?
+One of our products is a mobile app developed using Flutter, and we think that
+someone with mobile expertise could help us take the next step in improving
+that product. Please reach out of you have experience developing mobile
+applications and are familiar with or willing to learn Flutter.
 
-## Are you a UX/UI designer?
-Our team of permanent part-time developers has grown and we need to add someone
-with UX/UI skills to the team, so that we're always one step ahead in our
-development process.
 
-This role will involve collaborating closely with our developers, establishing
-user journeys, creating wireframes, designing our user interface, and building
-and maintaining our design system.
+## Are you a senior web developer?
+Our development team has grown a lot in the past two years and we would like
+to add one more senior developer. As a senior developer at Zetkin Foundation,
+you will need to be (or become) comfortable with at least some of the following:
 
-We really want to hear from you if you have experience with things like:
-
-* UX research and design
-* Design systems
-* Product design
-* User testing
-
-If you're able to code a little (we use Typescript and React) that's also good
-to know.
-
-## Are you a developer?
-We're also always in need of more developers, both permanent and in freelance.
-We really want to hear from you if you know (or would like to learn) some of
-the following, and want to be part of our development team.
-
-* Node and React (or similar frameworks)
-* Responsive design with CSS/SASS
-* Cross-platform mobile development (e.g. Flutter)
+* Next.js and React
+* Fullstack development using Typescript
+* Frontend testing (unit, component, e2e)
 * Python for server development
-* Docker and dev/ops
+* Open-source management practices (code reviews, documentation etc)
+* Docker and devops
+
+It's also great if you have experience pair programming and mentoring more
+junior developers, and if you are comfortable improving processes whenever
+possible, or stepping in when process is less than ideal.
 
 ## Let's define the role together
-You can be a junior fresh out of school, a capable hobbyist or an experienced
-senior. It's not important whether your primary skills are design, front-end
-or back-end development, mobile or web.
+In the end, what we need more than anything is someone who's dedicated. Whether
+you are a junior fresh out of school, a capable hobbyist or an experienced
+senior, we're interested in hearing from you. It's not important whether your
+primary skills are design, front-end or back-end development, mobile or web.
 
-For us the most important thing is to find someone who shares our progressive
+For us the most important thing is to find people who shares our progressive
 ideas and can learn what's necessary. We can define the role together based on
 some common principles:
 

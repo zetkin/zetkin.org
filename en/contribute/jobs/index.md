@@ -27,22 +27,6 @@ years we want to grow that team.
 ![Code](./kod.jpg)
 </figure>
 
-## Are you a designer with project management skills?
-As our team has grown and the pace of development increased, we are seeing a
-need to better manage the design phase of our product release cycle. We want
-to strengthen our team with a UX lead / product designer who is able to move
-between user research, long-term planning (together with our tech lead) and
-design. You will work with two other designers and it will be your task to
-keep the process smooth from idea to developer handoff.
-
-We think that you will need to be comfortable with (or willing and able to
-learn):
-
-* User research and testing
-* UX/UI design with Figma
-* Project/process management and planning
-* Helping people achieve their best
-
 ## Are you a mobile developer?
 One of our products is a mobile app developed using Flutter, and we think that
 someone with mobile expertise could help us take the next step in improving

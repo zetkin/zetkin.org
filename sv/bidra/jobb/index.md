@@ -20,7 +20,12 @@ Zetkin och att sprida framgångsrika metoder inom den internationella vänstern.
 * [Läs mer om Zetkin Foundation](/sv/foundation)
 
 ## Vi söker fler organisatörer och utvecklare
-De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Under 2021 och 2022 vill vi bli ytterligare några organisatörer, samtidigt som vi utökar vårt utvecklarteam.
+De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer, samtidigt som vi utökar vårt utvecklarteam.
+
+## Bli vår kommunikatör
+Vi letar just nu efter dig som vill arbeta med Zetkin Foundations kommunikationsarbete. Det är ett varierat uppdrag där du arbetar över våra olika projekt och skapar kommunikationen. Kommunikation som gör att fler vill bli engagerade i Zetkin Foundation eller donera pengar, fler får upp ögonen för organisering i allmänhet och vår plattform Zetkin i synnerhet, fler vill komma på vår organiseringskonferens med mera. Det handlar både om extern och intern kommunikation i huvudsak i digitala kanaler. En viktig del av allt vårt arbete är att vi alltid engagerar volontärer för att bidra i arbetet - så också i vårt kommunikationsarbete.
+
+Uppdraget tillsätts löpande. och vi hoppas ha dig på plats i början av oktober så tveka in att skicka in din ansökan redan idag.
 
 ## Är du organisatör?
 Vi vill gärna höra från dig som brinner för långsiktigt organisering, mobilisering och kampanjarbete. Som vill att vänstern ska ha de bästa förutsättningarna och metoderna för att vinna nya segrar
@@ -34,7 +39,7 @@ Vi söker organisatörer som har erfarenhet av (eller är beredd/har förmåga a
 * Försäljning
 * Volontärsamordning
 * Planera och genomföra konferenser (såväl fysiska som online)
-* Organisera bygga upp ett volontärt kommunikationsarbete
+* Bygga upp kommunikationsarbetet för Zetkin Foundation
 
 ### Vi definierar rollen tillsammans
 Du kan vara ny på organisering med brinna för det, du kan vara gammal i gemet och ha organiserat sedan barnsben i olika rörelser. Du kan komma från näringslivet med massa erfarenheter i bagaget eller ha en utbildning inom något av ovanstående områden. Eller så har du utbildningen från rörelsen genom att om och om och om igen ha organiserat och/eller varit aktivist.
@@ -54,32 +59,7 @@ Hör gärna av dig om du vill bidra till progressiva organisationers arbete geno
 ![Kod](./kod.jpg)
 </figure>
 
-Vi vill gärna höra från dig om du kan (eller vill lära dig) några av
-följande tekniker och vill bli en del av vårt utvecklarteam.
-
-* Node och React (eller liknande ramverk)
-* Responsive design med CSS/SASS
-* Cross-platform mobile development (ex Flutter)
-* Python för server-utveckling
-* Docker och dev/ops
-
-### Vi definierar rollen tillsammans
-Du kan vara en junior utvecklare som just slutat skolan, en kunnig hobbykodare
-eller en erfaren senior. Om du främst kan front-end, back-end, mobil eller web
-är inte viktigt.
-
-För oss är det viktigaste att hitta någon som delar våra progressiva idéer och
-kan lära sig det som behövs. Vi kan definiera rollen tillsammans baserat på
-några gemensamma principer:
-
-* Alla på Zetkin Foundation har samma lön, som är högre än en typisk junior
-  utvecklarlön, men längre än en senior.
-* Alla på Zetkin Foundation jobbar deltid
-* Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar
-  på engelska.
-
-Hör gärna av dig om du vill bidra till progressiva organisationers arbete
-genom att vara med och utveckla Zetkin. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).
+Läs mer om våra utvecklartjänster [på den engelska sidan](/en/contribute/jobs).
 
 ## Hjälp till på annat sätt?
 Vill du bidra till Zetkins utveckling, men hittar inte något som passar här?

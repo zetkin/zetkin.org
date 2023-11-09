@@ -2,9 +2,8 @@
     padding: 3em;
     margin: 0 0 20px;
     background-color: $c-brand-comp-light;
-    background-image: linear-gradient(
-        $c-brand-comp-light 0,
-        $c-brand-comp-dark 100%);
+    background-image: linear-gradient($c-brand-comp-light 0,
+            $c-brand-comp-dark 100%);
 
     color: white;
 
@@ -153,10 +152,9 @@
                     margin-left: 10px;
 
                     &:hover {
-                        background: radial-gradient(
-                            circle at 50% 50%,
-                            $c-brand-main-pink,
-                            $c-brand-main-orange);
+                        background: radial-gradient(circle at 50% 50%,
+                                #0a7364 30%,
+                                #1e0032 300%);
 
                         a {
                             color: white;
@@ -173,4 +171,3 @@
         }
     }
 }
-

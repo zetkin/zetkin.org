@@ -111,10 +111,10 @@ a.button {
     border-radius: 3em;
     background: radial-gradient(
         circle at 50% 50%,
-        $c-brand-main-pink,
-        $c-brand-main-orange);
+        #0a7364 30%,
+        #1e0032 300%);
 
     &:hover {
-        background: $c-brand-main;
+        background: #0a7364;
     }
 }

@@ -1,5 +1,25 @@
-$brand-font-family: azo-sans-web, Helvetica, Arial, sans-serif;
-$base-font-family:  franklin-gothic-urw, Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: 'sans-regular';
+  src: url('/assets/fonts/sans-regular.ttf');
+}
+
+@font-face {
+  font-family: 'sans-semibold';
+  src: url('/assets/fonts/sans-semibold.ttf');
+}
+
+@font-face {
+  font-family: 'sans-bold';
+  src: url('/assets/fonts/sans-bold.ttf');
+}
+
+@font-face {
+  font-family: 'serif-regular';
+  src: url('/assets/fonts/serif-regular.ttf');
+}
+
+$brand-font-family: 'serif-regular', serif;
+$base-font-family:  'sans-regular', Helvetica, Arial, sans-serif;
 $base-font-size:    16px;
 $small-font-size:   $base-font-size * 0.875;
 $base-line-height:  1.5;

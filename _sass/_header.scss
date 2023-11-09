@@ -13,7 +13,6 @@
 
     h1 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     p {
@@ -27,7 +26,7 @@
         border-radius: 10em;
         padding: 0.8em 1.3em;
         color: white;
-        font-weight: bold;
+        font-family: 'sans-bold';
 
         &:hover {
             color: $c-brand-comp-dark;
@@ -126,7 +125,7 @@
             }
 
             &.selected {
-                font-weight: bold;
+                font-family: 'sans-bold';
                 color: $c-brand-main;
 
                 &:hover {

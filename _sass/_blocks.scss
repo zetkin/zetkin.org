@@ -112,7 +112,7 @@
 
         a {
             text-decoration: none;
-            font-weight: bold;
+            font-family: 'sans-bold';
             color: $c-brand-main;
         }
     }
@@ -177,7 +177,7 @@
     .intro {
         .kicker {
             font-size: 18px;
-            color: $c-brand-main;
+            font-family: 'sans-bold';
         }
     }
 
@@ -215,7 +215,6 @@
         h3 {
             margin: 0;
             font-size: 18px;
-            font-weight: bold;
         }
 
         p {

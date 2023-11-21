@@ -19,7 +19,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url(/assets/img/hero.jpg);
+            background: url(/assets/img/hero.png);
             background-position: center center;
             background-size: cover;
             opacity: 0.6;
@@ -47,6 +47,8 @@
 
         .button {
             margin-top: 40px;
+            background: transparent;
+            border: 2px solid white;
         }
 
         @include medium-screen {
@@ -88,7 +90,7 @@
         }
 
         a {
-            font-weight: bold;
+            font-family: 'sans-bold';
             color: $c-brand-main-pink;
             text-decoration: none;
             transition: color 0.5s;

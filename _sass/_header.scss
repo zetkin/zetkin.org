@@ -2,9 +2,8 @@
     padding: 3em;
     margin: 0 0 20px;
     background-color: $c-brand-comp-light;
-    background-image: linear-gradient(
-        $c-brand-comp-light 0,
-        $c-brand-comp-dark 100%);
+    background-image: linear-gradient($c-brand-comp-light 0,
+            $c-brand-comp-dark 100%);
 
     color: white;
 
@@ -13,7 +12,6 @@
 
     h1 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     p {
@@ -27,7 +25,7 @@
         border-radius: 10em;
         padding: 0.8em 1.3em;
         color: white;
-        font-weight: bold;
+        font-family: 'sans-bold';
 
         &:hover {
             color: $c-brand-comp-dark;
@@ -126,7 +124,7 @@
             }
 
             &.selected {
-                font-weight: bold;
+                font-family: 'sans-bold';
                 color: $c-brand-main;
 
                 &:hover {
@@ -154,10 +152,9 @@
                     margin-left: 10px;
 
                     &:hover {
-                        background: radial-gradient(
-                            circle at 50% 50%,
-                            $c-brand-main-pink,
-                            $c-brand-main-orange);
+                        background: radial-gradient(circle at 50% 50%,
+                                #0a7364 30%,
+                                #1e0032 300%);
 
                         a {
                             color: white;
@@ -174,4 +171,3 @@
         }
     }
 }
-

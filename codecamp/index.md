@@ -32,7 +32,7 @@ Code camp is free of charge. We provide free food at MEC and arrange free accomm
 <script async src="//www.instagram.com/embed.js"></script>
 
 ## Learn more and sign up 
-The last day to sign up is is on the 15th august. The sooner, the better - spots are limited and might be filled before this date.
+The last day to sign up is is on the 7th of September. The sooner, the better - spots are limited and might be filled before this date.
 
 [Read more and sign up for Code Camp](https://www.zetk.in/o/433/surveys/1295)
 

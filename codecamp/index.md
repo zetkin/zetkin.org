@@ -10,7 +10,7 @@ hero:
     lead: Contribute to Zetkin
     h: Code Camp & Media Meetup
     intro: |
-        We're happy to once again invite developers amd UI/UX designers as well as media and communications specialists to join us for a weekend of working and networking. Contribute to the cause and learn new things in a cooperative and activist environment.
+        We're happy to once again invite developers and UI/UX designers as well as media and communications specialists to join us for a weekend of working and networking. Contribute to the cause and learn new things in a cooperative and activist environment.
 kicker:
 ---
 

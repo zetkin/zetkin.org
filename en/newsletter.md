@@ -3,10 +3,10 @@ lang: en
 slug: newsletter
 ref: newsletter
 title: Newsletter
-header: Zetkin Foundation monthly newsletter
+header: Zetkin Foundation newsletter
 ---
 
-Receive a monthly summary of our upcoming events, updates in the Zetkin platform
+Receive information about  our upcoming events, updates in the Zetkin platform
 and news from our international community of volunteers and Zetkin users.
 
 <iframe

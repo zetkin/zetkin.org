@@ -39,12 +39,13 @@ What we want the most is someone who is dedicated. Whether you are a junior fres
 
 ### In addition, we hope that...
 
-You have some years or many years experience working as a developer
-The idea of working part-time for a radical leftist organisation sounds great to you
-You care about writing and maintaining code that is accessible and easy to read.
-You are happy about the idea of both sharing your knowledge and learning from others.
-You can work daytime hours with a team based in CET timezone
-You are comfortable using English as your work language
+- You have some years or many years experience working as a developer
+- The idea of working part-time for a radical leftist organisation sounds great to you
+- You care about writing and maintaining code that is accessible and easy to read.
+- You are happy about the idea of both sharing your knowledge and learning from others.
+- You can work daytime hours with a team based in CET timezone
+- You are comfortable using English as your work language
+
 Important to know is that everyone at Zetkin Foundation works part-time, and everyone has the same salary. The pay is more than the typical salary for a junior, but less than a typical salary for a senior.
 
 Send your application to [info@zetkin.org](mailto:info@zetkin.org), we look forward to hearing from you!

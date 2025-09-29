@@ -15,9 +15,8 @@ Vi välkomnar alla bidrag till Zetkins utveckling. Oavsett om du har möjlighet
 att bidra med pengar eller tid tar vi tacksamt emot ditt engagemang.
 
 ## Jobba på Zetkin Foundation
-Just nu söker vi kommunikatör. Vi söker även förstärkning av vårt utvecklarteam.
+Just behöver vi förstärkning av vårt utvecklarteam.
 
-* [Läs om kommunikatörstjänsten](/sv/bidra/jobb)
 * [Läs om utvecklartjänsterna (på engelska)](/en/contribute/jobs)
 
 ## Donera till utvecklingsfonden – Swish eller BankGiro

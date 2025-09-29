@@ -22,15 +22,6 @@ Zetkin och att sprida framgångsrika metoder inom den internationella vänstern.
 ## Vi söker fler organisatörer och utvecklare
 De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer, samtidigt som vi utökar vårt utvecklarteam.
 
-## Bli vår kommunikatör
-Vi letar just nu efter dig som vill arbeta med Zetkin Foundations kommunikationsarbete. Det är ett varierat uppdrag där du arbetar över våra olika projekt och skapar kommunikationen. Kommunikation som gör att fler vill bli engagerade i Zetkin Foundation eller donera pengar, fler får upp ögonen för organisering i allmänhet och vår plattform Zetkin i synnerhet, fler vill komma på vår organiseringskonferens med mera. Det handlar både om extern och intern kommunikation i huvudsak i digitala kanaler. En viktig del av allt vårt arbete är att vi alltid engagerar volontärer för att bidra i arbetet - så också i vårt kommunikationsarbete.
-
-Tjänsten är på deltid, omfattningen kan diskuteras.
-
-Uppdraget tillsätts löpande. och vi hoppas ha dig på plats i början av oktober så tveka in att skicka in din ansökan redan idag.
-
-Skicka ditt CV och ett personligt brev till [info@zetkin.org](mailto:info@zetkin.org).
-
 ## Är du organisatör?
 Vi vill gärna höra från dig som brinner för långsiktigt organisering, mobilisering och kampanjarbete. Som vill att vänstern ska ha de bästa förutsättningarna och metoderna för att vinna nya segrar
 

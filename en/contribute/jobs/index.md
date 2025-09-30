@@ -48,4 +48,4 @@ What we want the most is someone who is dedicated. Whether you are a junior fres
 
 Important to know is that everyone at Zetkin Foundation works part-time, and everyone has the same salary. The pay is more than the typical salary for a junior, but less than a typical salary for a senior.
 
-Send your application to [info@zetkin.org](mailto:info@zetkin.org), we look forward to hearing from you!
+Send your application to [work@zetkin.org](mailto:work@zetkin.org), we look forward to hearing from you!

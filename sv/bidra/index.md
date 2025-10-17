@@ -14,11 +14,6 @@ blocks:
 Vi välkomnar alla bidrag till Zetkins utveckling. Oavsett om du har möjlighet
 att bidra med pengar eller tid tar vi tacksamt emot ditt engagemang.
 
-## Jobba på Zetkin Foundation
-Just behöver vi förstärkning av vårt utvecklarteam.
-
-* [Läs om utvecklartjänsterna (på engelska)](/en/contribute/jobs)
-
 ## Donera till utvecklingsfonden – Swish eller BankGiro
 Oavsett om det handlar om ett stort eller litet belopp, återkommande eller vid
 ett enstaka tillfälle, är din gåva viktig för Zetkins utveckling.

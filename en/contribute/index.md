@@ -14,11 +14,6 @@ blocks:
 We welcome all contributions to the development of Zetkin. Regardless of
 whether you can donate funds or time we gratefully accept your contribution.
 
-## Work for Zetkin Foundation
-We are currently looking to expand our developer team.
-
-[Read the full description](/en/contribute/jobs) of what we're looking for.
-
 ## Volunteer
 Zetkin is developed, documented, taught and communicated in large part by volunteers.
 If you possess knowledge that could be of use in a large-scale web project like

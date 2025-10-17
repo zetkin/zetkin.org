@@ -19,8 +19,8 @@ Zetkin och att sprida framgångsrika metoder inom den internationella vänstern.
 * [Läs mer om Zetkin](/sv/zetkin)
 * [Läs mer om Zetkin Foundation](/sv/foundation)
 
-## Vi söker fler organisatörer och utvecklare
-De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer, samtidigt som vi utökar vårt utvecklarteam.
+## Vi söker fler organisatörer
+De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer.
 
 ## Är du organisatör?
 Vi vill gärna höra från dig som brinner för långsiktigt organisering, mobilisering och kampanjarbete. Som vill att vänstern ska ha de bästa förutsättningarna och metoderna för att vinna nya segrar

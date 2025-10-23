@@ -19,8 +19,8 @@ Zetkin och att sprida framgångsrika metoder inom den internationella vänstern.
 * [Läs mer om Zetkin](/sv/zetkin)
 * [Läs mer om Zetkin Foundation](/sv/foundation)
 
-## Vi söker fler organisatörer och utvecklare
-De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer, samtidigt som vi utökar vårt utvecklarteam.
+## Vi söker fler organisatörer
+De flesta som arbetar med Zetkin är volontärer, men vi har ett litet team med deltidsanställda utvecklare och organisatörer. Just nu vill vi bli ytterligare några organisatörer.
 
 ## Är du organisatör?
 Vi vill gärna höra från dig som brinner för långsiktigt organisering, mobilisering och kampanjarbete. Som vill att vänstern ska ha de bästa förutsättningarna och metoderna för att vinna nya segrar
@@ -48,13 +48,6 @@ För oss är det viktigaste att hitta någon som delar våra progressiva idéer 
 Vi har ett utspritt team som arbetar mestadels på distans och vi kommunicerar på svenska och engelska.
 
 Hör gärna av dig om du vill bidra till progressiva organisationers arbete genom att vara med och organisera i Zetkin Foundation. Skicka ett mail till [info@zetkin.org](mailto:info@zetkin.org).
-
-## Är du utvecklare?
-<figure markdown="1">
-![Kod](./kod.jpg)
-</figure>
-
-Läs mer om våra utvecklartjänster [på den engelska sidan](/en/contribute/jobs).
 
 ## Hjälp till på annat sätt?
 Vill du bidra till Zetkins utveckling, men hittar inte något som passar här?

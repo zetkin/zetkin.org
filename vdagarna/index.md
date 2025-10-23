@@ -5,65 +5,67 @@ layout: campaign
 title: Zetkin på Vänsterdagarna
 campaign:
     slug: vdagarna
-    color: '#fc0'
+    color: '#f26167'
 hero:
-    lead: Zetkin på Vänsterdagarna
-    h: Ses vi i Göteborg?
+    lead: Vänsterdagarna
+    h: Zetkin på Vänsterdagarna
     intro: |
-        Zetkin Foundation har ett späckat program under
-        konferensens alla dagar.
+        Zetkin Foundation deltar i flera programpunkter
+        under helgen. Här hittar du allt.
 kicker: |
     Zetkin Foundation hjälper vänstern organisera fler. På Vänsterdagarna deltar vi i
     seminarier och workshops, svarar på frågor och berättar om våra aktuella projekt.
 ---
 
-# Vårt program
 Kom till vår monter när som helst, eller dyk upp på programpunkter där vi deltar. Här
 hittar du all information du behöver.
 
-## Åtta år med Zetkin Foundation
-* Lördag 12.45, plats: vår monter (Richard Olsson)
+# Fredag (24 Oktober)
 
-I november firar Zetkin Foundation åtta år. Hör om hela resan från Vänsterpartiet i Malmö till rörelserna ute i världen.
+## Barhäng med Zetkin Foundation.
+Plats: Ölstugan Tullen på Kungsholmen
+Tid: Start 19:30
 
-## Så tar du samtalen med väljare
-* Lördag 13.30, plats: "Rörelsebygget" (Nathalie Söderberg)
+Välkommen på barhäng med Zetkin Foundation och våra kamrater som rest för att delta på Vänsterdagarna. Träffa våra vänner från Sosialistisk Venstreparti (NO), Democratic Socialists of America (USA), Die Linke (DE),och Vänsterpartiet.
 
-Valet handlar om att vinna över väljare. Hur genomför man samtal som övertygar?
+För dig som:
+- Använder Zetkin.
+- Volontärar för Zetkin Foundation.
+- Ger ut Vänstern i...-tidning
+- På annat sätt har ett band till Zetkin Foundation.
 
-## Lyft luren och vinn val (workshop)
-* Lördag 15.00, plats: "Rörelsebygget" (Adam Määttä)
-* Söndag 11.05, plats: "Boden" (Nathalie Söderberg)
+# Lördag & Söndag (25-26 Oktober)
 
-Telefonen är det bästa sättet att mobilisera både väljare och aktivister. Hur gör man?
+## Rörelsen börjar på dörrmattan – lärdomar från Die Linke och Sosialistisk Venstreparti
+Lördag kl 12:45-13:30. Plats: Kaféscenen
 
-## Direktrapport från danska valet
-* Lördag 15.10, plats: vår monter (Frederik Dahler, RGU)
-* Söndag 10.45, plats: vår monter (Frederik Dahler, RGU)
+Die Linke i Tyskland och Sosialistisk Venstreparti i Norge är två organisationer som båda använder Zetkin, men på lite olika sätt, och med olika resultat.
 
-På fredag är det val i Danmark. Hör direkt från Enhedslistens ungdomsförbund Rød-Grøn Ungdom som använder Zetkin i kampanjen.
+Hör Alina Nüßing från Die Linke och Nils Erik Flatø om hur de arbetade med mobilisering till sina dörrknackningskampanjer.
 
-## Gör er egen tidning
-* Lördag 16.20, plats: vår monter (Mats Billberg Johansson)
-* Söndag 12.45, plats: "Rörelsebygget" (Mats Billberg Johansson)
+## Tematräff för Zetkin-organisatörer
+Söndag 9:00-9:45 Tema: Zetkin. Plats: E3
 
-Vänsterpartiets egna lokaltidning. Låter det som en dröm? Den finns redan, och blir möjlig när vi gör den tillsammans.
+En träff om organisering och teknik för Zetkinorganisatörer med möjlighet att workshopa om plattformens utveckling och hur vi kan använda tekniken för att organisera Vänsterpartiet under valet 2026.
 
-## Evidensbaserat kampanjarbete
-* Söndag 10.35, plats: "Rörelsebygget" (Richard Olsson)
+## Träffa kamrater från Die Linke, SV och Enhedslisten
+Zetkin Foundation arbetar med organisationer i många länder, som alla bjuder på olika utmaningar och erfarenheter.
 
-Vilka kampanjmetoder gör verklig skillnad? Vi backar upp magkänslan med siffror.
+Under Vänsterdagarna finns Zetkin-användare från Die Linke (DE), Sosialistisk Venstreparti (NO) och Enhedslisten (DK) på plats, och ni kan träffa dem vid olika tider i vår monter. Kom och chansa, eller dyk upp på de utsatta tiderna nedan.
 
-## Ett parti är inte starkare än sina folkrörelser (panelsamtal)
-* Söndag 11.50, plats: ABF-scenen (Adam Määttä m.fl)
+Exakta tider kommer.
 
-Hur är rörelser viktiga för att förändra samhället? Hur kan V bli starkare som rörelse?
-Adam Määttä från Zetkin Foundation deltar i panelsamtalet.
+## Välkommen till vår monter
+Lördag & söndag 9:00-17:00
 
-## Zetkin 2022 och i framtiden
-* Söndag, 12.50, plats: vår monter (Richard Olsson)
+Välkommen till vår monter och prata! Vi tycker om att prata om gräsrotsorganisering och hur olika metoder kan stärka vänstern, i Sverige och internationellt.
+Ställ gärna frågor om:
+- Zetkin, vår mjukvara för organisering som används  i 7 länder.
+- Vårt tidningskoncept “Vänstern i...” som ger lokalföreningar/distrikt möjligheten att ge ut sin egen lokaltidning.
+- Våra förhoppningar och tankar om valåret 2026.
+- Hur det är att volontära hos oss (inom allt från programmering, data-analys och design till kommunikation, journalistik och eventkoordinering.)
 
-Zetkin sprids och Zetkin Foundation växer. Våra utvecklingsprojekt kommer möjliggöra helt nya organiseringsmetoder. Vad finns på kartan, och vad önskar du att hitta där?
+## Zetkin på kampanjledar- och kampanjstrategspåren
+Lördag & söndag
 
-# Kontakta oss
-Ifall du vill komma i kontakt med oss under eller efter Vänsterdagarna, maila [info@zetkin.org](mailto:info@zetkin.org) eller ring 0704-007858.
+Vi och våra gäster deltar på flera sätt under de båda spåren för kampanjledare och -strateger, där mycket fokus kommer att ligga på att planera och genomföra dörrknackningskampanjer med Zetkin.

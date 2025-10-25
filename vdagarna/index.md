@@ -53,7 +53,8 @@ Zetkin Foundation arbetar med organisationer i många länder, som alla bjuder p
 
 Under Vänsterdagarna finns Zetkin-användare från Die Linke (DE), Sosialistisk Venstreparti (NO) och Enhedslisten (DK) på plats, och ni kan träffa dem vid olika tider i vår monter. Kom och chansa, eller dyk upp på de utsatta tiderna nedan.
 
-Exakta tider kommer.
+- Sosialistisk Venstreparti (lördag 12.45)
+- Die Linke (lördag 12.45)
 
 ## Välkommen till vår monter
 Lördag & söndag 9:00-17:00
